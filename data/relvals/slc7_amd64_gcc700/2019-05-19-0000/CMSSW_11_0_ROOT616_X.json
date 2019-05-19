@@ -1282,6 +1282,34 @@
     },
     {
         "exitcode": 0,
+        "id": "15.0",
+        "known_error": 0,
+        "name": "SingleElectronPt10+SingleElectronPt10INPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 233
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 653
+            },
+            {
+                "errors": 34,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "16.0",
         "known_error": 0,
         "name": "SingleElectronPt1000+SingleElectronPt1000INPUT+DIGI+RECO+HARVEST",
@@ -1338,6 +1366,34 @@
     },
     {
         "exitcode": 0,
+        "id": "18.0",
+        "known_error": 0,
+        "name": "SingleGammaPt10+SingleGammaPt10INPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 290
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 754
+            },
+            {
+                "errors": 34,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "19.0",
         "known_error": 0,
         "name": "SingleGammaPt35+SingleGammaPt35INPUT+DIGI+RECO+HARVEST",
@@ -1356,6 +1412,34 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 987
+            },
+            {
+                "errors": 34,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "20.0",
+        "known_error": 0,
+        "name": "SingleMuPt10+SingleMuPt10INPUT+DIGI+RECO+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 265
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 673
             },
             {
                 "errors": 34,
@@ -8362,6 +8446,34 @@
     },
     {
         "exitcode": 0,
+        "id": "1341.0",
+        "known_error": 0,
+        "name": "RSKKGluon_m3000GeV_13+RSKKGluon_m3000GeV_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 75
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 504
+            },
+            {
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "1343.0",
         "known_error": 0,
         "name": "ZpMM_2250_13+ZpMM_2250_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
@@ -8632,6 +8744,34 @@
                 "errors": 20,
                 "status": "PASSED",
                 "warnings": 583
+            },
+            {
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1355.0",
+        "known_error": 0,
+        "name": "DisplacedSUSY_stopToBottom_M_300_1000mm_13+DisplacedSUSY_stopToBottom_M_300_1000mm_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 80
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 504
             },
             {
                 "errors": 36,
@@ -10771,6 +10911,39 @@
     },
     {
         "exitcode": 0,
+        "id": "20234.99",
+        "known_error": 0,
+        "name": "TTbar_14TeV+TTbar_14TeV_TuneCUETP8M1_2023D17PU_GenSimHLBeamSpotFull14INPUT+SingleNuE10_cf_2023D17PU_PremixHLBeamSpotFull14PU_Premix+DigiFullTriggerPUPRMXCombined_2023D17PU+RecoFullGlobalPUPRMX_2023D17PU+HARVESTFullGlobalPU_2023D17PU",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 32
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 93
+            },
+            {
+                "errors": 14,
+                "status": "PASSED",
+                "warnings": 987
+            },
+            {
+                "errors": 4,
+                "status": "PASSED",
+                "warnings": 11
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "20261.97",
         "known_error": 0,
         "name": "NuGun+SingleNuE10_cf_2023D17PU_PremixHLBeamSpotFullPU_Premix",
@@ -11039,6 +11212,29 @@
                 "errors": 16,
                 "status": "PASSED",
                 "warnings": 128
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "25406.17",
+        "known_error": 0,
+        "name": "ZMM_13+FS_ZMM_13_UP17_PU50+HARVESTUP17FS+MINIAODMCUP17FS",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 606
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 46
             }
         ]
     },
