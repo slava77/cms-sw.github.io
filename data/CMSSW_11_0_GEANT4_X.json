@@ -1,0 +1,332 @@
+{
+    "base_branch": "CMSSW_11_0_X", 
+    "release_name": "CMSSW_11_0_GEANT4_X", 
+    "comparisons": [
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [], 
+            "cmsdistTags": {}, 
+            "next_ib": true, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_11_0_X", 
+            "compared_tags": "CMSSW_11_0_GEANT4_X_2019-05-16-2300-->CMSSW_11_0_X", 
+            "dqm_tests": "inprogress", 
+            "utests": [], 
+            "ib_date": "2019-05-16-2300-0001", 
+            "relvals": [], 
+            "release_queue": "CMSSW_11_0_GEANT4_X", 
+            "release_name": "CMSSW_11_0_X", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "e2e7a604b1ee956d893abf120f0d6536c09d4379", 
+                    "title": "Run3-hcx200 dump specific collections", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26782", 
+                    "number": "26782", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "87d6016313f90460e3092ca2ed9c7d4afcc5e446", 
+                    "title": "Update triggers for Run2 monopole analysis", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26785", 
+                    "number": "26785", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "srimanob"
+                }, 
+                {
+                    "hash": "10a4aa48fc794cdd54d426b258d89b24f844af2f", 
+                    "title": "Run3-hcx202 Neutal density filter kept for HB in Run3", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26788", 
+                    "number": "26788", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "b12337aee241b627d58e512ba7551df3b13ed2ce", 
+                    "title": "[HeaderCheck][ANA][RECO] Remove obsolete headers", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26808", 
+                    "number": "26808", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "smuzaffar"
+                }, 
+                {
+                    "hash": "91ec3a98124f4fb2a2d3e8442930530d44c05611", 
+                    "title": "Run3-alca156 Add studies relevant for tuning tracker cuts to go to forward regions", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26683", 
+                    "number": "26683", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "0847e191a76eeb86ef48529bdc9b986cc8863723", 
+                    "title": "Running code-format for generators", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26801", 
+                    "number": "26801", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-sw"
+                }, 
+                {
+                    "hash": "99a83f00980dd42fcc75cca4d93a3cfbd77e6cf6", 
+                    "title": "Running code-format for alca", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26800", 
+                    "number": "26800", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-sw"
+                }, 
+                {
+                    "hash": "75d6c6d2ba2b0119f6ffe1aabeaa494d5c2d8661", 
+                    "title": "Updated runPromptReco.py", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26684", 
+                    "number": "26684", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "andresfelquintero"
+                }, 
+                {
+                    "hash": "944f96a005fc93c1504f98c3e75414f5b847aa75", 
+                    "title": "Running code-format for dqm", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26742", 
+                    "number": "26742", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-sw"
+                }, 
+                {
+                    "hash": "abc6df3590f74388c95b308de718c6d800e1d861", 
+                    "title": "DD4hep: Material Conversion", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26740", 
+                    "number": "26740", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ianna"
+                }, 
+                {
+                    "hash": "24640b8564894bfe62afac9bef3ec9c2b88d6464", 
+                    "title": "Run3-hcx199 Add unit tests for Hcal DD algos", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26766", 
+                    "number": "26766", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "d1e17ef70cb93054f90b1ae305e7462b97606cda", 
+                    "title": "DQMOffline/Hcal : minimal protection of histo booking&processing", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26761", 
+                    "number": "26761", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "abdoulline"
+                }, 
+                {
+                    "hash": "41df341307c921912fff81891a7a5a4ee98a1062", 
+                    "title": "Run3-hcx196 Modify Hcal geometry in view of no HE", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26749", 
+                    "number": "26749", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "872e3328e832bf187a484aba09e2894d4084efd0", 
+                    "title": "Tunesetforpythia8vgt235", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26802", 
+                    "number": "26802", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "efeyazgan"
+                }, 
+                {
+                    "hash": "ae21f8ed228d9e0fd684d9dca33580aa3e22f5ba", 
+                    "title": "Phase2-hgx196 Handle the current issues of validation", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26793", 
+                    "number": "26793", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "92500adf756e4689611de89399e0797ca70071e5", 
+                    "title": "Running code-format for alca", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26792", 
+                    "number": "26792", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-sw"
+                }, 
+                {
+                    "hash": "12a0cf048786c62bc9309006274042cb7ea379c2", 
+                    "title": "Running code-format for fastsim", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26799", 
+                    "number": "26799", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-sw"
+                }, 
+                {
+                    "hash": "3691500bdd08b5424c3d630dac60515a768daf48", 
+                    "title": "Add Alignment Records for GEM Geometry", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26320", 
+                    "number": "26320", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "watson-ij"
+                }, 
+                {
+                    "hash": "ddd7584d1afd878c1565671cf27a80df0e4b79ae", 
+                    "title": "Add in cmsDriver LHE and GEN as steps defining the isMC option", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26819", 
+                    "number": "26819", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "fabiocos"
+                }, 
+                {
+                    "hash": "89cc668fb64150a7b7a6d3fefcd6647f57dacc79", 
+                    "title": "[Headers][RECO] Remove unused header", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26810", 
+                    "number": "26810", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "smuzaffar"
+                }, 
+                {
+                    "hash": "3528a68546d7d58eb6a78028999add0feeb457f9", 
+                    "title": "Running code-format for l1", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26751", 
+                    "number": "26751", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-sw"
+                }, 
+                {
+                    "hash": "117174fdf9d6726aaa38384b4ff1a11331c1daa8", 
+                    "title": "Run2-hcx197 Modify testing of Run3 geometry", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26750", 
+                    "number": "26750", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "e1405075c1f3163dc9a108e4b2b9febd182d48c5", 
+                    "title": " DataFormats/ParticleFlowReco - remove unused data formats", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26670", 
+                    "number": "26670", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "guitargeek"
+                }, 
+                {
+                    "hash": "9b4a734f402b586e469e0dfc8b75726ee5b09887", 
+                    "title": "DyT v2 on up to eta 1p2", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26778", 
+                    "number": "26778", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "clacaputo"
+                }
+            ], 
+            "fwlite": [], 
+            "invalid_includes": [], 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": false, 
+            "inProgress": false, 
+            "addons": [], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [
+                "slc7_amd64_gcc700"
+            ], 
+            "cmsdistTags": {
+                "slc7_amd64_gcc700": "IB/CMSSW_11_0_GEANT4_X_2019-05-16-2300/slc7_amd64_gcc700"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_11_0_X", 
+            "compared_tags": "CMSSW_11_0_GEANT4_X_2019-05-16-2300-->CMSSW_11_0_GEANT4_X_2019-05-16-2300", 
+            "dqm_tests": "found", 
+            "utests": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/thu/11.0.GEANT4-thu-23/CMSSW_11_0_GEANT4_X_2019-05-16-2300/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "2"
+                    }
+                }
+            ], 
+            "ib_date": "2019-05-16-2300-0000", 
+            "relvals": [
+                {
+                    "done": true, 
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/thu/11.0.GEANT4-thu-23/CMSSW_11_0_GEANT4_X_2019-05-16-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 2584, 
+                        "known_failed": 0, 
+                        "num_failed": 101
+                    }
+                }
+            ], 
+            "release_queue": "CMSSW_11_0_GEANT4_X", 
+            "release_name": "CMSSW_11_0_GEANT4_X_2019-05-16-2300", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [], 
+            "fwlite": [], 
+            "invalid_includes": [], 
+            "builds": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/thu/11.0.GEANT4-thu-23/CMSSW_11_0_GEANT4_X_2019-05-16-2300/new/logAnalysis.pkl", 
+                    "details": {
+                        "ignoreWarning": 221
+                    }
+                }
+            ], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/thu/11.0.GEANT4-thu-23/CMSSW_11_0_GEANT4_X_2019-05-16-2300/addOnTests.log", 
+                    "details": {}
+                }
+            ], 
+            "hlt_tests": "not-found"
+        }
+    ]
+}

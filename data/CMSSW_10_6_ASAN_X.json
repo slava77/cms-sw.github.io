@@ -1,0 +1,158 @@
+{
+    "base_branch": "CMSSW_10_6_X", 
+    "release_name": "CMSSW_10_6_ASAN_X", 
+    "comparisons": [
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [], 
+            "cmsdistTags": {}, 
+            "next_ib": true, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_10_6_X", 
+            "compared_tags": "CMSSW_10_6_ASAN_X_2019-05-10-2300-->CMSSW_10_6_X", 
+            "dqm_tests": "inprogress", 
+            "utests": [], 
+            "ib_date": "2019-05-10-2300-0001", 
+            "relvals": [], 
+            "release_queue": "CMSSW_10_6_ASAN_X", 
+            "release_name": "CMSSW_10_6_X", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [
+                {
+                    "hash": "e310d0e69965c3fa5b66caea51299ebafbbc1dab", 
+                    "title": "Run3-sim33 Add one function to be useful in some geometry application", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26757", 
+                    "number": "26757", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "bsunanda"
+                }, 
+                {
+                    "hash": "afe87d406c702fd2e910f37f570a6d85a5c62852", 
+                    "title": "Restore fed error treatment for phase0 pixel detector", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26679", 
+                    "number": "26679", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "veszpv"
+                }, 
+                {
+                    "hash": "1f72727cd64480a81dd8ca82f76da90211e316e0", 
+                    "title": "Update the RelMon blacklist file for histos in DT/Run summary/EventInfo/DCSContents with Nans ", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26764", 
+                    "number": "26764", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "fabiocos"
+                }, 
+                {
+                    "hash": "f92240c01147b46233e7225cbdf87ee50f34a865", 
+                    "title": "NanoAOD developments: 190508 version, part 1 for UL", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26703", 
+                    "number": "26703", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "cms-nanoAOD"
+                }, 
+                {
+                    "hash": "3be52cea27315775ca13baa3bec1e1618fb87059", 
+                    "title": " Updated json for DeepCSV Phase 2 model", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26072", 
+                    "number": "26072", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "dseith"
+                }, 
+                {
+                    "hash": "fdbde63182401ee1036fb775627eb13ba29c8011", 
+                    "title": "Fix for CondCore/CondDB unit tests", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26762", 
+                    "number": "26762", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "ggovi"
+                }, 
+                {
+                    "hash": "7afca930b8439eb5c9591fd8b23d2bd2bc6e8c17", 
+                    "title": "fixing the lost tracks quality assignment", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26735", 
+                    "number": "26735", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "gkaratha"
+                }, 
+                {
+                    "hash": "6291abd5a5ccd3fbce070b29099dd33dc3f0eb00", 
+                    "title": "Bump TObject versions for ROOT  master", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26537", 
+                    "number": "26537", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mrodozov"
+                }, 
+                {
+                    "hash": "18d740cdbb85aa8a606531b7e3b09ad8171dea59", 
+                    "title": "PPS: bugfix in proton reconstruction.", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26739", 
+                    "number": "26739", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "CTPPS"
+                }
+            ], 
+            "fwlite": [], 
+            "invalid_includes": [], 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": false, 
+            "inProgress": false, 
+            "addons": [], 
+            "hlt_tests": "not-found"
+        }, 
+        {
+            "comp_baseline_state": "errors", 
+            "python3_tests": [], 
+            "tests_archs": [], 
+            "cmsdistTags": {
+                "slc7_amd64_gcc700": "IB/CMSSW_10_6_ASAN_X_2019-05-10-2300/slc7_amd64_gcc700"
+            }, 
+            "next_ib": false, 
+            "RVExceptions": null, 
+            "igprof": "not-found", 
+            "base_branch": "CMSSW_10_6_X", 
+            "compared_tags": "CMSSW_10_6_ASAN_X_2019-05-10-2300-->CMSSW_10_6_ASAN_X_2019-05-10-2300", 
+            "dqm_tests": "found", 
+            "utests": [], 
+            "ib_date": "2019-05-10-2300-0000", 
+            "relvals": [], 
+            "release_queue": "CMSSW_10_6_ASAN_X", 
+            "release_name": "CMSSW_10_6_ASAN_X_2019-05-10-2300", 
+            "comp_baseline": "not-found", 
+            "gpu_utests": [], 
+            "material_budget_comparison": "not-found", 
+            "merged_prs": [], 
+            "fwlite": [], 
+            "invalid_includes": [], 
+            "builds": [], 
+            "material_budget_v2": "not-found", 
+            "static_checks_v2": "not-found", 
+            "valgrind": "not-found", 
+            "material_budget": "not-found", 
+            "static_checks_failures": "not-found", 
+            "static_checks": "not-found", 
+            "isIB": true, 
+            "inProgress": false, 
+            "addons": [], 
+            "hlt_tests": "not-found"
+        }
+    ]
+}
