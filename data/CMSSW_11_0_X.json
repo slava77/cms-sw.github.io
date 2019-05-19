@@ -105,7 +105,16 @@
         }, 
         {
             "comp_baseline_state": "ok", 
-            "python3_tests": [], 
+            "python3_tests": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sat/11.0-sat-11/CMSSW_11_0_X_2019-05-18-1100/python3.html", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }
+            ], 
             "tests_archs": [
                 "slc7_amd64_gcc700", 
                 "slc7_aarch64_gcc700"
@@ -115,7 +124,7 @@
                 "slc7_amd64_gcc700": "IB/CMSSW_11_0_X_2019-05-18-1100/slc7_amd64_gcc700", 
                 "slc7_aarch64_gcc700": "IB/CMSSW_11_0_X_2019-05-18-1100/slc7_aarch64_gcc700"
             }, 
-            "flawfinder": "inprogress", 
+            "flawfinder": "found", 
             "next_ib": false, 
             "RVExceptions": null, 
             "fwlite": [
@@ -161,11 +170,29 @@
             "release_queue": "CMSSW_11_0_X", 
             "release_name": "CMSSW_11_0_X_2019-05-18-1100", 
             "comp_baseline": "inprogress", 
-            "gpu_utests": [], 
+            "gpu_utests": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sat/11.0-sat-11/CMSSW_11_0_X_2019-05-18-1100/GPU/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }
+            ], 
             "material_budget_comparison": "not-found", 
             "merged_prs": [], 
             "base_branch": "CMSSW_11_0_X", 
-            "invalid_includes": [], 
+            "invalid_includes": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "failed", 
+                    "file": "/data/sdt/SDT/jenkins-artifacts/invalid-includes/CMSSW_11_0_X_2019-05-18-1100/slc7_amd64_gcc700/summary.json", 
+                    "details": {
+                        "num_fails": "154"
+                    }
+                }
+            ], 
             "builds": [
                 {
                     "arch": "slc7_amd64_gcc700", 

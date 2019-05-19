@@ -49,7 +49,14 @@
             }, 
             "next_ib": false, 
             "RVExceptions": null, 
-            "fwlite": [], 
+            "fwlite": [
+                {
+                    "arch": "slc6_amd64_gcc630", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2019-05-19-0000/new_FWLITE/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
             "compared_tags": "CMSSW_9_4_X_2019-05-12-0000-->CMSSW_9_4_X_2019-05-19-0000", 
             "dqm_tests": "inprogress", 
             "utests": [
@@ -110,8 +117,7 @@
             "comp_baseline_state": "ok", 
             "python3_tests": [], 
             "tests_archs": [
-                "slc7_amd64_gcc630", 
-                "slc6_amd64_gcc630"
+                "slc7_amd64_gcc630"
             ], 
             "cmsdistTags": {
                 "slc7_amd64_gcc630": "IB/CMSSW_9_4_X_2019-05-12-0000/slc7_amd64_gcc630", 
@@ -119,25 +125,10 @@
             }, 
             "next_ib": false, 
             "RVExceptions": null, 
-            "fwlite": [
-                {
-                    "arch": "slc6_amd64_gcc630", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2019-05-12-0000/new_FWLITE/logAnalysis.pkl", 
-                    "details": {}
-                }
-            ], 
+            "fwlite": [], 
             "compared_tags": "CMSSW_9_4_14_UL-->CMSSW_9_4_X_2019-05-12-0000", 
             "dqm_tests": "found", 
             "utests": [
-                {
-                    "arch": "slc6_amd64_gcc630", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2019-05-12-0000/unitTests-summary.log", 
-                    "details": {
-                        "num_fails": "0"
-                    }
-                }, 
                 {
                     "arch": "slc7_amd64_gcc630", 
                     "passed": "passed", 
@@ -149,17 +140,6 @@
             ], 
             "ib_date": "2019-05-12-0000-0000", 
             "relvals": [
-                {
-                    "done": true, 
-                    "arch": "slc6_amd64_gcc630", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2019-05-12-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
-                    "details": {
-                        "num_passed": 2053, 
-                        "known_failed": 12, 
-                        "num_failed": 0
-                    }
-                }, 
                 {
                     "done": true, 
                     "arch": "slc7_amd64_gcc630", 
@@ -183,14 +163,6 @@
             "invalid_includes": [], 
             "builds": [
                 {
-                    "arch": "slc6_amd64_gcc630", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2019-05-12-0000/new/logAnalysis.pkl", 
-                    "details": {
-                        "ignoreWarning": 12
-                    }
-                }, 
-                {
                     "arch": "slc7_amd64_gcc630", 
                     "passed": "passed", 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2019-05-12-0000/new/logAnalysis.pkl", 
@@ -208,12 +180,6 @@
             "isIB": true, 
             "inProgress": false, 
             "addons": [
-                {
-                    "arch": "slc6_amd64_gcc630", 
-                    "passed": true, 
-                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4-sun-00/CMSSW_9_4_X_2019-05-12-0000/addOnTests.log", 
-                    "details": {}
-                }, 
                 {
                     "arch": "slc7_amd64_gcc630", 
                     "passed": true, 
