@@ -124,6 +124,24 @@
     },
     {
         "exitcode": 31744,
+        "id": "25212.17",
+        "known_error": 0,
+        "name": "VBFHToZZTo4Nu_M125_Pow_py8_Evt_13UP17+VBFHToZZTo4Nu_M125_Pow_py8_Evt_13UP17+DIGIUP17_PU25+RECOUP17_PU25+HARVESTUP17_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 54
+            },
+            {
+                "errors": 8,
+                "status": "FAILED",
+                "warnings": 3464
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
         "id": "25213.17",
         "known_error": 0,
         "name": "VBFHToBB_M125_Pow_py8_Evt_13UP17+VBFHToBB_M125_Pow_py8_Evt_13UP17+DIGIUP17_PU25+RECOUP17_PU25+HARVESTUP17_PU25",
@@ -3109,6 +3127,34 @@
                 "errors": 334,
                 "status": "PASSED",
                 "warnings": 7648
+            },
+            {
+                "errors": 7,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "134.907",
+        "known_error": 0,
+        "name": "RunDoubleEGPrpt2015D+RunDoubleEGPrpt2015D+HLTDR2_25ns+RECODR2_25nsreHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 160
+            },
+            {
+                "errors": 313,
+                "status": "PASSED",
+                "warnings": 1968
             },
             {
                 "errors": 7,
@@ -6939,6 +6985,34 @@
     },
     {
         "exitcode": 0,
+        "id": "1329.0",
+        "known_error": 0,
+        "name": "ZEE_13+ZEE_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 35
+            },
+            {
+                "errors": 40,
+                "status": "PASSED",
+                "warnings": 293
+            },
+            {
+                "errors": 9,
+                "status": "PASSED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "1332.0",
         "known_error": 0,
         "name": "H125GGgluonfusion_13+H125GGgluonfusion_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
@@ -7799,6 +7873,39 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 19
+            },
+            {
+                "errors": 4,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "10059.0",
+        "known_error": 0,
+        "name": "QCD_Pt_3000_3500_13+QCD_Pt_3000_3500_13TeV_TuneCUETP8M1_2017_GenSimFullINPUT+DigiFull_2017+RecoFull_2017+ALCAFull_2017+HARVESTFull_2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 203
+            },
+            {
+                "errors": 13,
+                "status": "PASSED",
+                "warnings": 166
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 25
             },
             {
                 "errors": 4,

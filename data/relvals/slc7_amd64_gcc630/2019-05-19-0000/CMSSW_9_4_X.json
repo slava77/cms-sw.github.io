@@ -4760,6 +4760,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.724",
+        "known_error": 0,
+        "name": "RunJetHT2016B+RunJetHT2016B+HLTDR2_2016+RECODR2_2016reHLT_skimJetHT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 514
+            },
+            {
+                "errors": 285,
+                "status": "PASSED",
+                "warnings": 8294
+            },
+            {
+                "errors": 1281,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.732",
         "known_error": 0,
         "name": "RunZeroBias2016B+RunZeroBias2016B+HLTDR2_2016+RECODR2_2016reHLT_HIPM+HARVESTDR2",
@@ -5002,6 +5030,62 @@
                 "errors": 307,
                 "status": "PASSED",
                 "warnings": 3403
+            },
+            {
+                "errors": 1281,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.743",
+        "known_error": 0,
+        "name": "RunSingleMu2016C+RunSingleMu2016C+HLTDR2_2016+RECODR2_2016reHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 486
+            },
+            {
+                "errors": 269,
+                "status": "PASSED",
+                "warnings": 12885
+            },
+            {
+                "errors": 1281,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.744",
+        "known_error": 0,
+        "name": "RunSinglePh2016C+RunSinglePh2016C+HLTDR2_2016+RECODR2_2016reHLT_skimSinglePh_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 380
+            },
+            {
+                "errors": 293,
+                "status": "PASSED",
+                "warnings": 12496
             },
             {
                 "errors": 1281,
