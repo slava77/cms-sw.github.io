@@ -612,6 +612,29 @@
     },
     {
         "exitcode": 0,
+        "id": "108.0",
+        "known_error": 0,
+        "name": "H165WW2L+H165WW2L+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 46
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 41
+            },
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 222
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "109.0",
         "known_error": 0,
         "name": "H200ZZ4L+H200ZZ4L+DIGI+RECO",
@@ -630,6 +653,29 @@
                 "errors": 8,
                 "status": "PASSED",
                 "warnings": 136
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "112.0",
+        "known_error": 0,
+        "name": "QCD_Pt_15_20+QCD_Pt_15_20+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 28
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 14
+            },
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 177
             }
         ]
     },
@@ -1340,6 +1386,34 @@
                 "errors": 8,
                 "status": "PASSED",
                 "warnings": 656
+            },
+            {
+                "errors": 12,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "202.0",
+        "known_error": 0,
+        "name": "TTbar+TTbarINPUT+DIGIPU1+RECOPU1+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 134
+            },
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 810
             },
             {
                 "errors": 12,
@@ -2199,6 +2273,29 @@
                 "errors": 9,
                 "status": "PASSED",
                 "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4007.0",
+        "known_error": 0,
+        "name": "QCD_Pt_30_80_BCtoE_8TeV+QCD_Pt_30_80_BCtoE_8TeV+DIGIPU1+RECOPUDBG",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 25
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 8
             }
         ]
     },
