@@ -13437,6 +13437,39 @@
     },
     {
         "exitcode": 0,
+        "id": "20234.99",
+        "known_error": 0,
+        "name": "TTbar_14TeV+TTbar_14TeV_TuneCUETP8M1_2023D17PU_GenSimHLBeamSpotFull14INPUT+SingleNuE10_cf_2023D17PU_PremixHLBeamSpotFull14PU_Premix+DigiFullTriggerPUPRMXCombined_2023D17PU+RecoFullGlobalPUPRMX_2023D17PU+HARVESTFullGlobalPU_2023D17PU",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 13
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 34
+            },
+            {
+                "errors": 12,
+                "status": "PASSED",
+                "warnings": 822
+            },
+            {
+                "errors": 4,
+                "status": "PASSED",
+                "warnings": 11
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "20434.0",
         "known_error": 0,
         "name": "TTbar_14TeV+TTbar_14TeV_TuneCUETP8M1_2023D19_GenSimHLBeamSpotFull14+DigiFullTrigger_2023D19+RecoFullGlobal_2023D19+HARVESTFullGlobal_2023D19",
@@ -14436,6 +14469,34 @@
                 "errors": 6,
                 "status": "PASSED",
                 "warnings": 11
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "27634.21",
+        "known_error": 0,
+        "name": "TTbar_14TeV_ProdLike+TTbar_14TeV_TuneCUETP8M1_2023D35PU_GenSimHLBeamSpotFull14INPUT+DigiFullTriggerPU_2023D35PU+RecoFullGlobalPU_ProdLike_2023D35PU+MiniAODFullGlobalPU_ProdLike_2023D35PU",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 67
+            },
+            {
+                "errors": 1115,
+                "status": "PASSED",
+                "warnings": 957
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 137
             }
         ]
     },
