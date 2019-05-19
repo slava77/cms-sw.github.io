@@ -10464,6 +10464,39 @@
     },
     {
         "exitcode": 0,
+        "id": "11623.0",
+        "known_error": 0,
+        "name": "MinBias_13+MinBias_13TeV_pythia8_TuneCUETP8M1_2019_GenSimFull+DigiFull_2019+RecoFull_2019+ALCAFull_2019+HARVESTFull_2019",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 80
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 230
+            },
+            {
+                "errors": 10,
+                "status": "PASSED",
+                "warnings": 1357
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 110
+            },
+            {
+                "errors": 4,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "11624.0",
         "known_error": 0,
         "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2019_GenSimFull+DigiFull_2019+RecoFull_2019+ALCAFull_2019+HARVESTFull_2019",
@@ -11468,6 +11501,34 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 258
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250204.17",
+        "known_error": 0,
+        "name": "QQH1352T_13UP17+QQH1352T_13UP17INPUT+DIGIPRMXUP17_PU25+RECOPRMXUP17_PU25+HARVESTUP17_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 4,
+                "status": "PASSED",
+                "warnings": 9247
+            },
+            {
+                "errors": 18,
+                "status": "PASSED",
+                "warnings": 656
+            },
+            {
+                "errors": 4,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
