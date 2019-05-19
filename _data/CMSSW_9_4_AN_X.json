@@ -37,7 +37,7 @@
             "hlt_tests": "inprogress"
         }, 
         {
-            "comp_baseline_state": "ok", 
+            "comp_baseline_state": "errors", 
             "python3_tests": [], 
             "tests_archs": [
                 "slc6_amd64_gcc630"
@@ -66,16 +66,16 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc630/www/sun/9.4.AN-sun-00/CMSSW_9_4_AN_X_2019-05-19-0000/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1, 
+                        "num_passed": 11, 
                         "known_failed": 0, 
-                        "num_failed": 1
+                        "num_failed": 11
                     }
                 }
             ], 
             "igprof": "not-found", 
             "release_queue": "CMSSW_9_4_AN_X", 
             "release_name": "CMSSW_9_4_AN_X_2019-05-19-0000", 
-            "comp_baseline": "inprogress", 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_9_4_AN_X_2019-05-19-0000/slc6_amd64_gcc630/-GenuineIntel/matrix-results", 
             "gpu_utests": [], 
             "material_budget_comparison": "not-found", 
             "merged_prs": [], 
