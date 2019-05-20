@@ -6,6 +6,14 @@
             "comp_baseline_state": "ok", 
             "python3_tests": [], 
             "tests_archs": [], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc700": [], 
+                "slc6_amd64_gcc700": []
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_10_2_X_2019-05-19-2300/slc6_amd64_gcc700..remotes/origin/IB/CMSSW_10_2_X/gcc700", 
+                "IB/CMSSW_10_2_X_2019-05-19-2300/slc7_amd64_gcc700..remotes/origin/IB/CMSSW_10_2_X/gcc700"
+            ], 
             "cmsdistTags": {}, 
             "next_ib": true, 
             "RVExceptions": null, 
@@ -42,6 +50,12 @@
             "tests_archs": [
                 "slc6_amd64_gcc700"
             ], 
+            "cmsdist_merged_prs": {
+                "slc6_amd64_gcc700": []
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_10_2_X_2019-05-19-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-19-2300/slc6_amd64_gcc700"
+            ], 
             "cmsdistTags": {
                 "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-19-2300/slc6_amd64_gcc700"
             }, 
@@ -56,13 +70,15 @@
                 }
             ], 
             "compared_tags": "CMSSW_10_2_X_2019-05-19-2300-->CMSSW_10_2_X_2019-05-20-1100", 
-            "dqm_tests": "inprogress", 
+            "dqm_tests": "found", 
             "utests": [
                 {
                     "arch": "slc6_amd64_gcc700", 
-                    "passed": "unknown", 
-                    "file": "['/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.2-mon-11/CMSSW_10_2_X_2019-05-20-1100/new/logAnalysis.pkl']", 
-                    "details": {}
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.2-mon-11/CMSSW_10_2_X_2019-05-20-1100/unitTests-summary.log", 
+                    "details": {
+                        "num_fails": "0"
+                    }
                 }
             ], 
             "ib_date": "2019-05-20-1100-0000", 
@@ -120,6 +136,14 @@
             "tests_archs": [
                 "slc7_amd64_gcc700", 
                 "slc6_amd64_gcc700"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc700": [], 
+                "slc6_amd64_gcc700": []
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_10_2_X_2019-05-19-0000/slc7_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-19-2300/slc7_amd64_gcc700", 
+                "IB/CMSSW_10_2_X_2019-05-19-0000/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-19-2300/slc6_amd64_gcc700"
             ], 
             "cmsdistTags": {
                 "slc7_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-19-2300/slc7_amd64_gcc700", 
@@ -213,6 +237,14 @@
             "tests_archs": [
                 "slc7_amd64_gcc700", 
                 "slc6_amd64_gcc700"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc700": [], 
+                "slc6_amd64_gcc700": []
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_10_2_X_2019-05-12-2300/slc7_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-19-0000/slc7_amd64_gcc700", 
+                "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-19-0000/slc6_amd64_gcc700"
             ], 
             "cmsdistTags": {
                 "slc7_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-19-0000/slc7_amd64_gcc700", 
@@ -332,6 +364,12 @@
             "tests_archs": [
                 "slc6_amd64_gcc700"
             ], 
+            "cmsdist_merged_prs": {
+                "slc6_amd64_gcc700": []
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
+            ], 
             "cmsdistTags": {
                 "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
             }, 
@@ -420,6 +458,12 @@
             "python3_tests": [], 
             "tests_archs": [
                 "slc6_amd64_gcc700"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc6_amd64_gcc700": []
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
             ], 
             "cmsdistTags": {
                 "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
@@ -510,6 +554,12 @@
             "tests_archs": [
                 "slc6_amd64_gcc700"
             ], 
+            "cmsdist_merged_prs": {
+                "slc6_amd64_gcc700": []
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
+            ], 
             "cmsdistTags": {
                 "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
             }, 
@@ -598,6 +648,12 @@
             "python3_tests": [], 
             "tests_archs": [
                 "slc6_amd64_gcc700"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc6_amd64_gcc700": []
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
             ], 
             "cmsdistTags": {
                 "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
@@ -688,6 +744,12 @@
             "tests_archs": [
                 "slc6_amd64_gcc700"
             ], 
+            "cmsdist_merged_prs": {
+                "slc6_amd64_gcc700": []
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
+            ], 
             "cmsdistTags": {
                 "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
             }, 
@@ -776,6 +838,12 @@
             "python3_tests": [], 
             "tests_archs": [
                 "slc6_amd64_gcc700"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc6_amd64_gcc700": []
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
             ], 
             "cmsdistTags": {
                 "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
@@ -866,6 +934,12 @@
             "tests_archs": [
                 "slc6_amd64_gcc700"
             ], 
+            "cmsdist_merged_prs": {
+                "slc6_amd64_gcc700": []
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
+            ], 
             "cmsdistTags": {
                 "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
             }, 
@@ -954,6 +1028,12 @@
             "python3_tests": [], 
             "tests_archs": [
                 "slc6_amd64_gcc700"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc6_amd64_gcc700": []
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
             ], 
             "cmsdistTags": {
                 "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
@@ -1044,6 +1124,12 @@
             "tests_archs": [
                 "slc6_amd64_gcc700"
             ], 
+            "cmsdist_merged_prs": {
+                "slc6_amd64_gcc700": []
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
+            ], 
             "cmsdistTags": {
                 "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
             }, 
@@ -1123,6 +1209,12 @@
             "python3_tests": [], 
             "tests_archs": [
                 "slc6_amd64_gcc700"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc6_amd64_gcc700": []
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
             ], 
             "cmsdistTags": {
                 "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
@@ -1211,6 +1303,8 @@
             "comp_baseline_state": "ok", 
             "python3_tests": [], 
             "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": [], 
             "cmsdistTags": {}, 
             "next_ib": false, 
             "RVExceptions": null, 
@@ -1256,6 +1350,14 @@
             "tests_archs": [
                 "slc7_amd64_gcc700", 
                 "slc6_amd64_gcc700"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc700": [], 
+                "slc6_amd64_gcc700": []
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_10_2_X_2019-05-12-2300/slc7_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc7_amd64_gcc700", 
+                "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
             ], 
             "cmsdistTags": {
                 "slc7_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-2300/slc7_amd64_gcc700", 
@@ -1382,6 +1484,8 @@
             "comp_baseline_state": "ok", 
             "python3_tests": [], 
             "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": [], 
             "cmsdistTags": {
                 "slc7_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-0000/slc7_amd64_gcc700", 
                 "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-0000/slc6_amd64_gcc700"
@@ -1456,6 +1560,8 @@
             "comp_baseline_state": "ok", 
             "python3_tests": [], 
             "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": [], 
             "cmsdistTags": {}, 
             "next_ib": false, 
             "RVExceptions": null, 
@@ -1518,6 +1624,8 @@
             "comp_baseline_state": "ok", 
             "python3_tests": [], 
             "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": [], 
             "cmsdistTags": {}, 
             "next_ib": false, 
             "RVExceptions": null, 
@@ -1715,6 +1823,8 @@
             "comp_baseline_state": "ok", 
             "python3_tests": [], 
             "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": [], 
             "cmsdistTags": {}, 
             "next_ib": false, 
             "RVExceptions": null, 
@@ -1822,6 +1932,8 @@
             "comp_baseline_state": "ok", 
             "python3_tests": [], 
             "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": [], 
             "cmsdistTags": {}, 
             "next_ib": false, 
             "RVExceptions": null, 
@@ -2028,6 +2140,8 @@
             "comp_baseline_state": "ok", 
             "python3_tests": [], 
             "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": [], 
             "cmsdistTags": {}, 
             "next_ib": false, 
             "RVExceptions": null, 
@@ -8174,6 +8288,8 @@
             "comp_baseline_state": "ok", 
             "python3_tests": [], 
             "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": [], 
             "cmsdistTags": {}, 
             "next_ib": false, 
             "RVExceptions": null, 
@@ -8208,6 +8324,8 @@
             "comp_baseline_state": "ok", 
             "python3_tests": [], 
             "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": [], 
             "cmsdistTags": {}, 
             "next_ib": false, 
             "RVExceptions": null, 

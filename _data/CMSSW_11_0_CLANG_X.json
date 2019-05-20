@@ -6,6 +6,22 @@
             "comp_baseline_state": "errors", 
             "python3_tests": [], 
             "tests_archs": [], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc700": [
+                    {
+                        "hash": "d973fa444264c10b20da4b1154aa877059720e8d", 
+                        "title": "[Configuration-Generator] Fix auxiliary decay files for long lived chargino", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/4963", 
+                        "number": "4963", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }
+                ]
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_11_0_CLANG_X_2019-05-19-2300/slc7_amd64_gcc700..remotes/origin/IB/CMSSW_11_0_X/gcc700"
+            ], 
             "cmsdistTags": {}, 
             "next_ib": true, 
             "RVExceptions": null, 
@@ -69,6 +85,22 @@
             "python3_tests": [], 
             "tests_archs": [
                 "slc7_amd64_gcc700"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc700": [
+                    {
+                        "hash": "eb99d316d8a07f82f6d4012d18d4a4d14da7df16", 
+                        "title": "Update gcc-checker-plugin to get Gcc 9 Fixes", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/4847", 
+                        "number": "4847", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }
+                ]
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_11_0_CLANG_X_2019-05-19-0000/slc7_amd64_gcc700..IB/CMSSW_11_0_CLANG_X_2019-05-19-2300/slc7_amd64_gcc700"
             ], 
             "cmsdistTags": {
                 "slc7_amd64_gcc700": "IB/CMSSW_11_0_CLANG_X_2019-05-19-2300/slc7_amd64_gcc700"
@@ -154,6 +186,12 @@
             "python3_tests": [], 
             "tests_archs": [
                 "slc7_amd64_gcc700"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc700": []
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_11_0_CLANG_X_2019-05-16-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_CLANG_X_2019-05-19-0000/slc7_amd64_gcc700"
             ], 
             "cmsdistTags": {
                 "slc7_amd64_gcc700": "IB/CMSSW_11_0_CLANG_X_2019-05-19-0000/slc7_amd64_gcc700"
@@ -293,6 +331,12 @@
             "python3_tests": [], 
             "tests_archs": [
                 "slc7_amd64_gcc700"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc700": []
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_11_0_CLANG_X_2019-05-16-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_CLANG_X_2019-05-16-2300/slc7_amd64_gcc700"
             ], 
             "cmsdistTags": {
                 "slc7_amd64_gcc700": "IB/CMSSW_11_0_CLANG_X_2019-05-16-2300/slc7_amd64_gcc700"
@@ -523,6 +567,22 @@
             "tests_archs": [
                 "slc7_amd64_gcc700"
             ], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc700": [
+                    {
+                        "hash": "c1bad350bd569cde27e09efb487472cdac9eaca8", 
+                        "title": "[BuildRules]  Fixed quotation for compile_commands.json", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/4979", 
+                        "number": "4979", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }
+                ]
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_11_0_CLANG_X_2019-05-15-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_CLANG_X_2019-05-16-2300/slc7_amd64_gcc700"
+            ], 
             "cmsdistTags": {
                 "slc7_amd64_gcc700": "IB/CMSSW_11_0_CLANG_X_2019-05-16-2300/slc7_amd64_gcc700"
             }, 
@@ -679,6 +739,22 @@
             "python3_tests": [], 
             "tests_archs": [
                 "slc7_amd64_gcc700"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc700": [
+                    {
+                        "hash": "e8ee4caffc1d570ceaa7d22144fd05d9aeb032cf", 
+                        "title": "[BuildRules] Improved build rules for CXXModules IBs", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/4971", 
+                        "number": "4971", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }
+                ]
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_11_0_CLANG_X_2019-05-14-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_CLANG_X_2019-05-15-2300/slc7_amd64_gcc700"
             ], 
             "cmsdistTags": {
                 "slc7_amd64_gcc700": "IB/CMSSW_11_0_CLANG_X_2019-05-15-2300/slc7_amd64_gcc700"
@@ -989,6 +1065,12 @@
             "python3_tests": [], 
             "tests_archs": [
                 "slc7_amd64_gcc700"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc700": []
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_11_0_CLANG_X_2019-05-14-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_CLANG_X_2019-05-14-2300/slc7_amd64_gcc700"
             ], 
             "cmsdistTags": {
                 "slc7_amd64_gcc700": "IB/CMSSW_11_0_CLANG_X_2019-05-14-2300/slc7_amd64_gcc700"

@@ -7,6 +7,14 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc6_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_2_X_2019-05-19-2300/slc6_amd64_gcc700..remotes/origin/IB/CMSSW_10_2_X/gcc700", 
+                    "IB/CMSSW_10_2_X_2019-05-19-2300/slc7_amd64_gcc700..remotes/origin/IB/CMSSW_10_2_X/gcc700"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -43,6 +51,12 @@
                 "tests_archs": [
                     "slc6_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc6_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_2_X_2019-05-19-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-19-2300/slc6_amd64_gcc700"
+                ], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-19-2300/slc6_amd64_gcc700"
                 }, 
@@ -57,13 +71,15 @@
                     }
                 ], 
                 "compared_tags": "CMSSW_10_2_X_2019-05-19-2300-->CMSSW_10_2_X_2019-05-20-1100", 
-                "dqm_tests": "inprogress", 
+                "dqm_tests": "found", 
                 "utests": [
                     {
                         "arch": "slc6_amd64_gcc700", 
-                        "passed": "unknown", 
-                        "file": "['/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.2-mon-11/CMSSW_10_2_X_2019-05-20-1100/new/logAnalysis.pkl']", 
-                        "details": {}
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.2-mon-11/CMSSW_10_2_X_2019-05-20-1100/unitTests-summary.log", 
+                        "details": {
+                            "num_fails": "0"
+                        }
                     }
                 ], 
                 "ib_date": "2019-05-20-1100-0000", 
@@ -121,6 +137,14 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700", 
                     "slc6_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc6_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_2_X_2019-05-19-0000/slc7_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-19-2300/slc7_amd64_gcc700", 
+                    "IB/CMSSW_10_2_X_2019-05-19-0000/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-19-2300/slc6_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-19-2300/slc7_amd64_gcc700", 
@@ -214,6 +238,14 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700", 
                     "slc6_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc6_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_2_X_2019-05-12-2300/slc7_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-19-0000/slc7_amd64_gcc700", 
+                    "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-19-0000/slc6_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-19-0000/slc7_amd64_gcc700", 
@@ -333,6 +365,12 @@
                 "tests_archs": [
                     "slc6_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc6_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
+                ], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
                 }, 
@@ -421,6 +459,12 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc6_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc6_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
@@ -511,6 +555,12 @@
                 "tests_archs": [
                     "slc6_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc6_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
+                ], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
                 }, 
@@ -599,6 +649,12 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc6_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc6_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
@@ -689,6 +745,12 @@
                 "tests_archs": [
                     "slc6_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc6_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
+                ], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
                 }, 
@@ -777,6 +839,12 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc6_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc6_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
@@ -867,6 +935,12 @@
                 "tests_archs": [
                     "slc6_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc6_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
+                ], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
                 }, 
@@ -955,6 +1029,12 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc6_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc6_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
@@ -1045,6 +1125,12 @@
                 "tests_archs": [
                     "slc6_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc6_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
+                ], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
                 }, 
@@ -1124,6 +1210,12 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc6_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc6_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
@@ -1212,6 +1304,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -1257,6 +1351,14 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700", 
                     "slc6_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc6_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_2_X_2019-05-12-2300/slc7_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc7_amd64_gcc700", 
+                    "IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700..IB/CMSSW_10_2_X_2019-05-12-2300/slc6_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-2300/slc7_amd64_gcc700", 
@@ -1383,6 +1485,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-0000/slc7_amd64_gcc700", 
                     "slc6_amd64_gcc700": "IB/CMSSW_10_2_X_2019-05-12-0000/slc6_amd64_gcc700"
@@ -1457,6 +1561,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -1519,6 +1625,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -1716,6 +1824,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -1823,6 +1933,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -2029,6 +2141,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -8175,6 +8289,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -8209,6 +8325,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -8249,6 +8367,14 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc6_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_3_X_2019-05-19-0000/slc6_amd64_gcc700..remotes/origin/IB/CMSSW_10_3_X/gcc700", 
+                    "IB/CMSSW_10_3_X_2019-05-19-0000/slc7_amd64_gcc700..remotes/origin/IB/CMSSW_10_3_X/gcc700"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -8285,6 +8411,14 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700", 
                     "slc6_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc6_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_3_X_2019-05-19-0000/slc7_amd64_gcc700..IB/CMSSW_10_3_X_2019-05-19-0000/slc7_amd64_gcc700", 
+                    "IB/CMSSW_10_3_X_2019-05-19-0000/slc6_amd64_gcc700..IB/CMSSW_10_3_X_2019-05-19-0000/slc6_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_10_3_X_2019-05-19-0000/slc7_amd64_gcc700", 
@@ -8409,6 +8543,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_10_3_X_2019-05-12-0000/slc7_amd64_gcc700", 
                     "slc6_amd64_gcc700": "IB/CMSSW_10_3_X_2019-05-12-0000/slc6_amd64_gcc700"
@@ -8455,6 +8591,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -9147,6 +9285,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -11459,6 +11599,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -11499,6 +11641,16 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc7_amd64_gcc820": [], 
+                    "slc6_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_5_X_2019-05-19-0000/slc7_amd64_gcc700..remotes/origin/IB/CMSSW_10_5_X/gcc700", 
+                    "IB/CMSSW_10_5_X_2019-05-19-0000/slc6_amd64_gcc700..remotes/origin/IB/CMSSW_10_5_X/gcc700", 
+                    "IB/CMSSW_10_5_X_2019-05-19-2300/slc7_amd64_gcc820..remotes/origin/IB/CMSSW_10_5_X/gcc820"
+                ], 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {}, 
                 "flawfinder": "inprogress", 
@@ -11537,6 +11689,12 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc7_amd64_gcc820"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc820": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_5_X_2019-05-19-2300/slc7_amd64_gcc820..IB/CMSSW_10_5_X_2019-05-19-2300/slc7_amd64_gcc820"
                 ], 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {
@@ -11625,6 +11783,14 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700", 
                     "slc6_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc6_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..IB/CMSSW_10_5_X_2019-05-19-0000/slc7_amd64_gcc700", 
+                    "IB/CMSSW_10_5_X_2019-05-19-0000/slc6_amd64_gcc700..IB/CMSSW_10_5_X_2019-05-19-0000/slc6_amd64_gcc700"
                 ], 
                 "static_checks_failures": {
                     "status": "found", 
@@ -11772,6 +11938,12 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..Not Found"
+                ], 
                 "static_checks_failures": {
                     "status": "found", 
                     "arch": "slc7_amd64_gcc700", 
@@ -11881,6 +12053,12 @@
                 ], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..Not Found"
                 ], 
                 "static_checks_failures": {
                     "status": "found", 
@@ -11992,6 +12170,12 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..Not Found"
+                ], 
                 "static_checks_failures": {
                     "status": "found", 
                     "arch": "slc7_amd64_gcc700", 
@@ -12101,6 +12285,12 @@
                 ], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..Not Found"
                 ], 
                 "static_checks_failures": {
                     "status": "found", 
@@ -12212,6 +12402,12 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..Not Found"
+                ], 
                 "static_checks_failures": {
                     "status": "found", 
                     "arch": "slc7_amd64_gcc700", 
@@ -12311,6 +12507,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "static_checks_failures": {
                     "status": "found", 
                     "arch": "slc7_amd64_gcc700", 
@@ -12357,6 +12555,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "static_checks_failures": {
                     "status": "found", 
                     "arch": "slc7_amd64_gcc700", 
@@ -12405,6 +12605,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "static_checks_failures": {
                     "status": "found", 
                     "arch": "slc7_amd64_gcc700", 
@@ -12454,6 +12656,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {}, 
                 "flawfinder": "inprogress", 
@@ -12502,6 +12706,12 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..remotes/origin/IB/CMSSW_10_6_X/gcc700"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -12556,6 +12766,12 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..Not Found"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "Not Found"
@@ -12656,6 +12872,8 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_10_6_CLANG_X_2019-05-12-2300/slc7_amd64_gcc700"
                 }, 
@@ -12702,6 +12920,8 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_10_6_CLANG_X_2019-05-12-0000/slc7_amd64_gcc700"
                 }, 
@@ -12749,6 +12969,14 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc7_amd64_gcc900": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..remotes/origin/IB/CMSSW_10_6_X/gcc700next", 
+                    "ERR/CMSSW_10_6_DEVEL_X_2019-05-13-2300/slc7_amd64_gcc900..remotes/origin/IB/CMSSW_10_6_X/gcc9"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -12804,6 +13032,14 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700", 
                     "slc7_amd64_gcc900"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc7_amd64_gcc900": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..Not Found", 
+                    "ERR/CMSSW_10_6_DEVEL_X_2019-05-13-2300/slc7_amd64_gcc900..ERR/CMSSW_10_6_DEVEL_X_2019-05-13-2300/slc7_amd64_gcc900"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "Not Found", 
@@ -12942,6 +13178,8 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_10_6_DEVEL_X_2019-05-12-2300/slc7_amd64_gcc700", 
                     "slc7_amd64_gcc900": "ERR/CMSSW_10_6_DEVEL_X_2019-05-12-2300/slc7_amd64_gcc900"
@@ -12989,6 +13227,8 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_10_6_DEVEL_X_2019-05-12-0000/slc7_amd64_gcc700"
                 }, 
@@ -13041,6 +13281,12 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..remotes/origin/IB/CMSSW_10_6_X/rootnext"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -13095,6 +13341,12 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..Not Found"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "Not Found"
@@ -13195,6 +13447,8 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_10_6_ROOT614_X_2019-05-12-2300/slc7_amd64_gcc700"
                 }, 
@@ -13250,6 +13504,8 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_10_6_ROOT614_X_2019-05-12-0000/slc7_amd64_gcc700"
                 }, 
@@ -13292,6 +13548,12 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..remotes/origin/IB/CMSSW_10_6_X/rootmaster"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -13346,6 +13608,12 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..Not Found"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "Not Found"
@@ -13446,6 +13714,8 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_10_6_ROOT6_X_2019-05-12-2300/slc7_amd64_gcc700"
                 }, 
@@ -13492,6 +13762,8 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_10_6_ROOT6_X_2019-05-12-0000/slc7_amd64_gcc700"
                 }, 
@@ -13544,6 +13816,18 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc7_amd64_gcc820": [], 
+                    "slc7_ppc64le_gcc700": [], 
+                    "slc7_aarch64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_6_X_2019-05-19-0000/slc7_amd64_gcc700..remotes/origin/IB/CMSSW_10_6_X/gcc700", 
+                    "IB/CMSSW_10_6_X_2019-05-19-2300/slc7_amd64_gcc820..remotes/origin/IB/CMSSW_10_6_X/gcc820", 
+                    "IB/CMSSW_10_6_X_2019-05-14-1100/slc7_aarch64_gcc700..remotes/origin/IB/CMSSW_10_6_X/gcc700", 
+                    "ERR/CMSSW_10_6_X_2019-05-13-2300/slc7_ppc64le_gcc700..remotes/origin/IB/CMSSW_10_6_X/gcc700"
+                ], 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {}, 
                 "flawfinder": "inprogress", 
@@ -13591,6 +13875,12 @@
                 ], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_6_X_2019-05-19-0000/slc7_amd64_gcc700..IB/CMSSW_10_6_X_2019-05-19-0000/slc7_amd64_gcc700"
                 ], 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {
@@ -13700,6 +13990,14 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700", 
                     "slc7_amd64_gcc820"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc7_amd64_gcc820": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_6_X_2019-05-19-0000/slc7_amd64_gcc700..IB/CMSSW_10_6_X_2019-05-19-0000/slc7_amd64_gcc700", 
+                    "Not Found..IB/CMSSW_10_6_X_2019-05-19-2300/slc7_amd64_gcc820"
                 ], 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {
@@ -13845,6 +14143,12 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..IB/CMSSW_10_6_X_2019-05-19-0000/slc7_amd64_gcc700"
+                ], 
                 "static_checks_failures": {
                     "status": "found", 
                     "arch": "slc7_amd64_gcc700", 
@@ -13966,6 +14270,12 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..Not Found"
+                ], 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "Not Found"
@@ -14075,6 +14385,12 @@
                 ], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..Not Found"
                 ], 
                 "static_checks_failures": {
                     "status": "found", 
@@ -14195,6 +14511,12 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..Not Found"
+                ], 
                 "static_checks_failures": {
                     "status": "found", 
                     "arch": "slc7_amd64_gcc700", 
@@ -14313,6 +14635,12 @@
                 ], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..Not Found"
                 ], 
                 "static_checks_failures": {
                     "status": "found", 
@@ -14433,6 +14761,12 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..Not Found"
+                ], 
                 "static_checks_failures": {
                     "status": "found", 
                     "arch": "slc7_amd64_gcc700", 
@@ -14551,6 +14885,12 @@
                 ], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..Not Found"
                 ], 
                 "static_checks_failures": {
                     "status": "found", 
@@ -14671,6 +15011,12 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..Not Found"
+                ], 
                 "static_checks_failures": {
                     "status": "found", 
                     "arch": "slc7_amd64_gcc700", 
@@ -14790,6 +15136,14 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700", 
                     "slc7_amd64_gcc820"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc7_amd64_gcc820": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..Not Found", 
+                    "Not Found..Not Found"
                 ], 
                 "static_checks_failures": {
                     "status": "found", 
@@ -14942,6 +15296,14 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700", 
                     "slc7_aarch64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc7_aarch64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..Not Found", 
+                    "IB/CMSSW_10_6_X_2019-05-13-2300/slc7_aarch64_gcc700..IB/CMSSW_10_6_X_2019-05-14-1100/slc7_aarch64_gcc700"
                 ], 
                 "static_checks_failures": {
                     "status": "found", 
@@ -15106,6 +15468,18 @@
                     "slc7_amd64_gcc820", 
                     "slc7_ppc64le_gcc700", 
                     "slc7_aarch64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc7_amd64_gcc820": [], 
+                    "slc7_ppc64le_gcc700": [], 
+                    "slc7_aarch64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "Not Found..Not Found", 
+                    "Not Found..Not Found", 
+                    "ERR/CMSSW_10_6_X_2019-05-13-2300/slc7_ppc64le_gcc700..ERR/CMSSW_10_6_X_2019-05-13-2300/slc7_ppc64le_gcc700", 
+                    "IB/CMSSW_10_6_X_2019-05-13-1100/slc7_aarch64_gcc700..IB/CMSSW_10_6_X_2019-05-13-2300/slc7_aarch64_gcc700"
                 ], 
                 "static_checks_failures": {
                     "status": "found", 
@@ -15328,6 +15702,12 @@
                 "tests_archs": [
                     "slc7_aarch64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_aarch64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_6_X_2019-05-13-1100/slc7_aarch64_gcc700..IB/CMSSW_10_6_X_2019-05-13-1100/slc7_aarch64_gcc700"
+                ], 
                 "static_checks_failures": {
                     "status": "found", 
                     "arch": "slc7_amd64_gcc700", 
@@ -15410,6 +15790,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {}, 
                 "flawfinder": "inprogress", 
@@ -15457,6 +15839,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "static_checks_failures": {
                     "status": "found", 
                     "arch": "slc7_amd64_gcc700", 
@@ -15526,6 +15910,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "static_checks_failures": {
                     "status": "found", 
                     "arch": "slc7_amd64_gcc700", 
@@ -15583,6 +15969,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "static_checks_failures": {
                     "status": "found", 
                     "arch": "slc7_amd64_gcc700", 
@@ -17252,6 +17640,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {}, 
                 "flawfinder": "inprogress", 
@@ -17295,6 +17685,31 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "eb99d316d8a07f82f6d4012d18d4a4d14da7df16", 
+                            "title": "Update gcc-checker-plugin to get Gcc 9 Fixes", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4847", 
+                            "number": "4847", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
+                            "hash": "d973fa444264c10b20da4b1154aa877059720e8d", 
+                            "title": "[Configuration-Generator] Fix auxiliary decay files for long lived chargino", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4963", 
+                            "number": "4963", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_ASAN_X_2019-05-17-2300/slc7_amd64_gcc700..remotes/origin/IB/CMSSW_11_0_X/gcc700"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -17431,6 +17846,12 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_ASAN_X_2019-05-17-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_ASAN_X_2019-05-17-2300/slc7_amd64_gcc700"
+                ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_ASAN_X_2019-05-17-2300/slc7_amd64_gcc700"
                 }, 
@@ -17503,6 +17924,22 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "d973fa444264c10b20da4b1154aa877059720e8d", 
+                            "title": "[Configuration-Generator] Fix auxiliary decay files for long lived chargino", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4963", 
+                            "number": "4963", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_CLANG_X_2019-05-19-2300/slc7_amd64_gcc700..remotes/origin/IB/CMSSW_11_0_X/gcc700"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -17566,6 +18003,22 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "eb99d316d8a07f82f6d4012d18d4a4d14da7df16", 
+                            "title": "Update gcc-checker-plugin to get Gcc 9 Fixes", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4847", 
+                            "number": "4847", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_CLANG_X_2019-05-19-0000/slc7_amd64_gcc700..IB/CMSSW_11_0_CLANG_X_2019-05-19-2300/slc7_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_CLANG_X_2019-05-19-2300/slc7_amd64_gcc700"
@@ -17651,6 +18104,12 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_CLANG_X_2019-05-16-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_CLANG_X_2019-05-19-0000/slc7_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_CLANG_X_2019-05-19-0000/slc7_amd64_gcc700"
@@ -17790,6 +18249,12 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_CLANG_X_2019-05-16-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_CLANG_X_2019-05-16-2300/slc7_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_CLANG_X_2019-05-16-2300/slc7_amd64_gcc700"
@@ -18020,6 +18485,22 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "c1bad350bd569cde27e09efb487472cdac9eaca8", 
+                            "title": "[BuildRules]  Fixed quotation for compile_commands.json", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4979", 
+                            "number": "4979", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_CLANG_X_2019-05-15-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_CLANG_X_2019-05-16-2300/slc7_amd64_gcc700"
+                ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_CLANG_X_2019-05-16-2300/slc7_amd64_gcc700"
                 }, 
@@ -18176,6 +18657,22 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "e8ee4caffc1d570ceaa7d22144fd05d9aeb032cf", 
+                            "title": "[BuildRules] Improved build rules for CXXModules IBs", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4971", 
+                            "number": "4971", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_CLANG_X_2019-05-14-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_CLANG_X_2019-05-15-2300/slc7_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_CLANG_X_2019-05-15-2300/slc7_amd64_gcc700"
@@ -18487,6 +18984,12 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_CLANG_X_2019-05-14-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_CLANG_X_2019-05-14-2300/slc7_amd64_gcc700"
+                ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_CLANG_X_2019-05-14-2300/slc7_amd64_gcc700"
                 }, 
@@ -18566,6 +19069,31 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "eb99d316d8a07f82f6d4012d18d4a4d14da7df16", 
+                            "title": "Update gcc-checker-plugin to get Gcc 9 Fixes", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4847", 
+                            "number": "4847", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
+                            "hash": "d973fa444264c10b20da4b1154aa877059720e8d", 
+                            "title": "[Configuration-Generator] Fix auxiliary decay files for long lived chargino", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4963", 
+                            "number": "4963", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_CXXMODULE_X_2019-05-16-2300/slc7_amd64_gcc700..remotes/origin/IB/CMSSW_11_0_X/cxxmodule"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -18854,6 +19382,31 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "c1bad350bd569cde27e09efb487472cdac9eaca8", 
+                            "title": "[BuildRules]  Fixed quotation for compile_commands.json", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4979", 
+                            "number": "4979", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
+                            "hash": "e8ee4caffc1d570ceaa7d22144fd05d9aeb032cf", 
+                            "title": "[BuildRules] Improved build rules for CXXModules IBs", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4971", 
+                            "number": "4971", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_CXXMODULE_X_2019-05-14-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_CXXMODULE_X_2019-05-16-2300/slc7_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_CXXMODULE_X_2019-05-16-2300/slc7_amd64_gcc700"
@@ -19246,6 +19799,12 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_CXXMODULE_X_2019-05-14-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_CXXMODULE_X_2019-05-14-2300/slc7_amd64_gcc700"
+                ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_CXXMODULE_X_2019-05-14-2300/slc7_amd64_gcc700"
                 }, 
@@ -19325,6 +19884,22 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "d973fa444264c10b20da4b1154aa877059720e8d", 
+                            "title": "[Configuration-Generator] Fix auxiliary decay files for long lived chargino", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4963", 
+                            "number": "4963", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_DEVEL_X_2019-05-19-2300/slc7_amd64_gcc700..remotes/origin/IB/CMSSW_11_0_X/gcc700next"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -19388,6 +19963,22 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "eb99d316d8a07f82f6d4012d18d4a4d14da7df16", 
+                            "title": "Update gcc-checker-plugin to get Gcc 9 Fixes", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4847", 
+                            "number": "4847", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_DEVEL_X_2019-05-16-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_DEVEL_X_2019-05-19-2300/slc7_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_DEVEL_X_2019-05-19-2300/slc7_amd64_gcc700"
@@ -19522,6 +20113,12 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_DEVEL_X_2019-05-16-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_DEVEL_X_2019-05-16-2300/slc7_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_DEVEL_X_2019-05-16-2300/slc7_amd64_gcc700"
@@ -19752,6 +20349,22 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "c1bad350bd569cde27e09efb487472cdac9eaca8", 
+                            "title": "[BuildRules]  Fixed quotation for compile_commands.json", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4979", 
+                            "number": "4979", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_DEVEL_X_2019-05-15-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_DEVEL_X_2019-05-16-2300/slc7_amd64_gcc700"
+                ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_DEVEL_X_2019-05-16-2300/slc7_amd64_gcc700"
                 }, 
@@ -19908,6 +20521,22 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "e8ee4caffc1d570ceaa7d22144fd05d9aeb032cf", 
+                            "title": "[BuildRules] Improved build rules for CXXModules IBs", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4971", 
+                            "number": "4971", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_DEVEL_X_2019-05-14-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_DEVEL_X_2019-05-15-2300/slc7_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_DEVEL_X_2019-05-15-2300/slc7_amd64_gcc700"
@@ -20219,6 +20848,12 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_DEVEL_X_2019-05-14-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_DEVEL_X_2019-05-14-2300/slc7_amd64_gcc700"
+                ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_DEVEL_X_2019-05-14-2300/slc7_amd64_gcc700"
                 }, 
@@ -20303,6 +20938,31 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "eb99d316d8a07f82f6d4012d18d4a4d14da7df16", 
+                            "title": "Update gcc-checker-plugin to get Gcc 9 Fixes", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4847", 
+                            "number": "4847", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
+                            "hash": "d973fa444264c10b20da4b1154aa877059720e8d", 
+                            "title": "[Configuration-Generator] Fix auxiliary decay files for long lived chargino", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4963", 
+                            "number": "4963", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_GEANT4_X_2019-05-16-2300/slc7_amd64_gcc700..remotes/origin/IB/CMSSW_11_0_X/geant4"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -20592,6 +21252,12 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_GEANT4_X_2019-05-16-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_GEANT4_X_2019-05-16-2300/slc7_amd64_gcc700"
+                ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_GEANT4_X_2019-05-16-2300/slc7_amd64_gcc700"
                 }, 
@@ -20671,6 +21337,40 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "eb99d316d8a07f82f6d4012d18d4a4d14da7df16", 
+                            "title": "Update gcc-checker-plugin to get Gcc 9 Fixes", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4847", 
+                            "number": "4847", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
+                            "hash": "d973fa444264c10b20da4b1154aa877059720e8d", 
+                            "title": "[Configuration-Generator] Fix auxiliary decay files for long lived chargino", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4963", 
+                            "number": "4963", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
+                            "hash": "bcf8c358ff7e9c21ffc3b2f067e5838a0f7f8439", 
+                            "title": "[ROOT][6.16] Update root.spec", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4972", 
+                            "number": "4972", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_ROOT614_X_2019-05-16-2300/slc7_amd64_gcc700..remotes/origin/IB/CMSSW_11_0_X/rootnext"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -20960,6 +21660,22 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "c1bad350bd569cde27e09efb487472cdac9eaca8", 
+                            "title": "[BuildRules]  Fixed quotation for compile_commands.json", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4979", 
+                            "number": "4979", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_ROOT614_X_2019-05-15-1000/slc7_amd64_gcc700..IB/CMSSW_11_0_ROOT614_X_2019-05-16-2300/slc7_amd64_gcc700"
+                ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_ROOT614_X_2019-05-16-2300/slc7_amd64_gcc700"
                 }, 
@@ -21116,6 +21832,12 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_ROOT614_X_2019-05-15-1000/slc7_amd64_gcc700..IB/CMSSW_11_0_ROOT614_X_2019-05-15-1000/slc7_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_ROOT614_X_2019-05-15-1000/slc7_amd64_gcc700"
@@ -21328,6 +22050,12 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_ROOT614_X_2019-05-15-1000/slc7_amd64_gcc700..IB/CMSSW_11_0_ROOT614_X_2019-05-15-1000/slc7_amd64_gcc700"
+                ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_ROOT614_X_2019-05-15-1000/slc7_amd64_gcc700"
                 }, 
@@ -21407,6 +22135,22 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "d973fa444264c10b20da4b1154aa877059720e8d", 
+                            "title": "[Configuration-Generator] Fix auxiliary decay files for long lived chargino", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4963", 
+                            "number": "4963", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_ROOT616_X_2019-05-19-2300/slc7_amd64_gcc700..remotes/origin/IB/CMSSW_11_0_X/rootnext"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -21470,6 +22214,22 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "eb99d316d8a07f82f6d4012d18d4a4d14da7df16", 
+                            "title": "Update gcc-checker-plugin to get Gcc 9 Fixes", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4847", 
+                            "number": "4847", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_ROOT616_X_2019-05-19-0000/slc7_amd64_gcc700..IB/CMSSW_11_0_ROOT616_X_2019-05-19-2300/slc7_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_ROOT616_X_2019-05-19-2300/slc7_amd64_gcc700"
@@ -21555,6 +22315,12 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_ROOT616_X_2019-05-16-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_ROOT616_X_2019-05-19-0000/slc7_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_ROOT616_X_2019-05-19-0000/slc7_amd64_gcc700"
@@ -21694,6 +22460,12 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_ROOT616_X_2019-05-16-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_ROOT616_X_2019-05-16-2300/slc7_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_ROOT616_X_2019-05-16-2300/slc7_amd64_gcc700"
@@ -21924,6 +22696,12 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_ROOT616_X_2019-05-16-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_ROOT616_X_2019-05-16-2300/slc7_amd64_gcc700"
+                ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_ROOT616_X_2019-05-16-2300/slc7_amd64_gcc700"
                 }, 
@@ -22003,6 +22781,22 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "d973fa444264c10b20da4b1154aa877059720e8d", 
+                            "title": "[Configuration-Generator] Fix auxiliary decay files for long lived chargino", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4963", 
+                            "number": "4963", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_ROOT6_X_2019-05-19-2300/slc7_amd64_gcc700..remotes/origin/IB/CMSSW_11_0_X/rootmaster"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -22066,6 +22860,22 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "eb99d316d8a07f82f6d4012d18d4a4d14da7df16", 
+                            "title": "Update gcc-checker-plugin to get Gcc 9 Fixes", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4847", 
+                            "number": "4847", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_ROOT6_X_2019-05-19-0000/slc7_amd64_gcc700..IB/CMSSW_11_0_ROOT6_X_2019-05-19-2300/slc7_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_ROOT6_X_2019-05-19-2300/slc7_amd64_gcc700"
@@ -22151,6 +22961,22 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "c9bfc25bf32f9ec82010919e2d1124049081fa4c", 
+                            "title": "Updated root to tip of branch master", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4973", 
+                            "number": "4973", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "smuzaffar"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_ROOT6_X_2019-05-16-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_ROOT6_X_2019-05-19-0000/slc7_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_ROOT6_X_2019-05-19-0000/slc7_amd64_gcc700"
@@ -22290,6 +23116,12 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_ROOT6_X_2019-05-16-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_ROOT6_X_2019-05-16-2300/slc7_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_ROOT6_X_2019-05-16-2300/slc7_amd64_gcc700"
@@ -22520,6 +23352,22 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "c1bad350bd569cde27e09efb487472cdac9eaca8", 
+                            "title": "[BuildRules]  Fixed quotation for compile_commands.json", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4979", 
+                            "number": "4979", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_ROOT6_X_2019-05-15-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_ROOT6_X_2019-05-16-2300/slc7_amd64_gcc700"
+                ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_ROOT6_X_2019-05-16-2300/slc7_amd64_gcc700"
                 }, 
@@ -22676,6 +23524,22 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "e8ee4caffc1d570ceaa7d22144fd05d9aeb032cf", 
+                            "title": "[BuildRules] Improved build rules for CXXModules IBs", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4971", 
+                            "number": "4971", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_ROOT6_X_2019-05-14-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_ROOT6_X_2019-05-15-2300/slc7_amd64_gcc700"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_ROOT6_X_2019-05-15-2300/slc7_amd64_gcc700"
@@ -22987,6 +23851,12 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_ROOT6_X_2019-05-14-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_ROOT6_X_2019-05-14-2300/slc7_amd64_gcc700"
+                ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_ROOT6_X_2019-05-14-2300/slc7_amd64_gcc700"
                 }, 
@@ -23066,6 +23936,31 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "eb99d316d8a07f82f6d4012d18d4a4d14da7df16", 
+                            "title": "Update gcc-checker-plugin to get Gcc 9 Fixes", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4847", 
+                            "number": "4847", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
+                            "hash": "d973fa444264c10b20da4b1154aa877059720e8d", 
+                            "title": "[Configuration-Generator] Fix auxiliary decay files for long lived chargino", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4963", 
+                            "number": "4963", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_TSAN_X_2019-05-17-2300/slc7_amd64_gcc700..remotes/origin/IB/CMSSW_11_0_X/gcc700"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -23202,6 +24097,12 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_TSAN_X_2019-05-17-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_TSAN_X_2019-05-17-2300/slc7_amd64_gcc700"
+                ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_TSAN_X_2019-05-17-2300/slc7_amd64_gcc700"
                 }, 
@@ -23281,6 +24182,31 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "eb99d316d8a07f82f6d4012d18d4a4d14da7df16", 
+                            "title": "Update gcc-checker-plugin to get Gcc 9 Fixes", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4847", 
+                            "number": "4847", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
+                            "hash": "d973fa444264c10b20da4b1154aa877059720e8d", 
+                            "title": "[Configuration-Generator] Fix auxiliary decay files for long lived chargino", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4963", 
+                            "number": "4963", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "ERR/CMSSW_11_0_UBSAN_X_2019-05-17-2300/slc7_amd64_gcc700..remotes/origin/IB/CMSSW_11_0_X/gcc700"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -23417,6 +24343,12 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "ERR/CMSSW_11_0_UBSAN_X_2019-05-17-2300/slc7_amd64_gcc700..ERR/CMSSW_11_0_UBSAN_X_2019-05-17-2300/slc7_amd64_gcc700"
+                ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "ERR/CMSSW_11_0_UBSAN_X_2019-05-17-2300/slc7_amd64_gcc700"
                 }, 
@@ -23500,6 +24432,58 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "d973fa444264c10b20da4b1154aa877059720e8d", 
+                            "title": "[Configuration-Generator] Fix auxiliary decay files for long lived chargino", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4963", 
+                            "number": "4963", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
+                    "slc7_amd64_gcc820": [
+                        {
+                            "hash": "d973fa444264c10b20da4b1154aa877059720e8d", 
+                            "title": "[Configuration-Generator] Fix auxiliary decay files for long lived chargino", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4963", 
+                            "number": "4963", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
+                    "slc7_ppc64le_gcc700": [
+                        {
+                            "hash": "d973fa444264c10b20da4b1154aa877059720e8d", 
+                            "title": "[Configuration-Generator] Fix auxiliary decay files for long lived chargino", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4963", 
+                            "number": "4963", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
+                    "slc7_aarch64_gcc700": [
+                        {
+                            "hash": "d973fa444264c10b20da4b1154aa877059720e8d", 
+                            "title": "[Configuration-Generator] Fix auxiliary decay files for long lived chargino", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4963", 
+                            "number": "4963", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_X_2019-05-19-2300/slc7_amd64_gcc700..remotes/origin/IB/CMSSW_11_0_X/gcc700", 
+                    "IB/CMSSW_11_0_X_2019-05-19-2300/slc7_amd64_gcc820..remotes/origin/IB/CMSSW_11_0_X/gcc820", 
+                    "IB/CMSSW_11_0_X_2019-05-19-2300/slc7_aarch64_gcc700..remotes/origin/IB/CMSSW_11_0_X/gcc700", 
+                    "ERR/CMSSW_11_0_X_2019-05-19-2300/slc7_ppc64le_gcc700..remotes/origin/IB/CMSSW_11_0_X/gcc700"
+                ], 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {}, 
                 "flawfinder": "inprogress", 
@@ -23548,6 +24532,14 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700", 
                     "slc7_aarch64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc7_aarch64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_X_2019-05-19-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_X_2019-05-19-2300/slc7_amd64_gcc700", 
+                    "IB/CMSSW_11_0_X_2019-05-19-2300/slc7_aarch64_gcc700..IB/CMSSW_11_0_X_2019-05-19-2300/slc7_aarch64_gcc700"
                 ], 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {
@@ -23719,6 +24711,58 @@
                     "slc7_amd64_gcc820", 
                     "slc7_ppc64le_gcc700", 
                     "slc7_aarch64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "eb99d316d8a07f82f6d4012d18d4a4d14da7df16", 
+                            "title": "Update gcc-checker-plugin to get Gcc 9 Fixes", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4847", 
+                            "number": "4847", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
+                    "slc7_amd64_gcc820": [
+                        {
+                            "hash": "eb99d316d8a07f82f6d4012d18d4a4d14da7df16", 
+                            "title": "Update gcc-checker-plugin to get Gcc 9 Fixes", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4847", 
+                            "number": "4847", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
+                    "slc7_ppc64le_gcc700": [
+                        {
+                            "hash": "eb99d316d8a07f82f6d4012d18d4a4d14da7df16", 
+                            "title": "Update gcc-checker-plugin to get Gcc 9 Fixes", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4847", 
+                            "number": "4847", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
+                    "slc7_aarch64_gcc700": [
+                        {
+                            "hash": "eb99d316d8a07f82f6d4012d18d4a4d14da7df16", 
+                            "title": "Update gcc-checker-plugin to get Gcc 9 Fixes", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4847", 
+                            "number": "4847", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_X_2019-05-19-0000/slc7_amd64_gcc700..IB/CMSSW_11_0_X_2019-05-19-2300/slc7_amd64_gcc700", 
+                    "IB/CMSSW_11_0_X_2019-05-16-2300/slc7_amd64_gcc820..IB/CMSSW_11_0_X_2019-05-19-2300/slc7_amd64_gcc820", 
+                    "ERR/CMSSW_11_0_X_2019-05-17-2300/slc7_ppc64le_gcc700..ERR/CMSSW_11_0_X_2019-05-19-2300/slc7_ppc64le_gcc700", 
+                    "IB/CMSSW_11_0_X_2019-05-19-0000/slc7_aarch64_gcc700..IB/CMSSW_11_0_X_2019-05-19-2300/slc7_aarch64_gcc700"
                 ], 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {
@@ -23948,6 +24992,14 @@
                     "slc7_amd64_gcc700", 
                     "slc7_aarch64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc7_aarch64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_X_2019-05-18-1100/slc7_amd64_gcc700..IB/CMSSW_11_0_X_2019-05-19-0000/slc7_amd64_gcc700", 
+                    "IB/CMSSW_11_0_X_2019-05-18-1100/slc7_aarch64_gcc700..IB/CMSSW_11_0_X_2019-05-19-0000/slc7_aarch64_gcc700"
+                ], 
                 "static_checks_failures": {
                     "status": "found", 
                     "arch": "slc7_amd64_gcc700", 
@@ -24168,6 +25220,14 @@
                     "slc7_amd64_gcc700", 
                     "slc7_aarch64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc7_aarch64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_X_2019-05-16-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_X_2019-05-18-1100/slc7_amd64_gcc700", 
+                    "IB/CMSSW_11_0_X_2019-05-16-2300/slc7_aarch64_gcc700..IB/CMSSW_11_0_X_2019-05-18-1100/slc7_aarch64_gcc700"
+                ], 
                 "static_checks_failures": {
                     "status": "found", 
                     "arch": "slc7_amd64_gcc700", 
@@ -24325,6 +25385,18 @@
                     "slc7_amd64_gcc820", 
                     "slc7_ppc64le_gcc700", 
                     "slc7_aarch64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc7_amd64_gcc820": [], 
+                    "slc7_ppc64le_gcc700": [], 
+                    "slc7_aarch64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_X_2019-05-16-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_X_2019-05-16-2300/slc7_amd64_gcc700", 
+                    "IB/CMSSW_11_0_X_2019-05-16-2300/slc7_amd64_gcc820..IB/CMSSW_11_0_X_2019-05-16-2300/slc7_amd64_gcc820", 
+                    "ERR/CMSSW_11_0_X_2019-05-16-2300/slc7_ppc64le_gcc700..ERR/CMSSW_11_0_X_2019-05-17-2300/slc7_ppc64le_gcc700", 
+                    "IB/CMSSW_11_0_X_2019-05-16-2300/slc7_aarch64_gcc700..IB/CMSSW_11_0_X_2019-05-16-2300/slc7_aarch64_gcc700"
                 ], 
                 "static_checks_failures": {
                     "status": "found", 
@@ -24626,6 +25698,14 @@
                     "slc7_amd64_gcc700", 
                     "slc7_aarch64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc7_aarch64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_X_2019-05-16-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_X_2019-05-16-2300/slc7_amd64_gcc700", 
+                    "IB/CMSSW_11_0_X_2019-05-16-2300/slc7_aarch64_gcc700..IB/CMSSW_11_0_X_2019-05-16-2300/slc7_aarch64_gcc700"
+                ], 
                 "static_checks_failures": {
                     "status": "found", 
                     "arch": "slc7_amd64_gcc700", 
@@ -24865,6 +25945,58 @@
                     "slc7_amd64_gcc820", 
                     "slc7_ppc64le_gcc700", 
                     "slc7_aarch64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "c1bad350bd569cde27e09efb487472cdac9eaca8", 
+                            "title": "[BuildRules]  Fixed quotation for compile_commands.json", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4979", 
+                            "number": "4979", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
+                    "slc7_amd64_gcc820": [
+                        {
+                            "hash": "c1bad350bd569cde27e09efb487472cdac9eaca8", 
+                            "title": "[BuildRules]  Fixed quotation for compile_commands.json", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4979", 
+                            "number": "4979", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
+                    "slc7_ppc64le_gcc700": [
+                        {
+                            "hash": "c1bad350bd569cde27e09efb487472cdac9eaca8", 
+                            "title": "[BuildRules]  Fixed quotation for compile_commands.json", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4979", 
+                            "number": "4979", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
+                    "slc7_aarch64_gcc700": [
+                        {
+                            "hash": "c1bad350bd569cde27e09efb487472cdac9eaca8", 
+                            "title": "[BuildRules]  Fixed quotation for compile_commands.json", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4979", 
+                            "number": "4979", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_X_2019-05-15-1100/slc7_amd64_gcc700..IB/CMSSW_11_0_X_2019-05-16-2300/slc7_amd64_gcc700", 
+                    "IB/CMSSW_11_0_X_2019-05-15-2300/slc7_amd64_gcc820..IB/CMSSW_11_0_X_2019-05-16-2300/slc7_amd64_gcc820", 
+                    "ERR/CMSSW_11_0_X_2019-05-15-2300/slc7_ppc64le_gcc700..ERR/CMSSW_11_0_X_2019-05-16-2300/slc7_ppc64le_gcc700", 
+                    "IB/CMSSW_11_0_X_2019-05-15-1100/slc7_aarch64_gcc700..IB/CMSSW_11_0_X_2019-05-16-2300/slc7_aarch64_gcc700"
                 ], 
                 "static_checks_failures": {
                     "status": "found", 
@@ -25148,6 +26280,14 @@
                     "slc7_amd64_gcc700", 
                     "slc7_aarch64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc7_aarch64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_X_2019-05-15-1100/slc7_amd64_gcc700..IB/CMSSW_11_0_X_2019-05-15-1100/slc7_amd64_gcc700", 
+                    "IB/CMSSW_11_0_X_2019-05-15-1100/slc7_aarch64_gcc700..IB/CMSSW_11_0_X_2019-05-15-1100/slc7_aarch64_gcc700"
+                ], 
                 "static_checks_failures": {
                     "status": "found", 
                     "arch": "slc7_amd64_gcc700", 
@@ -25333,6 +26473,38 @@
                     "slc7_amd64_gcc820", 
                     "slc7_ppc64le_gcc700", 
                     "slc7_aarch64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc7_amd64_gcc820": [
+                        {
+                            "hash": "e8ee4caffc1d570ceaa7d22144fd05d9aeb032cf", 
+                            "title": "[BuildRules] Improved build rules for CXXModules IBs", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4971", 
+                            "number": "4971", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
+                    "slc7_ppc64le_gcc700": [
+                        {
+                            "hash": "e8ee4caffc1d570ceaa7d22144fd05d9aeb032cf", 
+                            "title": "[BuildRules] Improved build rules for CXXModules IBs", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4971", 
+                            "number": "4971", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
+                    "slc7_aarch64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_X_2019-05-15-1100/slc7_amd64_gcc700..IB/CMSSW_11_0_X_2019-05-15-1100/slc7_amd64_gcc700", 
+                    "IB/CMSSW_11_0_X_2019-05-14-2300/slc7_amd64_gcc820..IB/CMSSW_11_0_X_2019-05-15-2300/slc7_amd64_gcc820", 
+                    "ERR/CMSSW_11_0_X_2019-05-14-2300/slc7_ppc64le_gcc700..ERR/CMSSW_11_0_X_2019-05-15-2300/slc7_ppc64le_gcc700", 
+                    "IB/CMSSW_11_0_X_2019-05-15-1100/slc7_aarch64_gcc700..IB/CMSSW_11_0_X_2019-05-15-1100/slc7_aarch64_gcc700"
                 ], 
                 "static_checks_failures": {
                     "status": "found", 
@@ -25688,6 +26860,34 @@
                     "slc7_amd64_gcc700", 
                     "slc7_aarch64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [
+                        {
+                            "hash": "e8ee4caffc1d570ceaa7d22144fd05d9aeb032cf", 
+                            "title": "[BuildRules] Improved build rules for CXXModules IBs", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4971", 
+                            "number": "4971", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ], 
+                    "slc7_aarch64_gcc700": [
+                        {
+                            "hash": "e8ee4caffc1d570ceaa7d22144fd05d9aeb032cf", 
+                            "title": "[BuildRules] Improved build rules for CXXModules IBs", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4971", 
+                            "number": "4971", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }
+                    ]
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_X_2019-05-14-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_X_2019-05-15-1100/slc7_amd64_gcc700", 
+                    "IB/CMSSW_11_0_X_2019-05-14-2300/slc7_aarch64_gcc700..IB/CMSSW_11_0_X_2019-05-15-1100/slc7_aarch64_gcc700"
+                ], 
                 "static_checks_failures": {
                     "status": "found", 
                     "arch": "slc7_amd64_gcc700", 
@@ -25955,6 +27155,18 @@
                     "slc7_ppc64le_gcc700", 
                     "slc7_aarch64_gcc700"
                 ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": [], 
+                    "slc7_amd64_gcc820": [], 
+                    "slc7_ppc64le_gcc700": [], 
+                    "slc7_aarch64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_11_0_X_2019-05-14-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_X_2019-05-14-2300/slc7_amd64_gcc700", 
+                    "IB/CMSSW_11_0_X_2019-05-14-2300/slc7_amd64_gcc820..IB/CMSSW_11_0_X_2019-05-14-2300/slc7_amd64_gcc820", 
+                    "ERR/CMSSW_11_0_X_2019-05-14-2300/slc7_ppc64le_gcc700..ERR/CMSSW_11_0_X_2019-05-14-2300/slc7_ppc64le_gcc700", 
+                    "IB/CMSSW_11_0_X_2019-05-14-2300/slc7_aarch64_gcc700..IB/CMSSW_11_0_X_2019-05-14-2300/slc7_aarch64_gcc700"
+                ], 
                 "static_checks_failures": {
                     "status": "found", 
                     "arch": "slc7_amd64_gcc700", 
@@ -26176,6 +27388,12 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc6_amd64_gcc472": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_5_3_X_2019-05-19-0000/slc6_amd64_gcc472..remotes/origin/IB/CMSSW_5_3_X/slc6_amd64_gcc472"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -26211,6 +27429,12 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc6_amd64_gcc472"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc6_amd64_gcc472": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_5_3_X_2019-05-19-0000/slc6_amd64_gcc472..IB/CMSSW_5_3_X_2019-05-19-0000/slc6_amd64_gcc472"
                 ], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc472": "IB/CMSSW_5_3_X_2019-05-19-0000/slc6_amd64_gcc472"
@@ -26286,6 +27510,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc472": "IB/CMSSW_5_3_X_2019-05-12-0000/slc6_amd64_gcc472"
                 }, 
@@ -26322,6 +27548,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -26465,6 +27693,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -26545,6 +27775,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -26796,6 +28028,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -27101,6 +28335,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -28189,6 +29425,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -28229,6 +29467,12 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc6_amd64_gcc481": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_7_1_X_2019-05-19-0000/slc6_amd64_gcc481..remotes/origin/IB/CMSSW_7_1_X/stable"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -28264,6 +29508,12 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc6_amd64_gcc481"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc6_amd64_gcc481": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_7_1_X_2019-05-19-0000/slc6_amd64_gcc481..IB/CMSSW_7_1_X_2019-05-19-0000/slc6_amd64_gcc481"
                 ], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc481": "IB/CMSSW_7_1_X_2019-05-19-0000/slc6_amd64_gcc481"
@@ -28338,6 +29588,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc481": "IB/CMSSW_7_1_X_2019-05-12-0000/slc6_amd64_gcc481"
                 }, 
@@ -28374,6 +29626,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -28408,6 +29662,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -28442,6 +29698,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -28486,6 +29744,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -28782,6 +30042,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -28997,6 +30259,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -29031,6 +30295,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -29138,6 +30404,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -29452,6 +30720,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -29577,6 +30847,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -30737,6 +32009,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -30777,6 +32051,14 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc6_amd64_gcc530": [], 
+                    "slc7_amd64_gcc530": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_8_0_X_2019-05-19-0000/slc6_amd64_gcc530..remotes/origin/IB/CMSSW_8_0_X/gcc530", 
+                    "IB/CMSSW_8_0_X_2019-05-19-0000/slc7_amd64_gcc530..remotes/origin/IB/CMSSW_8_0_X/gcc530"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -30813,6 +32095,14 @@
                 "tests_archs": [
                     "slc6_amd64_gcc530", 
                     "slc7_amd64_gcc530"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc6_amd64_gcc530": [], 
+                    "slc7_amd64_gcc530": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_8_0_X_2019-05-19-0000/slc6_amd64_gcc530..IB/CMSSW_8_0_X_2019-05-19-0000/slc6_amd64_gcc530", 
+                    "IB/CMSSW_8_0_X_2019-05-19-0000/slc7_amd64_gcc530..IB/CMSSW_8_0_X_2019-05-19-0000/slc7_amd64_gcc530"
                 ], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc530": "IB/CMSSW_8_0_X_2019-05-19-0000/slc6_amd64_gcc530", 
@@ -30935,6 +32225,8 @@
                 "comp_baseline_state": "errors", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc530": "IB/CMSSW_8_0_X_2019-05-12-0000/slc6_amd64_gcc530", 
                     "slc7_amd64_gcc530": "IB/CMSSW_8_0_X_2019-05-12-0000/slc7_amd64_gcc530"
@@ -30972,6 +32264,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -31006,6 +32300,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -31149,6 +32445,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -34397,6 +35695,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -34437,6 +35737,14 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc630": [], 
+                    "slc6_amd64_gcc630": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_9_3_X_2019-05-19-0000/slc6_amd64_gcc630..remotes/origin/IB/CMSSW_9_3_X/gcc630", 
+                    "IB/CMSSW_9_3_X_2019-05-19-0000/slc7_amd64_gcc630..remotes/origin/IB/CMSSW_9_3_X/gcc630"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -34473,6 +35781,14 @@
                 "tests_archs": [
                     "slc7_amd64_gcc630", 
                     "slc6_amd64_gcc630"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc630": [], 
+                    "slc6_amd64_gcc630": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_9_3_X_2019-05-19-0000/slc7_amd64_gcc630..IB/CMSSW_9_3_X_2019-05-19-0000/slc7_amd64_gcc630", 
+                    "IB/CMSSW_9_3_X_2019-05-19-0000/slc6_amd64_gcc630..IB/CMSSW_9_3_X_2019-05-19-0000/slc6_amd64_gcc630"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc630": "IB/CMSSW_9_3_X_2019-05-19-0000/slc7_amd64_gcc630", 
@@ -34590,6 +35906,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc630": "IB/CMSSW_9_3_X_2019-05-12-0000/slc7_amd64_gcc630", 
                     "slc6_amd64_gcc630": "IB/CMSSW_9_3_X_2019-05-12-0000/slc6_amd64_gcc630"
@@ -34627,6 +35945,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -34661,6 +35981,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -34701,6 +36023,12 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc6_amd64_gcc630": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_9_4_AN_X_2019-05-19-0000/slc6_amd64_gcc630..remotes/origin/IB/CMSSW_9_4_X/gcc630"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -34736,6 +36064,12 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc6_amd64_gcc630"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc6_amd64_gcc630": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_9_4_AN_X_2019-05-19-0000/slc6_amd64_gcc630..IB/CMSSW_9_4_AN_X_2019-05-19-0000/slc6_amd64_gcc630"
                 ], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc630": "IB/CMSSW_9_4_AN_X_2019-05-19-0000/slc6_amd64_gcc630"
@@ -34810,6 +36144,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc630": "IB/CMSSW_9_4_AN_X_2019-05-12-0000/slc6_amd64_gcc630"
                 }, 
@@ -34852,6 +36188,14 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc630": [], 
+                    "slc6_amd64_gcc630": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_9_4_MAOD_X_2019-05-19-0000/slc6_amd64_gcc630..remotes/origin/IB/CMSSW_9_4_X/gcc630", 
+                    "remotes/origin/IB/CMSSW_9_4_X/gcc630..remotes/origin/IB/CMSSW_9_4_X/gcc630"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -34887,6 +36231,12 @@
                 "python3_tests": [], 
                 "tests_archs": [
                     "slc6_amd64_gcc630"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc6_amd64_gcc630": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_9_4_MAOD_X_2019-05-19-0000/slc6_amd64_gcc630..IB/CMSSW_9_4_MAOD_X_2019-05-19-0000/slc6_amd64_gcc630"
                 ], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc630": "IB/CMSSW_9_4_MAOD_X_2019-05-19-0000/slc6_amd64_gcc630"
@@ -34961,6 +36311,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {
                     "slc6_amd64_gcc630": "IB/CMSSW_9_4_MAOD_X_2019-05-12-0000/slc6_amd64_gcc630"
                 }, 
@@ -35003,6 +36355,14 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc630": [], 
+                    "slc6_amd64_gcc630": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_9_4_X_2019-05-19-0000/slc6_amd64_gcc630..remotes/origin/IB/CMSSW_9_4_X/gcc630", 
+                    "IB/CMSSW_9_4_X_2019-05-19-0000/slc7_amd64_gcc630..remotes/origin/IB/CMSSW_9_4_X/gcc630"
+                ], 
                 "cmsdistTags": {}, 
                 "next_ib": true, 
                 "RVExceptions": null, 
@@ -35039,6 +36399,14 @@
                 "tests_archs": [
                     "slc7_amd64_gcc630", 
                     "slc6_amd64_gcc630"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc630": [], 
+                    "slc6_amd64_gcc630": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_9_4_X_2019-05-19-0000/slc7_amd64_gcc630..IB/CMSSW_9_4_X_2019-05-19-0000/slc7_amd64_gcc630", 
+                    "IB/CMSSW_9_4_X_2019-05-19-0000/slc6_amd64_gcc630..IB/CMSSW_9_4_X_2019-05-19-0000/slc6_amd64_gcc630"
                 ], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc630": "IB/CMSSW_9_4_X_2019-05-19-0000/slc7_amd64_gcc630", 
@@ -35154,6 +36522,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {
                     "slc7_amd64_gcc630": "IB/CMSSW_9_4_X_2019-05-12-0000/slc7_amd64_gcc630", 
                     "slc6_amd64_gcc630": "IB/CMSSW_9_4_X_2019-05-12-0000/slc6_amd64_gcc630"
@@ -35191,6 +36561,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -35225,6 +36597,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -35269,6 +36643,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 
@@ -35313,6 +36689,8 @@
                 "comp_baseline_state": "ok", 
                 "python3_tests": [], 
                 "tests_archs": [], 
+                "cmsdist_merged_prs": {}, 
+                "cmsdist_compared_tags": [], 
                 "cmsdistTags": {}, 
                 "next_ib": false, 
                 "RVExceptions": null, 

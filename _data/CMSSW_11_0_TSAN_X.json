@@ -6,6 +6,31 @@
             "comp_baseline_state": "errors", 
             "python3_tests": [], 
             "tests_archs": [], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc700": [
+                    {
+                        "hash": "eb99d316d8a07f82f6d4012d18d4a4d14da7df16", 
+                        "title": "Update gcc-checker-plugin to get Gcc 9 Fixes", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/4847", 
+                        "number": "4847", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }, 
+                    {
+                        "hash": "d973fa444264c10b20da4b1154aa877059720e8d", 
+                        "title": "[Configuration-Generator] Fix auxiliary decay files for long lived chargino", 
+                        "url": "https://github.com/cms-sw/cmsdist/pull/4963", 
+                        "number": "4963", 
+                        "is_merge_commit": false, 
+                        "from_merge_commit": false, 
+                        "author_login": "cms-sw"
+                    }
+                ]
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_11_0_TSAN_X_2019-05-17-2300/slc7_amd64_gcc700..remotes/origin/IB/CMSSW_11_0_X/gcc700"
+            ], 
             "cmsdistTags": {}, 
             "next_ib": true, 
             "RVExceptions": null, 
@@ -141,6 +166,12 @@
             "python3_tests": [], 
             "tests_archs": [
                 "slc7_amd64_gcc700"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc700": []
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_11_0_TSAN_X_2019-05-17-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_TSAN_X_2019-05-17-2300/slc7_amd64_gcc700"
             ], 
             "cmsdistTags": {
                 "slc7_amd64_gcc700": "IB/CMSSW_11_0_TSAN_X_2019-05-17-2300/slc7_amd64_gcc700"

@@ -6,6 +6,14 @@
             "comp_baseline_state": "ok", 
             "python3_tests": [], 
             "tests_archs": [], 
+            "cmsdist_merged_prs": {
+                "slc7_amd64_gcc630": [], 
+                "slc6_amd64_gcc630": []
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_9_4_MAOD_X_2019-05-19-0000/slc6_amd64_gcc630..remotes/origin/IB/CMSSW_9_4_X/gcc630", 
+                "remotes/origin/IB/CMSSW_9_4_X/gcc630..remotes/origin/IB/CMSSW_9_4_X/gcc630"
+            ], 
             "cmsdistTags": {}, 
             "next_ib": true, 
             "RVExceptions": null, 
@@ -41,6 +49,12 @@
             "python3_tests": [], 
             "tests_archs": [
                 "slc6_amd64_gcc630"
+            ], 
+            "cmsdist_merged_prs": {
+                "slc6_amd64_gcc630": []
+            }, 
+            "cmsdist_compared_tags": [
+                "IB/CMSSW_9_4_MAOD_X_2019-05-19-0000/slc6_amd64_gcc630..IB/CMSSW_9_4_MAOD_X_2019-05-19-0000/slc6_amd64_gcc630"
             ], 
             "cmsdistTags": {
                 "slc6_amd64_gcc630": "IB/CMSSW_9_4_MAOD_X_2019-05-19-0000/slc6_amd64_gcc630"
@@ -115,6 +129,8 @@
             "comp_baseline_state": "ok", 
             "python3_tests": [], 
             "tests_archs": [], 
+            "cmsdist_merged_prs": {}, 
+            "cmsdist_compared_tags": [], 
             "cmsdistTags": {
                 "slc6_amd64_gcc630": "IB/CMSSW_9_4_MAOD_X_2019-05-12-0000/slc6_amd64_gcc630"
             }, 
