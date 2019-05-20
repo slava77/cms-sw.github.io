@@ -466,6 +466,98 @@
     },
     {
         "exitcode": 0,
+        "id": "107.0",
+        "known_error": 0,
+        "name": "QQH120Inv+QQH120Inv+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 25
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 40
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 885
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "117.0",
+        "known_error": 0,
+        "name": "QCD_Pt_120_170+QCD_Pt_120_170+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 33
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 123
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 895
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "119.0",
+        "known_error": 0,
+        "name": "ZTT+ZTTHS+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 72
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 70
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 1168
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "122.0",
+        "known_error": 0,
+        "name": "UpsMM+UpsMM+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 16
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 22
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "123.1",
         "known_error": 0,
         "name": "QCD_Pt_80_120+QCD_Pt_80_120FS",
@@ -611,6 +703,29 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 742
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "128.0",
+        "known_error": 0,
+        "name": "SingleMuPt1HS+SingleMuPt1HS+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 23
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 108
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 160
             }
         ]
     },
@@ -3387,6 +3502,34 @@
     },
     {
         "exitcode": 0,
+        "id": "1325.2",
+        "known_error": 0,
+        "name": "TTbar_13+TTbar_13INPUT+DIGIUP15+RECOUP15_trackingLowPU+HARVESTUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 64
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 937
+            },
+            {
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "1325.3",
         "known_error": 0,
         "name": "TTbar_13+TTbar_13INPUT+DIGIUP15+RECOUP15_trackingOnlyLowPU+HARVESTUP15_trackingOnly",
@@ -3594,6 +3737,34 @@
                 "errors": 20,
                 "status": "PASSED",
                 "warnings": 2358
+            },
+            {
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1350.0",
+        "known_error": 0,
+        "name": "JpsiMuMu_Pt-8+JpsiMuMu_Pt-8INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 73
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 1078
             },
             {
                 "errors": 36,
@@ -4501,6 +4672,34 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 303
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "11224.0",
+        "known_error": 0,
+        "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2018Design_GenSimFullINPUT+DigiFull_2018Design+RecoFull_2018Design+HARVESTFull_2018Design",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 698
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 793
+            },
+            {
+                "errors": 27,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
