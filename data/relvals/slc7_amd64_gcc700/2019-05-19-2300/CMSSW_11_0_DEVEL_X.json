@@ -1,12 +1,60 @@
 [
     {
+        "exitcode": 31744,
+        "id": "10026.0",
+        "known_error": 0,
+        "name": "QCD_Pt_600_800_13+QCD_Pt_600_800_13TeV_TuneCUETP8M1_2017_GenSimFullINPUT+DigiFull_2017+RecoFull_2017+HARVESTFull_2017+ALCAFull_2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 75
+            },
+            {
+                "errors": 9,
+                "status": "FAILED",
+                "warnings": 80
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "11624.0",
+        "known_error": 0,
+        "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2021_GenSimFullINPUT+DigiFull_2021+RecoFull_2021+HARVESTFull_2021+ALCAFull_2021",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 111
+            },
+            {
+                "errors": 9,
+                "status": "FAILED",
+                "warnings": 77
+            }
+        ]
+    },
+    {
         "exitcode": 0,
         "id": "135.8",
         "known_error": 0,
         "name": "MinBiasFS_13_ForMixing+MinBiasFS_13_ForMixing",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 16
             }
         ]
     },
@@ -17,13 +65,19 @@
         "name": "RunHLTPhy2017B_AOD+RunHLTPhy2017B_AOD+DQMHLTonAOD_2017+HARVESTDQMHLTonAOD_2017",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 39
             },
             {
-                "status": "PASSED"
+                "errors": 24,
+                "status": "PASSED",
+                "warnings": 5
             }
         ]
     },
@@ -34,13 +88,19 @@
         "name": "RunHLTPhy2017B_AODextra+RunHLTPhy2017B_AODextra+DQMHLTonAODextra_2017+HARVESTDQMHLTonAOD_2017",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 21
             },
             {
-                "status": "PASSED"
+                "errors": 83,
+                "status": "PASSED",
+                "warnings": 5
             }
         ]
     },
@@ -51,13 +111,19 @@
         "name": "RunHLTPhy2017B_RAWAOD+RunHLTPhy2017B_RAWAOD+DQMHLTonRAWAOD_2017+HARVESTDQMHLTonAOD_2017",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 107
             },
             {
-                "status": "PASSED"
+                "errors": 30,
+                "status": "PASSED",
+                "warnings": 5
             }
         ]
     },
@@ -185,10 +251,14 @@
         "name": "MinBias_13TeV_pythia8+MinBias_13TeV_pythia8+HARVESTGEN",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 30
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -199,10 +269,14 @@
         "name": "QCD_Pt-30_13TeV_pythia8+QCD_Pt-30_13TeV_pythia8+HARVESTGEN",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 36
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -213,10 +287,14 @@
         "name": "DYToLL_M-50_13TeV_pythia8+DYToLL_M-50_13TeV_pythia8+HARVESTGEN",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 19
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -227,10 +305,14 @@
         "name": "WToLNu_13TeV_pythia8+WToLNu_13TeV_pythia8+HARVESTGEN",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 54
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -241,10 +323,14 @@
         "name": "SoftQCDDiffractive_13TeV_pythia8+SoftQCDDiffractive_13TeV_pythia8+HARVESTGEN",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 24
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -255,10 +341,14 @@
         "name": "SoftQCDnonDiffractive_13TeV_pythia8+SoftQCDnonDiffractive_13TeV_pythia8+HARVESTGEN",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 10
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -269,10 +359,14 @@
         "name": "SoftQCDelastic_13TeV_pythia8+SoftQCDelastic_13TeV_pythia8+HARVESTGEN",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -283,10 +377,14 @@
         "name": "SoftQCDinelastic_13TeV_pythia8+SoftQCDinelastic_13TeV_pythia8+HARVESTGEN",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 27
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -297,10 +395,14 @@
         "name": "QCD_Pt-30_13TeV_aMCatNLO_herwig7+QCD_Pt-30_13TeV_aMCatNLO_herwig7+HARVESTGEN",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 57
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -311,13 +413,19 @@
         "name": "DYTollJets_LO_Mad_13TeV_py8+DYToll01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCP5_13TeV_MLM_5f_max4j_LHE_pythia8+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 3
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 43
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -328,13 +436,19 @@
         "name": "WTolNuJets_LO_Mad_13TeV_py8+WTolNu01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCP5_13TeV_MLM_5f_max4j_LHE_pythia8+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 4
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 35
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -345,13 +459,19 @@
         "name": "GGToHgg_NLO_Pow_13TeV_py8+GGToH_Pow_LHE_13TeV+Hadronizer_TuneCP5_13TeV_Hgg_powhegEmissionVeto_pythia8+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 4
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 41
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -362,13 +482,19 @@
         "name": "DYTollJets_LO_Mad_13TeV_py8_taupinu+DYToll01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCP5_13TeV_MLM_5f_max4j_LHE_pythia8_taupinu+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 4
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 28
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -379,13 +505,19 @@
         "name": "WTolNuJets_LO_Mad_13TeV_py8_taupinu+WTolNu01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCP5_13TeV_MLM_5f_max4j_LHE_pythia8_taupinu+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 3
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 37
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -396,13 +528,19 @@
         "name": "VHToHtt_NLO_Pow_13TeV_py8_taupinu+VHToH_Pow_LHE_13TeV+Hadronizer_TuneCP5_13TeV_Httpinu_powhegEmissionVeto_pythia8+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 28
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -413,13 +551,19 @@
         "name": "DYTollJets_LO_Mad_13TeV_py8_taurhonu+DYToll01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCP5_13TeV_MLM_5f_max4j_LHE_pythia8_taurhonu+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 4
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 19
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -430,13 +574,19 @@
         "name": "WTolNuJets_LO_Mad_13TeV_py8_taurhonu+WTolNu01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCP5_13TeV_MLM_5f_max4j_LHE_pythia8_taurhonu+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 3
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 13
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -447,13 +597,19 @@
         "name": "VHToHtt_NLO_Pow_13TeV_py8_taurhonu+VHToH_Pow_LHE_13TeV+Hadronizer_TuneCP5_13TeV_Httrhonu_powhegEmissionVeto_pythia8+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 25
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -464,13 +620,19 @@
         "name": "WTolNuJets_LO_Mad_13TeV_py8_Ta+WTolNu01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCP5_13TeV_MLM_5f_max4j_LHE_pythia8_Tauola+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 3
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 44
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -481,13 +643,19 @@
         "name": "DYTollJets_LO_Mad_13TeV_py8_Ta+DYToll01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCP5_13TeV_MLM_5f_max4j_LHE_pythia8_Tauola+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 4
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 26
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -498,13 +666,19 @@
         "name": "TTbar012Jets_NLO_Mad_13TeV_py8_Evt+TTbar012Jets_5f_NLO_FXFX_Madgraph_LHE_13TeV+Hadronizer_TuneCP5_13TeV_aMCatNLO_FXFX_5f_max2j_max1p_LHE_pythia8_evtgen+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 4
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 66
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -515,13 +689,19 @@
         "name": "VHToHtt_NLO_Pow_13TeV_py8_Ta+VHToH_Pow_LHE_13TeV+Hadronizer_TuneCP5_13TeV_Htt_powhegEmissionVeto_pythia8_tauola+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 4
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 29
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -532,13 +712,19 @@
         "name": "WTolNuJets_LO_Mad_13TeV_py8_Ta_taupinu+WTolNu01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCP5_13TeV_MLM_5f_max4j_LHE_pythia8_Tauola_taupinu+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 4
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 52
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -549,13 +735,19 @@
         "name": "DYTollJets_LO_Mad_13TeV_py8_Ta_taupinu+DYToll01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCP5_13TeV_MLM_5f_max4j_LHE_pythia8_Tauola_taupinu+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 3
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 33
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -566,13 +758,19 @@
         "name": "VHToHtt_NLO_Pow_13TeV_py8_Ta_taupinu+VHToH_Pow_LHE_13TeV+Hadronizer_TuneCP5_13TeV_Httpinu_powhegEmissionVeto_pythia8_tauola+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 4
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 19
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -583,13 +781,19 @@
         "name": "WTolNuJets_LO_Mad_13TeV_py8_Ta_taurhonu+WTolNu01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCP5_13TeV_MLM_5f_max4j_LHE_pythia8_Tauola_taurhonu+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 3
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 28
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -600,13 +804,19 @@
         "name": "DYTollJets_LO_Mad_13TeV_py8_Ta_taurhonu+DYToll01234Jets_5f_LO_MLM_Madgraph_LHE_13TeV+Hadronizer_TuneCP5_13TeV_MLM_5f_max4j_LHE_pythia8_Tauola_taurhonu+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 2
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 35
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -617,13 +827,19 @@
         "name": "VHToHtt_NLO_Pow_13TeV_py8_Ta_taurhonu+VHToH_Pow_LHE_13TeV+Hadronizer_TuneCP5_13TeV_Httrhonu_powhegEmissionVeto_pythia8_tauola+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 4
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 30
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -634,10 +850,14 @@
         "name": "ReggeGribovPartonMC_EposLHC_5TeV_pPb+ReggeGribovPartonMC_EposLHC_5TeV_pPb+HARVESTGEN",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 42
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -648,10 +868,14 @@
         "name": "sherpa_ZtoEE_0j_OpenLoops_13TeV_MASTER+sherpa_ZtoEE_0j_OpenLoops_13TeV_MASTER+HARVESTGEN",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 18
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -662,10 +886,14 @@
         "name": "TTbar_13TeV_Pow_herwig7+TTbar_13TeV_Pow_herwig7+HARVESTGEN",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 23
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -676,10 +904,14 @@
         "name": "sherpa_ttbar_2j_MENLOPS_13TeV_MASTER+sherpa_ttbar_2j_MENLOPS_13TeV_MASTER+HARVESTGEN",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 20
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -690,10 +922,14 @@
         "name": "BuToKstarJPsiToMuMu_forSTEAM_13TeV_TuneCUETP8M1+BuToKstarJPsiToMuMu_forSTEAM_13TeV_TuneCUETP8M1+HARVESTGEN",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 26
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -704,10 +940,14 @@
         "name": "BsToMuMu_forSTEAM_13TeV_TuneCUETP8M1+BsToMuMu_forSTEAM_13TeV_TuneCUETP8M1+HARVESTGEN",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 21
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -718,13 +958,19 @@
         "name": "TTbar012Jets_NLO_Mad_13TeV_py8+TTbar012Jets_5f_NLO_FXFX_Madgraph_LHE_13TeV+Hadronizer_TuneCP5_13TeV_aMCatNLO_FXFX_5f_max2j_max1p_LHE_pythia8+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 5
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 34
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -735,13 +981,19 @@
         "name": "VHToHtt_NLO_Pow_13TeV_py8+VHToH_Pow_LHE_13TeV+Hadronizer_TuneCP5_13TeV_Htt_powhegEmissionVeto_pythia8+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 4
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 17
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -752,13 +1004,19 @@
         "name": "VBFToH4l_NLO_Pow_JHU_13TeV_py8+VBFToH_Pow_JHU4l_LHE_13TeV+Hadronizer_TuneCP5_13TeV_powhegEmissionVeto_pythia8+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 4
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 17
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -769,13 +1027,19 @@
         "name": "DYTollJets_NLO_Mad_13TeV_py8+DYToll012Jets_5f_NLO_FXFX_Madgraph_LHE_13TeV+Hadronizer_TuneCP5_13TeV_aMCatNLO_FXFX_5f_max2j_max0p_LHE_pythia8+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 3
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 17
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -786,13 +1050,19 @@
         "name": "TTbar_NLO_Pow_13TeV_py8+TTbar_Pow_LHE_13TeV+Hadronizer_TuneCP5_13TeV_powhegEmissionVeto2p_pythia8+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 5
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 37
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -803,10 +1073,14 @@
         "name": "ZprimeToll_M3000_13TeV_pythia8+ZprimeToll_M3000_13TeV_pythia8+HARVESTGEN",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 26
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -817,10 +1091,14 @@
         "name": "WprimeTolNu_M3000_13TeV_pythia8+WprimeTolNu_M3000_13TeV_pythia8+HARVESTGEN",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 29
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -831,13 +1109,19 @@
         "name": "BulkG_ZZ_2L2Q_M1200_narrow_13TeV_pythia8+BulkG_M1200_narrow_2L2Q_LHE_13TeV+Hadronizer_TuneCUETP8M1_Mad_pythia8+HARVESTGEN2",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 42
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -848,19 +1132,29 @@
         "name": "RunMinBias2011A+RunMinBias2011A+TIER0+SKIMD+HARVESTDfst2+ALCASPLIT",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 444,
+                "status": "PASSED",
+                "warnings": 858
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 279
             },
             {
-                "status": "PASSED"
+                "errors": 27,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 79
             }
         ]
     },
@@ -871,31 +1165,49 @@
         "name": "RunMinBias2011A+RunMinBias2011A+TIER0EXP+ALCAEXP+ALCAHARVDSIPIXELCALRUN1+ALCAHARVD1+ALCAHARVD2+ALCAHARVD3+ALCAHARVD4+ALCAHARVD5",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 144,
+                "status": "PASSED",
+                "warnings": 728
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 32
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2
             },
             {
-                "status": "PASSED"
+                "errors": 10,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2
             }
         ]
     },
@@ -906,25 +1218,39 @@
         "name": "RunHI2011+RunHI2011+TIER0EXPHI+ALCAEXPHI+ALCAHARVD1HI+ALCAHARVD2HI+ALCAHARVD3HI+ALCAHARVD5HI",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 80,
+                "status": "PASSED",
+                "warnings": 688
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 16
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2
             }
         ]
     },
@@ -935,16 +1261,24 @@
         "name": "TestEnableEcalHCAL2017B+TestEnableEcalHCAL2017B+TIER0EXPTE+ALCAEXPTE+ALCAHARVDTE",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 15
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 14
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -955,19 +1289,29 @@
         "name": "AlCaLumiPixels2016H+AlCaLumiPixels2016H+TIER0EXPLP+ALCAEXPLP+ALCAHARVLP+TIER0PROMPTLP",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 12
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3
             }
         ]
     },
@@ -978,19 +1322,29 @@
         "name": "RunHLTPhy2017B+RunHLTPhy2017B+TIER0EXPHPBS+ALCASPLITHPBS+ALCAHARVDHPBS+ALCAHARVDHPBSLOWPU",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 347
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 34
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -1001,16 +1355,24 @@
         "name": "RunZeroBias2017F+RunZeroBias2017F+TIER0RAWSIPIXELCAL+ALCASPLITSIPIXELCAL+ALCAHARVDSIPIXELCAL",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 1045
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -1021,16 +1383,24 @@
         "name": "RunExpressPhy2017F+RunExpressPhy2017F+TIER0EXPSIPIXELCAL+ALCASPLITSIPIXELCAL+ALCAHARVDSIPIXELCAL",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 21
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -1064,16 +1434,24 @@
         "name": "SingleMuPt1_UP15+SingleMuPt1_UP15INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3
             },
             {
-                "status": "PASSED"
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 287
             },
             {
-                "status": "PASSED"
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 2
             }
         ]
     },
@@ -1084,19 +1462,29 @@
         "name": "CosmicsSPLoose_UP15+CosmicsSPLoose_UP15INPUT+DIGICOS_UP15+RECOCOS_UP15+ALCACOS_UP15+HARVESTCOS_UP15",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 126
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 4
             },
             {
-                "status": "PASSED"
+                "errors": 78,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -1173,16 +1561,24 @@
         "name": "NuGun_UP15+NuGun_UP15INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2
             },
             {
-                "status": "PASSED"
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 431
             },
             {
-                "status": "PASSED"
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 2
             }
         ]
     },
@@ -1193,16 +1589,24 @@
         "name": "TTbar_13+TTbar_13INPUT+DIGIUP15+RECOUP15_trackingOnly+HARVESTUP15_trackingOnly",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 28
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 93
             },
             {
-                "status": "PASSED"
+                "errors": 7,
+                "status": "PASSED",
+                "warnings": 10
             }
         ]
     }
