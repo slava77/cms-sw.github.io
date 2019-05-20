@@ -248,6 +248,34 @@
     },
     {
         "exitcode": 0,
+        "id": "4.68",
+        "known_error": 0,
+        "name": "WElSkim2012C+WElSkim2012C+HLTDSKIM+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 37
+            },
+            {
+                "errors": 6,
+                "status": "PASSED",
+                "warnings": 910
+            },
+            {
+                "errors": 33,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.77",
         "known_error": 0,
         "name": "ZElSkim2012D+ZElSkim2012D+HLTDSKIM+RECODR1reHLT+HARVESTDR1reHLT",
@@ -1823,6 +1851,34 @@
             },
             {
                 "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.774",
+        "known_error": 0,
+        "name": "RunMuonEG2016H+RunMuonEG2016H+HLTDR2_2016+RECODR2_2016reHLT_skimMuonEG_Prompt+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 156,
+                "status": "PASSED",
+                "warnings": 145
+            },
+            {
+                "errors": 367,
+                "status": "PASSED",
+                "warnings": 988
+            },
+            {
+                "errors": 1282,
                 "status": "PASSED",
                 "warnings": 0
             }

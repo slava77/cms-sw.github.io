@@ -1,6 +1,19 @@
 [
     {
         "exitcode": 0,
+        "id": "135.8",
+        "known_error": 0,
+        "name": "MinBiasFS_13_ForMixing+MinBiasFS_13_ForMixing",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 10
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.7802",
         "known_error": 0,
         "name": "RunHLTPhy2017B_AODextra+RunHLTPhy2017B_AODextra+DQMHLTonAODextra_2017+HARVESTDQMHLTonAOD_2017",
@@ -32,6 +45,24 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 13
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "504.0",
+        "known_error": 0,
+        "name": "QCD_Pt-30_13TeV_pythia8+QCD_Pt-30_13TeV_pythia8+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 8
             },
             {
                 "errors": 0,
@@ -78,6 +109,42 @@
     },
     {
         "exitcode": 0,
+        "id": "507.0",
+        "known_error": 0,
+        "name": "SoftQCDDiffractive_13TeV_pythia8+SoftQCDDiffractive_13TeV_pythia8+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "508.0",
+        "known_error": 0,
+        "name": "SoftQCDnonDiffractive_13TeV_pythia8+SoftQCDnonDiffractive_13TeV_pythia8+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "509.0",
         "known_error": 0,
         "name": "SoftQCDelastic_13TeV_pythia8+SoftQCDelastic_13TeV_pythia8+HARVESTGEN",
@@ -114,6 +181,24 @@
     },
     {
         "exitcode": 0,
+        "id": "531.0",
+        "known_error": 0,
+        "name": "ReggeGribovPartonMC_EposLHC_5TeV_pPb+ReggeGribovPartonMC_EposLHC_5TeV_pPb+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 6
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "541.0",
         "known_error": 0,
         "name": "BuToKstarJPsiToMuMu_forSTEAM_13TeV_TuneCUETP8M1+BuToKstarJPsiToMuMu_forSTEAM_13TeV_TuneCUETP8M1+HARVESTGEN",
@@ -122,6 +207,24 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 7
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "545.0",
+        "known_error": 0,
+        "name": "BsToMuMu_forSTEAM_13TeV_TuneCUETP8M1+BsToMuMu_forSTEAM_13TeV_TuneCUETP8M1+HARVESTGEN",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 6
             },
             {
                 "errors": 0,
@@ -145,6 +248,34 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "1010.0",
+        "known_error": 0,
+        "name": "TestEnableEcalHCAL2017B+TestEnableEcalHCAL2017B+TIER0EXPTE+ALCAEXPTE+ALCAHARVDTE",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 1
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 2
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 75848
             }
         ]
     },

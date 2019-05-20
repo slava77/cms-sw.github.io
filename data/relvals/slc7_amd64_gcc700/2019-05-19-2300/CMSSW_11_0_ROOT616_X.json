@@ -62,6 +62,24 @@
     },
     {
         "exitcode": 0,
+        "id": "5.1",
+        "known_error": 0,
+        "name": "TTbar+TTbarFS+HARVESTFS",
+        "steps": [
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 124
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "5.2",
         "known_error": 0,
         "name": "SingleMuPt10+SingleMuPt10FS+HARVESTFS",
@@ -310,6 +328,19 @@
     },
     {
         "exitcode": 0,
+        "id": "123.3",
+        "known_error": 0,
+        "name": "SingleMuPt1+SingleMuPt1FS",
+        "steps": [
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 227
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "124.5",
         "known_error": 0,
         "name": "SinglePiPt100+SinglePiPt100FS",
@@ -474,6 +505,24 @@
                 "errors": 16,
                 "status": "PASSED",
                 "warnings": 81
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "135.13",
+        "known_error": 0,
+        "name": "TTbar_13+TTbarFS_13_trackingOnlyValidation+HARVESTUP15FS_trackingOnly",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 613
+            },
+            {
+                "errors": 15,
+                "status": "PASSED",
+                "warnings": 11
             }
         ]
     },
@@ -2675,6 +2724,29 @@
     },
     {
         "exitcode": 0,
+        "id": "2017.4",
+        "known_error": 0,
+        "name": "ZEE_13_UP17+ZEEFS_13_UP17+HARVESTUP17FS+MINIAODMCUP17FS",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 469
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 425
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "2018.1",
         "known_error": 0,
         "name": "TTbar_13_UP18+TTbarFS_13_UP18+HARVESTUP18FS+MINIAODMCUP18FS",
@@ -2884,6 +2956,19 @@
                 "errors": 36,
                 "status": "PASSED",
                 "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250199.0",
+        "known_error": 0,
+        "name": "PREMIXUP15_PU25+PREMIXUP15_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 49
             }
         ]
     },
