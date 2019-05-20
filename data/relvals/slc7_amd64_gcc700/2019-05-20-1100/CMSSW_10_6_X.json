@@ -131,6 +131,34 @@
     },
     {
         "exitcode": 0,
+        "id": "4.42",
+        "known_error": 0,
+        "name": "RunMET2012A+RunMET2012A+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 34
+            },
+            {
+                "errors": 15,
+                "status": "PASSED",
+                "warnings": 1008
+            },
+            {
+                "errors": 33,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.54",
         "known_error": 0,
         "name": "RunEl2012B+RunEl2012B+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
@@ -175,6 +203,34 @@
             },
             {
                 "errors": 32,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "4.73",
+        "known_error": 0,
+        "name": "RunPhoton2012D+RunPhoton2012D+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 41
+            },
+            {
+                "errors": 12,
+                "status": "PASSED",
+                "warnings": 895
+            },
+            {
+                "errors": 33,
                 "status": "PASSED",
                 "warnings": 0
             }
@@ -1050,6 +1106,29 @@
                 "errors": 2,
                 "status": "PASSED",
                 "warnings": 132
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "130.0",
+        "known_error": 0,
+        "name": "SinglePiPt10+SinglePiPt10+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 8
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 3
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 113
             }
         ]
     },
@@ -2874,6 +2953,34 @@
                 "errors": 211,
                 "status": "PASSED",
                 "warnings": 1673
+            },
+            {
+                "errors": 32,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.845",
+        "known_error": 0,
+        "name": "RunCharmonium2017C+RunCharmonium2017C+HLTDR2_2017+RECODR2_2017reHLT_skimCharmonium_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 134
+            },
+            {
+                "errors": 210,
+                "status": "PASSED",
+                "warnings": 1220
             },
             {
                 "errors": 32,
@@ -5411,6 +5518,29 @@
     },
     {
         "exitcode": 0,
+        "id": "2018.7",
+        "known_error": 0,
+        "name": "H125GGgluonfusion_13_UP18+H125GGgluonfusionFS_13_UP18+HARVESTUP18FS+MINIAODMCUP18FS",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 152
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 75
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "2018.8",
         "known_error": 0,
         "name": "MinBiasFS_13_UP18_ForMixing+MinBiasFS_13_UP18_ForMixing",
@@ -5730,6 +5860,34 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 15
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "25211.18",
+        "known_error": 0,
+        "name": "GluGluHToZZTo4L_M125_Pow_py8_Evt_13UP18+GluGluHToZZTo4L_M125_Pow_py8_Evt_13UP18+DIGIUP18_PU25+RECOUP18_PU25+HARVESTUP18_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 17
+            },
+            {
+                "errors": 4,
+                "status": "PASSED",
+                "warnings": 158
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 406
+            },
+            {
+                "errors": 27,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -6478,6 +6636,29 @@
                 "errors": 16,
                 "status": "PASSED",
                 "warnings": 156
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250407.18",
+        "known_error": 0,
+        "name": "NuGun_UP18+FS_NuGun_UP18_PRMXUP18_PU50+HARVESTUP18FS+MINIAODMCUP18FS",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 126
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 73
             }
         ]
     },
