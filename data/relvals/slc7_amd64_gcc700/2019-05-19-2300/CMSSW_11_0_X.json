@@ -836,6 +836,34 @@
     },
     {
         "exitcode": 0,
+        "id": "4.63",
+        "known_error": 0,
+        "name": "RunPhoton2012C+RunPhoton2012C+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 123
+            },
+            {
+                "errors": 12,
+                "status": "PASSED",
+                "warnings": 1685
+            },
+            {
+                "errors": 33,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "4.65",
         "known_error": 0,
         "name": "RunJet2012C+RunJet2012C+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
@@ -3359,6 +3387,34 @@
                 "errors": 210,
                 "status": "PASSED",
                 "warnings": 1815
+            },
+            {
+                "errors": 32,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "134.703",
+        "known_error": 0,
+        "name": "RunDoubleMuon2015B+RunDoubleMuon2015B+HLTDR2_50ns+RECODR2_50nsreHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 97
+            },
+            {
+                "errors": 213,
+                "status": "PASSED",
+                "warnings": 2422
             },
             {
                 "errors": 32,
@@ -8055,6 +8111,34 @@
                 "errors": 18,
                 "status": "PASSED",
                 "warnings": 1275
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.855",
+        "known_error": 0,
+        "name": "RunSingleMu2018A+RunSingleMu2018A+HLTDR2_2018+RECODR2_2018reHLT_skimSingleMu_Offline_Lumi+HARVEST2018_L1TMuDQM",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 477
+            },
+            {
+                "errors": 18,
+                "status": "PASSED",
+                "warnings": 1222
             },
             {
                 "errors": 26,
@@ -16193,6 +16277,19 @@
     },
     {
         "exitcode": 0,
+        "id": "20261.97",
+        "known_error": 0,
+        "name": "NuGun+SingleNuE10_cf_2023D17PU_PremixHLBeamSpotFullPU_Premix",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 21
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "20434.0",
         "known_error": 0,
         "name": "TTbar_14TeV+TTbar_14TeV_TuneCUETP8M1_2023D19_GenSimHLBeamSpotFull14+DigiFullTrigger_2023D19+RecoFullGlobal_2023D19+HARVESTFullGlobal_2023D19",
@@ -16883,6 +16980,29 @@
     },
     {
         "exitcode": 0,
+        "id": "25402.0",
+        "known_error": 0,
+        "name": "TTbar_13+FS_TTbar_13_UP15_PU25+HARVESTUP15FS+MINIAODMCUP15FS",
+        "steps": [
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 72
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 231
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "25402.17",
         "known_error": 0,
         "name": "TTbar_13+FS_TTbar_13_UP17_PU50+HARVESTUP17FS+MINIAODMCUP17FS",
@@ -16947,6 +17067,29 @@
                 "errors": 16,
                 "status": "PASSED",
                 "warnings": 68
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "25405.17",
+        "known_error": 0,
+        "name": "ZTT_13+FS_ZTT_13_UP17_PU50+HARVESTUP17FS+MINIAODMCUP17FS",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 196
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 78
             }
         ]
     },

@@ -898,6 +898,34 @@
     },
     {
         "exitcode": 0,
+        "id": "4.65",
+        "known_error": 0,
+        "name": "RunJet2012C+RunJet2012C+HLTD+RECODR1reHLT+HARVESTDR1reHLT",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 12
+            },
+            {
+                "errors": 10,
+                "status": "PASSED",
+                "warnings": 1346
+            },
+            {
+                "errors": 33,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "5.1",
         "known_error": 0,
         "name": "TTbar+TTbarFS+HARVESTFS",
@@ -2701,16 +2729,24 @@
         "name": "RunMET2017E+RunMET2017E+HLTDR2_2017+RECODR2_2017reHLT_skimMET_Prompt+HARVEST2017",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 95
             },
             {
-                "status": "PASSED"
+                "errors": 207,
+                "status": "PASSED",
+                "warnings": 1753
             },
             {
-                "status": "PASSED"
+                "errors": 32,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -5646,13 +5682,19 @@
         "name": "SingleElectronFlatPt1To100+SingleElectronFlatPt1To100+DIGIPU1+RECOPU1",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 22
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 62
             },
             {
-                "status": "PASSED"
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 287
             }
         ]
     },
@@ -6123,16 +6165,24 @@
         "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2017Design_GenSimFullINPUT+DigiFull_2017Design+RecoFull_2017Design+HARVESTFull_2017Design",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 73
             },
             {
-                "status": "PASSED"
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 332
             },
             {
-                "status": "PASSED"
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 2
             }
         ]
     },
