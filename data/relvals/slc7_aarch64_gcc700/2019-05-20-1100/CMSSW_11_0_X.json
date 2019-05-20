@@ -638,6 +638,19 @@
     },
     {
         "exitcode": 17152,
+        "id": "158.0",
+        "known_error": 0,
+        "name": "HydjetQ_B12_5020GeV_2018_ppReco+HydjetQ_B12_5020GeV_2018_ppReco+DIGIHI2018PPRECO+RECOHI2018PPRECO+ALCARECOHI2018PPRECO+HARVESTHI2018PPRECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 17152,
         "id": "204.0",
         "known_error": 0,
         "name": "QQH1352T+QQH1352T+DIGIPU1+RECOPU1+HARVEST",
@@ -1040,7 +1053,7 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 17152,
         "id": "20234.99",
         "known_error": 0,
         "name": "TTbar_14TeV+TTbar_14TeV_TuneCUETP8M1_2023D17PU_GenSimHLBeamSpotFull14INPUT+SingleNuE10_cf_2023D17PU_PremixHLBeamSpotFull14PU_Premix+DigiFullTriggerPUPRMXCombined_2023D17PU+RecoFullGlobalPUPRMX_2023D17PU+HARVESTFullGlobalPU_2023D17PU",
@@ -1101,6 +1114,19 @@
         "id": "25402.0",
         "known_error": 0,
         "name": "TTbar_13+FS_TTbar_13_UP15_PU25+HARVESTUP15FS+MINIAODMCUP15FS",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 256,
+        "id": "25403.18",
+        "known_error": 0,
+        "name": "H125GGgluonfusion_13+FS_H125GGgluonfusion_13_UP18_PU50+HARVESTUP18FS+MINIAODMCUP18FS",
         "steps": [
             {
                 "errors": 0,
@@ -1596,7 +1622,7 @@
         ]
     },
     {
-        "exitcode": 64000,
+        "exitcode": 17152,
         "id": "18.0",
         "known_error": 0,
         "name": "SingleGammaPt10+SingleGammaPt10INPUT+DIGI+RECO+HARVEST",
@@ -1609,7 +1635,7 @@
             {
                 "errors": 0,
                 "status": "FAILED",
-                "warnings": 1
+                "warnings": 0
             }
         ]
     },
@@ -1650,7 +1676,7 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 17152,
         "id": "22.0",
         "known_error": 0,
         "name": "SingleMuPt1000+SingleMuPt1000INPUT+DIGI+RECO+HARVEST",
@@ -2046,7 +2072,7 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 16640,
         "id": "136.721",
         "known_error": 0,
         "name": "RunHLTPhy2016B+RunHLTPhy2016B+HLTDR2_2016+RECODR2_2016reHLT_HIPM+HARVESTDR2",
@@ -2082,7 +2108,7 @@
         ]
     },
     {
-        "exitcode": 17152,
+        "exitcode": 16640,
         "id": "136.723",
         "known_error": 0,
         "name": "RunDoubleMuon2016B+RunDoubleMuon2016B+HLTDR2_2016+RECODR2_2016reHLT_HIPM+HARVESTDR2",
@@ -2100,7 +2126,7 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 16640,
         "id": "136.724",
         "known_error": 0,
         "name": "RunJetHT2016B+RunJetHT2016B+HLTDR2_2016+RECODR2_2016reHLT_skimJetHT_HIPM+HARVESTDR2",
@@ -2118,7 +2144,7 @@
         ]
     },
     {
-        "exitcode": 64000,
+        "exitcode": 16640,
         "id": "136.726",
         "known_error": 0,
         "name": "RunMuonEG2016B+RunMuonEG2016B+HLTDR2_2016+RECODR2_2016reHLT_skimMuonEG_HIPM+HARVESTDR2",
@@ -2154,7 +2180,7 @@
         ]
     },
     {
-        "exitcode": 23552,
+        "exitcode": 16640,
         "id": "136.73",
         "known_error": 0,
         "name": "RunSingleMu2016B+RunSingleMu2016B+HLTDR2_2016+RECODR2_2016reHLT_skimSingleMu_HIPM+HARVEST2016_L1TMuDQM",
@@ -2167,12 +2193,12 @@
             {
                 "errors": 0,
                 "status": "FAILED",
-                "warnings": 1
+                "warnings": 0
             }
         ]
     },
     {
-        "exitcode": 23552,
+        "exitcode": 17152,
         "id": "136.732",
         "known_error": 0,
         "name": "RunZeroBias2016B+RunZeroBias2016B+HLTDR2_2016+RECODR2_2016reHLT_HIPM+HARVESTDR2",
@@ -2185,12 +2211,12 @@
             {
                 "errors": 0,
                 "status": "FAILED",
-                "warnings": 1
+                "warnings": 0
             }
         ]
     },
     {
-        "exitcode": 23552,
+        "exitcode": 16640,
         "id": "136.734",
         "known_error": 0,
         "name": "RunMuOnia2016B+RunMuOnia2016B+HLTDR2_2016+RECODR2_2016reHLT_skimMuOnia_HIPM+HARVESTDR2",
@@ -2203,7 +2229,7 @@
             {
                 "errors": 0,
                 "status": "FAILED",
-                "warnings": 1
+                "warnings": 0
             }
         ]
     },
@@ -2226,7 +2252,7 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 16640,
         "id": "136.736",
         "known_error": 0,
         "name": "RunHLTPhy2016C+RunHLTPhy2016C+HLTDR2_2016+RECODR2_2016reHLT_HIPM+HARVESTDR2",
@@ -2244,7 +2270,7 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 16640,
         "id": "136.737",
         "known_error": 0,
         "name": "RunDoubleEG2016C+RunDoubleEG2016C+HLTDR2_2016+RECODR2_2016reHLT_skimDoubleEG_HIPM+HARVESTDR2",
@@ -2280,7 +2306,7 @@
         ]
     },
     {
-        "exitcode": 17152,
+        "exitcode": 16640,
         "id": "136.742",
         "known_error": 0,
         "name": "RunSingleEl2016C+RunSingleEl2016C+HLTDR2_2016+RECODR2_2016reHLT_L1TEgDQM_HIPM+HARVEST2016_L1TEgDQM",
@@ -2298,7 +2324,7 @@
         ]
     },
     {
-        "exitcode": 23552,
+        "exitcode": 16640,
         "id": "136.745",
         "known_error": 0,
         "name": "RunZeroBias2016C+RunZeroBias2016C+HLTDR2_2016+RECODR2_2016reHLT_HIPM+HARVESTDR2",
@@ -2311,7 +2337,7 @@
             {
                 "errors": 0,
                 "status": "FAILED",
-                "warnings": 1
+                "warnings": 0
             }
         ]
     },
@@ -2334,7 +2360,7 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 16640,
         "id": "136.759",
         "known_error": 0,
         "name": "RunDoubleEG2016E+RunDoubleEG2016E+HLTDR2_2016+RECODR2_2016reHLT_skimDoubleEG_HIPM+HARVESTDR2",
@@ -2352,7 +2378,7 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 16640,
         "id": "136.761",
         "known_error": 0,
         "name": "RunJetHT2016E+RunJetHT2016E+HLTDR2_2016+RECODR2_2016reHLT_skimJetHT_HIPM+HARVESTDR2",
@@ -2370,7 +2396,7 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 16640,
         "id": "136.762",
         "known_error": 0,
         "name": "RunMET2016E+RunMET2016E+HLTDR2_2016+RECODR2_2016reHLT_skimMET_HIPM+HARVESTDR2",
@@ -2388,7 +2414,7 @@
         ]
     },
     {
-        "exitcode": 23552,
+        "exitcode": 17152,
         "id": "136.763",
         "known_error": 0,
         "name": "RunMuonEG2016E+RunMuonEG2016E+HLTDR2_2016+RECODR2_2016reHLT_skimMuonEG_HIPM+HARVESTDR2",
@@ -2401,12 +2427,12 @@
             {
                 "errors": 0,
                 "status": "FAILED",
-                "warnings": 2
+                "warnings": 0
             }
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 17152,
         "id": "136.764",
         "known_error": 0,
         "name": "RunSingleEl2016E+RunSingleEl2016E+HLTDR2_2016+RECODR2_2016reHLT_L1TEgDQM_HIPM+HARVEST2016_L1TEgDQM",
@@ -2460,7 +2486,7 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 16640,
         "id": "136.768",
         "known_error": 0,
         "name": "RunMuOnia2016E+RunMuOnia2016E+HLTDR2_2016+RECODR2_2016reHLT_skimMuOnia_HIPM+HARVESTDR2",
@@ -2478,7 +2504,7 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 16640,
         "id": "136.769",
         "known_error": 0,
         "name": "RunHLTPhy2016H+RunHLTPhy2016H+HLTDR2_2016+RECODR2_2016reHLT_Prompt+HARVESTDR2",
@@ -2496,7 +2522,7 @@
         ]
     },
     {
-        "exitcode": 23552,
+        "exitcode": 16640,
         "id": "136.775",
         "known_error": 0,
         "name": "RunSingleEl2016H+RunSingleEl2016H+HLTDR2_2016+RECODR2_2016reHLT_Prompt_L1TEgDQM+HARVEST2016_L1TEgDQM",
@@ -2509,12 +2535,12 @@
             {
                 "errors": 0,
                 "status": "FAILED",
-                "warnings": 1
+                "warnings": 0
             }
         ]
     },
     {
-        "exitcode": 23552,
+        "exitcode": 16640,
         "id": "136.776",
         "known_error": 0,
         "name": "RunSingleMu2016H+RunSingleMu2016H+HLTDR2_2016+RECODR2_2016reHLT_Prompt_Lumi_L1TMuDQM+HARVEST2016_L1TMuDQM",
@@ -2527,7 +2553,7 @@
             {
                 "errors": 0,
                 "status": "FAILED",
-                "warnings": 1
+                "warnings": 0
             }
         ]
     },
@@ -2550,7 +2576,7 @@
         ]
     },
     {
-        "exitcode": 23552,
+        "exitcode": 16640,
         "id": "136.779",
         "known_error": 0,
         "name": "RunMuOnia2016H+RunMuOnia2016H+HLTDR2_2016+RECODR2_2016reHLT_skimMuOnia_Prompt+HARVESTDR2",
@@ -2563,7 +2589,7 @@
             {
                 "errors": 0,
                 "status": "FAILED",
-                "warnings": 1
+                "warnings": 0
             }
         ]
     },
@@ -2586,7 +2612,7 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 16640,
         "id": "136.782",
         "known_error": 0,
         "name": "RunDoubleMuon2017B+RunDoubleMuon2017B+HLTDR2_2017+RECODR2_2017reHLT_Prompt+HARVEST2017",
@@ -2604,7 +2630,7 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 16640,
         "id": "136.785",
         "known_error": 0,
         "name": "RunMuonEG2017B+RunMuonEG2017B+HLTDR2_2017+RECODR2_2017reHLT_skimMuonEG_Prompt+HARVEST2017",
@@ -2640,7 +2666,7 @@
         ]
     },
     {
-        "exitcode": 23552,
+        "exitcode": 16640,
         "id": "136.788",
         "known_error": 0,
         "name": "RunSinglePh2017B+RunSinglePh2017B+HLTDR2_2017+RECODR2_2017reHLT_skimSinglePh_Prompt+HARVEST2017",
@@ -2653,12 +2679,12 @@
             {
                 "errors": 0,
                 "status": "FAILED",
-                "warnings": 1
+                "warnings": 0
             }
         ]
     },
     {
-        "exitcode": 23552,
+        "exitcode": 64000,
         "id": "136.789",
         "known_error": 0,
         "name": "RunZeroBias2017B+RunZeroBias2017B+HLTDR2_2017+RECODR2_2017reHLT_Prompt+HARVEST2017",
@@ -2671,7 +2697,7 @@
             {
                 "errors": 0,
                 "status": "FAILED",
-                "warnings": 1
+                "warnings": 0
             }
         ]
     },
@@ -2712,7 +2738,7 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 16640,
         "id": "136.797",
         "known_error": 0,
         "name": "RunMuonEG2017C+RunMuonEG2017C+HLTDR2_2017+RECODR2_2017reHLT_skimMuonEG_Prompt+HARVEST2017",
@@ -2748,7 +2774,7 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 16640,
         "id": "136.8",
         "known_error": 0,
         "name": "RunSinglePh2017C+RunSinglePh2017C+HLTDR2_2017+RECODR2_2017reHLT_skimSinglePh_Prompt+HARVEST2017",
@@ -2784,7 +2810,7 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 16640,
         "id": "136.802",
         "known_error": 0,
         "name": "RunMuOnia2017C+RunMuOnia2017C+HLTDR2_2017+RECODR2_2017reHLT_skimMuOnia_Prompt+HARVEST2017",
@@ -2820,7 +2846,7 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 16640,
         "id": "136.805",
         "known_error": 0,
         "name": "RunDoubleEG2017D+RunDoubleEG2017D+HLTDR2_2017+RECODR2_2017reHLT_skimDoubleEG_Prompt+HARVEST2017",
@@ -2838,7 +2864,7 @@
         ]
     },
     {
-        "exitcode": 64000,
+        "exitcode": 16640,
         "id": "136.806",
         "known_error": 0,
         "name": "RunDoubleMuon2017D+RunDoubleMuon2017D+HLTDR2_2017+RECODR2_2017reHLT_Prompt+HARVEST2017",
@@ -2856,7 +2882,25 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 16640,
+        "id": "136.807",
+        "known_error": 0,
+        "name": "RunJetHT2017D+RunJetHT2017D+HLTDR2_2017+RECODR2_2017reHLT_skimJetHT_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
         "id": "136.808",
         "known_error": 0,
         "name": "RunMET2017D+RunMET2017D+HLTDR2_2017+RECODR2_2017reHLT_skimMET_Prompt+HARVEST2017",
@@ -2874,7 +2918,7 @@
         ]
     },
     {
-        "exitcode": 17152,
+        "exitcode": 16640,
         "id": "136.809",
         "known_error": 0,
         "name": "RunMuonEG2017D+RunMuonEG2017D+HLTDR2_2017+RECODR2_2017reHLT_skimMuonEG_Prompt+HARVEST2017",
@@ -2892,7 +2936,7 @@
         ]
     },
     {
-        "exitcode": 23552,
+        "exitcode": 16640,
         "id": "136.812",
         "known_error": 0,
         "name": "RunSinglePh2017D+RunSinglePh2017D+HLTDR2_2017+RECODR2_2017reHLT_skimSinglePh_Prompt+HARVEST2017",
@@ -2905,12 +2949,12 @@
             {
                 "errors": 0,
                 "status": "FAILED",
-                "warnings": 1
+                "warnings": 0
             }
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 16640,
         "id": "136.813",
         "known_error": 0,
         "name": "RunZeroBias2017D+RunZeroBias2017D+HLTDR2_2017+RECODR2_2017reHLT_Prompt+HARVEST2017",
@@ -2928,7 +2972,7 @@
         ]
     },
     {
-        "exitcode": 23552,
+        "exitcode": 16640,
         "id": "136.814",
         "known_error": 0,
         "name": "RunMuOnia2017D+RunMuOnia2017D+HLTDR2_2017+RECODR2_2017reHLT_skimMuOnia_Prompt+HARVEST2017",
@@ -2941,7 +2985,7 @@
             {
                 "errors": 0,
                 "status": "FAILED",
-                "warnings": 2
+                "warnings": 0
             }
         ]
     },
@@ -2982,7 +3026,7 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 16640,
         "id": "136.821",
         "known_error": 0,
         "name": "RunMuonEG2017E+RunMuonEG2017E+HLTDR2_2017+RECODR2_2017reHLT_skimMuonEG_Prompt+HARVEST2017",
@@ -3000,7 +3044,7 @@
         ]
     },
     {
-        "exitcode": 64000,
+        "exitcode": 16640,
         "id": "136.822",
         "known_error": 0,
         "name": "RunSingleEl2017E+RunSingleEl2017E+HLTDR2_2017+RECODR2_2017reHLT_Prompt_L1TEgDQM+HARVEST2017_L1TEgDQM",
@@ -3036,7 +3080,7 @@
         ]
     },
     {
-        "exitcode": 17152,
+        "exitcode": 16640,
         "id": "136.824",
         "known_error": 0,
         "name": "RunSinglePh2017E+RunSinglePh2017E+HLTDR2_2017+RECODR2_2017reHLT_skimSinglePh_Prompt+HARVEST2017",
@@ -3054,7 +3098,7 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 17152,
         "id": "136.825",
         "known_error": 0,
         "name": "RunZeroBias2017E+RunZeroBias2017E+HLTDR2_2017+RECODR2_2017reHLT_Prompt+HARVEST2017",
@@ -3144,7 +3188,7 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 16640,
         "id": "136.83",
         "known_error": 0,
         "name": "RunDoubleMuon2017F+RunDoubleMuon2017F+HLTDR2_2017+RECODR2_2017reHLT_Prompt+HARVEST2017",
@@ -3162,7 +3206,7 @@
         ]
     },
     {
-        "exitcode": 23552,
+        "exitcode": 16640,
         "id": "136.831",
         "known_error": 0,
         "name": "RunJetHT2017F+RunJetHT2017F+HLTDR2_2017+RECODR2_2017reHLT_skimJetHT_Prompt+HARVEST2017",
@@ -3175,12 +3219,12 @@
             {
                 "errors": 0,
                 "status": "FAILED",
-                "warnings": 1
+                "warnings": 0
             }
         ]
     },
     {
-        "exitcode": 23552,
+        "exitcode": 16640,
         "id": "136.832",
         "known_error": 0,
         "name": "RunMET2017F+RunMET2017F+HLTDR2_2017+RECODR2_2017reHLT_skimMET_Prompt+HARVEST2017",
@@ -3193,12 +3237,12 @@
             {
                 "errors": 0,
                 "status": "FAILED",
-                "warnings": 1
+                "warnings": 0
             }
         ]
     },
     {
-        "exitcode": 23552,
+        "exitcode": 16640,
         "id": "136.833",
         "known_error": 0,
         "name": "RunMuonEG2017F+RunMuonEG2017F+HLTDR2_2017+RECODR2_2017reHLT_skimMuonEG_Prompt+HARVEST2017",
@@ -3211,12 +3255,12 @@
             {
                 "errors": 0,
                 "status": "FAILED",
-                "warnings": 1
+                "warnings": 0
             }
         ]
     },
     {
-        "exitcode": 23552,
+        "exitcode": 16640,
         "id": "136.834",
         "known_error": 0,
         "name": "RunSingleEl2017F+RunSingleEl2017F+HLTDR2_2017+RECODR2_2017reHLT_Prompt_L1TEgDQM+HARVEST2017_L1TEgDQM",
@@ -3229,12 +3273,12 @@
             {
                 "errors": 0,
                 "status": "FAILED",
-                "warnings": 1
+                "warnings": 0
             }
         ]
     },
     {
-        "exitcode": 23552,
+        "exitcode": 16640,
         "id": "136.835",
         "known_error": 0,
         "name": "RunSingleMu2017F+RunSingleMu2017F+HLTDR2_2017+RECODR2_2017reHLT_skimSingleMu_Prompt_Lumi+HARVEST2017_L1TMuDQM",
@@ -3247,7 +3291,7 @@
             {
                 "errors": 0,
                 "status": "FAILED",
-                "warnings": 1
+                "warnings": 0
             }
         ]
     },
@@ -3306,7 +3350,7 @@
         ]
     },
     {
-        "exitcode": 64000,
+        "exitcode": 16640,
         "id": "136.8391",
         "known_error": 0,
         "name": "RunExpressPhy2017F+RunExpressPhy2017F+HLTDR2_2017+RECODR2_2017reHLTSiPixelCalZeroBias_Prompt+HARVEST2017",
@@ -3324,7 +3368,7 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 16640,
         "id": "136.841",
         "known_error": 0,
         "name": "RunDisplacedJet2017D+RunDisplacedJet2017D+HLTDR2_2017+RECODR2_2017reHLT_skimDisplacedJet_Prompt+HARVEST2017",
@@ -3342,7 +3386,7 @@
         ]
     },
     {
-        "exitcode": 23552,
+        "exitcode": 16640,
         "id": "136.842",
         "known_error": 0,
         "name": "RunDisplacedJet2017E+RunDisplacedJet2017E+HLTDR2_2017+RECODR2_2017reHLT_skimDisplacedJet_Prompt+HARVEST2017",
@@ -3355,12 +3399,12 @@
             {
                 "errors": 0,
                 "status": "FAILED",
-                "warnings": 1
+                "warnings": 0
             }
         ]
     },
     {
-        "exitcode": 23552,
+        "exitcode": 16640,
         "id": "136.843",
         "known_error": 0,
         "name": "RunDisplacedJet2017F+RunDisplacedJet2017F+HLTDR2_2017+RECODR2_2017reHLT_skimDisplacedJet_Prompt+HARVEST2017",
@@ -3373,7 +3417,7 @@
             {
                 "errors": 0,
                 "status": "FAILED",
-                "warnings": 2
+                "warnings": 0
             }
         ]
     },
@@ -3648,7 +3692,7 @@
         ]
     },
     {
-        "exitcode": 16640,
+        "exitcode": 23040,
         "id": "136.869",
         "known_error": 0,
         "name": "RunMuOnia2018B+RunMuOnia2018B+HLTDR2_2018+RECODR2_2018reHLT_skimMuOnia_Offline+HARVEST2018",
@@ -4008,7 +4052,25 @@
         ]
     },
     {
-        "exitcode": 16640,
+        "exitcode": 17152,
+        "id": "202.0",
+        "known_error": 0,
+        "name": "TTbar+TTbarINPUT+DIGIPU1+RECOPU1+HARVEST",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 17152,
         "id": "203.0",
         "known_error": 0,
         "name": "H130GGgluonfusion+H130GGgluonfusionINPUT+DIGIPU1+RECOPU1+HARVEST",
@@ -4021,7 +4083,7 @@
             {
                 "errors": 0,
                 "status": "FAILED",
-                "warnings": 1
+                "warnings": 0
             }
         ]
     },
@@ -4368,7 +4430,7 @@
         ]
     },
     {
-        "exitcode": 16640,
+        "exitcode": 17152,
         "id": "1320.0",
         "known_error": 0,
         "name": "SingleMuPt10_UP15+SingleMuPt10_UP15INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
@@ -4386,7 +4448,7 @@
         ]
     },
     {
-        "exitcode": 64000,
+        "exitcode": 17152,
         "id": "1321.0",
         "known_error": 0,
         "name": "SingleMuPt100_UP15+SingleMuPt100_UP15INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
@@ -4440,7 +4502,7 @@
         ]
     },
     {
-        "exitcode": 64000,
+        "exitcode": 17152,
         "id": "1325.0",
         "known_error": 0,
         "name": "TTbar_13+TTbar_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15+ALCATTUP15",
@@ -4561,12 +4623,12 @@
             {
                 "errors": 0,
                 "status": "FAILED",
-                "warnings": 2
+                "warnings": 0
             }
         ]
     },
     {
-        "exitcode": 16640,
+        "exitcode": 17152,
         "id": "1328.0",
         "known_error": 0,
         "name": "QCD_Pt_80_120_13+QCD_Pt_80_120_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
@@ -4638,7 +4700,7 @@
         ]
     },
     {
-        "exitcode": 22016,
+        "exitcode": 17152,
         "id": "1332.0",
         "known_error": 0,
         "name": "H125GGgluonfusion_13+H125GGgluonfusion_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
@@ -4710,7 +4772,7 @@
         ]
     },
     {
-        "exitcode": 16640,
+        "exitcode": 17152,
         "id": "1336.0",
         "known_error": 0,
         "name": "Wjet_Pt_3000_3500_13+Wjet_Pt_3000_3500_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
@@ -4836,7 +4898,7 @@
         ]
     },
     {
-        "exitcode": 16640,
+        "exitcode": 17152,
         "id": "1344.0",
         "known_error": 0,
         "name": "ZpEE_2250_13+ZpEE_2250_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
@@ -4854,7 +4916,7 @@
         ]
     },
     {
-        "exitcode": 16640,
+        "exitcode": 17152,
         "id": "1345.0",
         "known_error": 0,
         "name": "ZpTT_1500_13+ZpTT_1500_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
@@ -4872,7 +4934,7 @@
         ]
     },
     {
-        "exitcode": 16640,
+        "exitcode": 17152,
         "id": "1347.0",
         "known_error": 0,
         "name": "Upsilon1SToMuMu_13+Upsilon1SToMuMu_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
@@ -4890,7 +4952,7 @@
         ]
     },
     {
-        "exitcode": 16640,
+        "exitcode": 17152,
         "id": "1348.0",
         "known_error": 0,
         "name": "EtaBToJpsiJpsi_13+EtaBToJpsiJpsi_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
@@ -4908,7 +4970,7 @@
         ]
     },
     {
-        "exitcode": 64000,
+        "exitcode": 17152,
         "id": "1349.0",
         "known_error": 0,
         "name": "BsToMuMu_13+BsToMuMu_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
@@ -5052,7 +5114,7 @@
         ]
     },
     {
-        "exitcode": 16640,
+        "exitcode": 17152,
         "id": "1366.0",
         "known_error": 0,
         "name": "BsToJpsiPhi_13+BsToJpsiPhi_13INPUT+DIGIUP15+RECOUP15+HARVESTUP15",
@@ -5484,7 +5546,7 @@
         ]
     },
     {
-        "exitcode": 16640,
+        "exitcode": 23040,
         "id": "10824.7",
         "known_error": 0,
         "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2018_GenSimFullINPUT+DigiFull_killStuckTBM_2018+RecoFull_2018+HARVESTFull_2018+ALCAFull_2018+NanoFull_2018",
@@ -5898,7 +5960,7 @@
         ]
     },
     {
-        "exitcode": 17152,
+        "exitcode": 16640,
         "id": "27634.21",
         "known_error": 0,
         "name": "TTbar_14TeV_ProdLike+TTbar_14TeV_TuneCUETP8M1_2023D35PU_GenSimHLBeamSpotFull14INPUT+DigiFullTriggerPU_2023D35PU+RecoFullGlobalPU_ProdLike_2023D35PU+MiniAODFullGlobalPU_ProdLike_2023D35PU",
@@ -6096,7 +6158,7 @@
         ]
     },
     {
-        "exitcode": 17152,
+        "exitcode": 16640,
         "id": "250206.181",
         "known_error": 0,
         "name": "ZMM_13UP18+ZMM_13UP18INPUT+PREMIXUP18_PU25+DIGIPRMXLOCALUP18_PU25+RECOPRMXUP18_PU25_L1TMuDQM+HARVESTUP18_PU25_L1TMuDQM",
@@ -6118,6 +6180,24 @@
         "id": "250208.17",
         "known_error": 0,
         "name": "SMS-T1tttt_mGl-1500_mLSP-100_13UP17+SMS-T1tttt_mGl-1500_mLSP-100_13UP17INPUT+DIGIPRMXUP17_PU25+RECOPRMXUP17_PU25+HARVESTUP17_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 23040,
+        "id": "250208.18",
+        "known_error": 0,
+        "name": "SMS-T1tttt_mGl-1500_mLSP-100_13UP18+SMS-T1tttt_mGl-1500_mLSP-100_13UP18INPUT+DIGIPRMXUP18_PU25+RECOPRMXUP18_PU25+HARVESTUP18_PU25",
         "steps": [
             {
                 "errors": 0,
