@@ -1,5 +1,35 @@
 [
     {
+        "exitcode": 16640,
+        "id": "1360.0",
+        "known_error": 1,
+        "known_error_message": "GCC ABI incompetibility. GridPacks were built with gcc4",
+        "known_failed_step": 1,
+        "name": "TTbar012Jets_NLO_Mad_py8_Evt_13+TTbar012Jets_NLO_Mad_py8_Evt_13+DIGIUP15+RECOUP15+HARVESTUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 16640,
+        "id": "25210.0",
+        "known_error": 1,
+        "known_error_message": "GCC ABI incompetibility. GridPacks were built with gcc4",
+        "known_failed_step": 1,
+        "name": "TTbar012Jets_NLO_Mad_py8_Evt_13+TTbar012Jets_NLO_Mad_py8_Evt_13+DIGIUP15_PU25+RECOUP15_PU25+HARVESTUP15_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "FAILED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
         "exitcode": 0,
         "id": "4.23",
         "known_error": 0,
@@ -9384,6 +9414,34 @@
                 "errors": 36,
                 "status": "PASSED",
                 "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250204.18",
+        "known_error": 0,
+        "name": "QQH1352T_13UP18+QQH1352T_13UP18INPUT+DIGIPRMXUP18_PU25+RECOPRMXUP18_PU25+HARVESTUP18_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 4,
+                "status": "PASSED",
+                "warnings": 1609
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 975
+            },
+            {
+                "errors": 27,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
