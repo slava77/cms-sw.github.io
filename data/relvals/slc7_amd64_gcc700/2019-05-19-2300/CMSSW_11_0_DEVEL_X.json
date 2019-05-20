@@ -627,6 +627,29 @@
     },
     {
         "exitcode": 31744,
+        "id": "10004.0",
+        "known_error": 0,
+        "name": "SingleGammaPt10+SingleGammaPt10_pythia8_2017_GenSimFullINPUT+DigiFull_2017+RecoFull_2017+HARVESTFull_2017+ALCAFull_2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 7
+            },
+            {
+                "errors": 8,
+                "status": "FAILED",
+                "warnings": 97
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
         "id": "10007.0",
         "known_error": 0,
         "name": "SingleMuPt10+SingleMuPt10_pythia8_2017_GenSimFullINPUT+DigiFull_2017+RecoFull_2017+HARVESTFull_2017+ALCAFull_2017",
@@ -645,6 +668,29 @@
                 "errors": 9,
                 "status": "FAILED",
                 "warnings": 91
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "10025.0",
+        "known_error": 0,
+        "name": "ZEE_13+ZEE_13TeV_TuneCUETP8M1_2017_GenSimFullINPUT+DigiFull_2017+RecoFull_2017+HARVESTFull_2017+ALCAFull_2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 30
+            },
+            {
+                "errors": 9,
+                "status": "FAILED",
+                "warnings": 88
             }
         ]
     },
