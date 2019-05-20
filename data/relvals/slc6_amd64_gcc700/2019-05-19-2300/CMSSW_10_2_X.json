@@ -3680,6 +3680,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.852",
+        "known_error": 0,
+        "name": "RunJetHT2018A+RunJetHT2018A+HLTDR2_2018+RECODR2_2018reHLT_skimJetHT_Prompt+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 5084
+            },
+            {
+                "errors": 12,
+                "status": "PASSED",
+                "warnings": 4017
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.8521",
         "known_error": 0,
         "name": "RunJetHT2018A_nano+RunJetHT2018A_nano+NANOEDM2018+HARVESTNANOAOD2018",
@@ -3833,6 +3861,34 @@
                 "errors": 10,
                 "status": "PASSED",
                 "warnings": 912
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.859",
+        "known_error": 0,
+        "name": "RunDisplacedJet2018A+RunDisplacedJet2018A+HLTDR2_2018+RECODR2_2018reHLT_skimDisplacedJet_Prompt+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 3993
+            },
+            {
+                "errors": 10,
+                "status": "PASSED",
+                "warnings": 3906
             },
             {
                 "errors": 26,
@@ -4057,6 +4113,34 @@
                 "errors": 10,
                 "status": "PASSED",
                 "warnings": 1880
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.867",
+        "known_error": 0,
+        "name": "RunSingleMu2018B+RunSingleMu2018B+HLTDR2_2018+RECODR2_2018reHLT_skimSingleMu_Prompt_Lumi+HARVEST2018_L1TMuDQM",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 2484
+            },
+            {
+                "errors": 10,
+                "status": "PASSED",
+                "warnings": 3474
             },
             {
                 "errors": 26,
