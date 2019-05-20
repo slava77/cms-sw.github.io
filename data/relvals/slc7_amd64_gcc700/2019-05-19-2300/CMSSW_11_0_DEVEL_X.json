@@ -208,6 +208,29 @@
     },
     {
         "exitcode": 31744,
+        "id": "136.778",
+        "known_error": 0,
+        "name": "RunZeroBias2016H+RunZeroBias2016H+HLTDR2_2016+RECODR2_2016reHLT_Prompt+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 80,
+                "status": "PASSED",
+                "warnings": 112
+            },
+            {
+                "errors": 21,
+                "status": "FAILED",
+                "warnings": 115
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
         "id": "136.779",
         "known_error": 0,
         "name": "RunMuOnia2016H+RunMuOnia2016H+HLTDR2_2016+RECODR2_2016reHLT_skimMuOnia_Prompt+HARVESTDR2",
@@ -249,6 +272,52 @@
                 "errors": 16,
                 "status": "FAILED",
                 "warnings": 36
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "136.782",
+        "known_error": 0,
+        "name": "RunDoubleMuon2017B+RunDoubleMuon2017B+HLTDR2_2017+RECODR2_2017reHLT_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 114
+            },
+            {
+                "errors": 14,
+                "status": "FAILED",
+                "warnings": 29
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "136.783",
+        "known_error": 0,
+        "name": "RunJetHT2017B+RunJetHT2017B+HLTDR2_2017+RECODR2_2017reHLT_skimJetHT_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 95
+            },
+            {
+                "errors": 15,
+                "status": "FAILED",
+                "warnings": 35
             }
         ]
     },
@@ -535,6 +604,29 @@
     },
     {
         "exitcode": 31744,
+        "id": "10801.0",
+        "known_error": 0,
+        "name": "SingleElectronPt10+SingleElectronPt10_pythia8_2018_GenSimFullINPUT+DigiFull_2018+RecoFull_2018+HARVESTFull_2018+ALCAFull_2018+NanoFull_2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 8
+            },
+            {
+                "errors": 1,
+                "status": "FAILED",
+                "warnings": 27
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
         "id": "10802.0",
         "known_error": 0,
         "name": "SingleElectronPt35+SingleElectronPt35_pythia8_2018_GenSimFullINPUT+DigiFull_2018+RecoFull_2018+HARVESTFull_2018+ALCAFull_2018+NanoFull_2018",
@@ -553,6 +645,29 @@
                 "errors": 1,
                 "status": "FAILED",
                 "warnings": 28
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "10804.0",
+        "known_error": 0,
+        "name": "SingleGammaPt10+SingleGammaPt10_pythia8_2018_GenSimFullINPUT+DigiFull_2018+RecoFull_2018+HARVESTFull_2018+ALCAFull_2018+NanoFull_2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 45
+            },
+            {
+                "errors": 1,
+                "status": "FAILED",
+                "warnings": 35
             }
         ]
     },
@@ -627,6 +742,29 @@
     },
     {
         "exitcode": 31744,
+        "id": "10823.0",
+        "known_error": 0,
+        "name": "MinBias_13+MinBias_13TeV_pythia8_TuneCUETP8M1_2018_GenSimFullINPUT+DigiFull_2018+RecoFull_2018+HARVESTFull_2018+ALCAFull_2018+NanoFull_2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 47
+            },
+            {
+                "errors": 1,
+                "status": "FAILED",
+                "warnings": 320
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
         "id": "10824.0",
         "known_error": 0,
         "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2018_GenSimFullINPUT+DigiFull_2018+RecoFull_2018+HARVESTFull_2018+ALCAFull_2018+NanoFull_2018",
@@ -640,6 +778,29 @@
                 "errors": 1,
                 "status": "PASSED",
                 "warnings": 126
+            },
+            {
+                "errors": 1,
+                "status": "FAILED",
+                "warnings": 27
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "10824.7",
+        "known_error": 0,
+        "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2018_GenSimFullINPUT+DigiFull_killStuckTBM_2018+RecoFull_2018+HARVESTFull_2018+ALCAFull_2018+NanoFull_2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 255
             },
             {
                 "errors": 1,
@@ -737,6 +898,29 @@
                 "errors": 1,
                 "status": "FAILED",
                 "warnings": 27
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "10871.0",
+        "known_error": 0,
+        "name": "QCD_FlatPt_15_3000HS_13+QCDForPF_13TeV_TuneCUETP8M1_2018_GenSimFullINPUT+DigiFull_2018+RecoFull_2018+HARVESTFull_2018+ALCAFull_2018+NanoFull_2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 114
+            },
+            {
+                "errors": 1,
+                "status": "FAILED",
+                "warnings": 28
             }
         ]
     },
