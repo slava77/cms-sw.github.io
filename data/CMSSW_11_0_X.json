@@ -147,7 +147,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/11.0-sun-23/CMSSW_11_0_X_2019-05-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2497, 
+                        "num_passed": 2661, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -158,7 +158,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/sun/11.0-sun-23/CMSSW_11_0_X_2019-05-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1198, 
+                        "num_passed": 1254, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -180,7 +180,7 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc700/www/sun/11.0-sun-23/CMSSW_11_0_X_2019-05-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 844, 
+                        "num_passed": 857, 
                         "known_failed": 0, 
                         "num_failed": 37
                     }
@@ -682,7 +682,13 @@
                 "slc7_ppc64le_gcc700", 
                 "slc7_aarch64_gcc700"
             ], 
-            "static_checks_failures": "not-found", 
+            "static_checks_failures": {
+                "status": "found", 
+                "arch": "slc7_amd64_gcc700", 
+                "iterable": [
+                    "reports/modules2statics-filter1.txt\n"
+                ]
+            }, 
             "cmsdistTags": {
                 "slc7_amd64_gcc700": "IB/CMSSW_11_0_X_2019-05-16-2300/slc7_amd64_gcc700", 
                 "slc7_amd64_gcc820": "IB/CMSSW_11_0_X_2019-05-16-2300/slc7_amd64_gcc820", 
@@ -692,14 +698,8 @@
             "flawfinder": "found", 
             "next_ib": false, 
             "RVExceptions": null, 
-            "fwlite": [
-                {
-                    "arch": "slc7_amd64_gcc700", 
-                    "passed": "passed", 
-                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/fri/11.0-fri-23/CMSSW_11_0_X_2019-05-17-2300/new_FWLITE/logAnalysis.pkl", 
-                    "details": {}
-                }
-            ], 
+            "igprof": "found", 
+            "base_branch": "CMSSW_11_0_X", 
             "compared_tags": "CMSSW_11_0_X_2019-05-17-1100-->CMSSW_11_0_X_2019-05-17-2300", 
             "dqm_tests": "found", 
             "utests": [
@@ -871,7 +871,14 @@
                     "author_login": "efeyazgan"
                 }
             ], 
-            "base_branch": "CMSSW_11_0_X", 
+            "fwlite": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/fri/11.0-fri-23/CMSSW_11_0_X_2019-05-17-2300/new_FWLITE/logAnalysis.pkl", 
+                    "details": {}
+                }
+            ], 
             "invalid_includes": [
                 {
                     "arch": "slc7_amd64_gcc700", 
@@ -920,6 +927,17 @@
                 }
             ], 
             "material_budget_v2": "not-found", 
+            "check-headers": "found", 
+            "static_checks_v2": {
+                "status": "passed", 
+                "arch": "slc7_amd64_gcc700"
+            }, 
+            "valgrind": "found", 
+            "material_budget": "not-found", 
+            "lizard": "found", 
+            "static_checks": "slc7_amd64_gcc700:reports/modules2statics-filter1.txt\n", 
+            "isIB": true, 
+            "inProgress": false, 
             "addons": [
                 {
                     "arch": "slc7_amd64_gcc700", 
@@ -946,15 +964,6 @@
                     "details": {}
                 }
             ], 
-            "check-headers": "found", 
-            "static_checks_v2": "inprogress", 
-            "valgrind": "found", 
-            "material_budget": "not-found", 
-            "lizard": "found", 
-            "static_checks": "inprogress", 
-            "isIB": true, 
-            "inProgress": false, 
-            "igprof": "found", 
             "hlt_tests": "found"
         }, 
         {
