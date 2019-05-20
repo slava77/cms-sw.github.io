@@ -724,6 +724,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.82",
+        "known_error": 0,
+        "name": "RunMET2017E+RunMET2017E+HLTDR2_2017+RECODR2_2017reHLT_skimMET_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 484,
+                "status": "PASSED",
+                "warnings": 294
+            },
+            {
+                "errors": 211,
+                "status": "PASSED",
+                "warnings": 4804
+            },
+            {
+                "errors": 32,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.821",
         "known_error": 0,
         "name": "RunMuonEG2017E+RunMuonEG2017E+HLTDR2_2017+RECODR2_2017reHLT_skimMuonEG_Prompt+HARVEST2017",
@@ -1195,16 +1223,24 @@
         "name": "RunMuonEG2018B+RunMuonEG2018B+HLTDR2_2018+RECODR2_2018reHLT_skimMuonEG_Prompt+HARVEST2018",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 4155
             },
             {
-                "status": "PASSED"
+                "errors": 10,
+                "status": "PASSED",
+                "warnings": 3774
             },
             {
-                "status": "PASSED"
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -1215,16 +1251,24 @@
         "name": "RunMuOnia2018B+RunMuOnia2018B+HLTDR2_2018+RECODR2_2018reHLT_skimMuOnia_Prompt+HARVEST2018",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 3017
             },
             {
-                "status": "PASSED"
+                "errors": 12,
+                "status": "PASSED",
+                "warnings": 5522
             },
             {
-                "status": "PASSED"
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -2271,16 +2315,24 @@
         "name": "ProdZEE_13UP18+ProdZEE_13UP18+DIGIUP18PROD1+RECOPRODUP18+MINIAODMCUP18",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 18
             },
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 47
             },
             {
-                "status": "PASSED"
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 63
             },
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 58
             }
         ]
     },
