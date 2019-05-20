@@ -81,7 +81,19 @@
                 }
             ], 
             "ib_date": "2019-05-20-1100-0000", 
-            "relvals": [], 
+            "relvals": [
+                {
+                    "done": false, 
+                    "arch": "slc7_aarch64_gcc700", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/mon/11.0-mon-11/CMSSW_11_0_X_2019-05-20-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 184, 
+                        "known_failed": 1, 
+                        "num_failed": 248
+                    }
+                }
+            ], 
             "release_queue": "CMSSW_11_0_X", 
             "release_name": "CMSSW_11_0_X_2019-05-20-1100", 
             "comp_baseline": "inprogress", 
