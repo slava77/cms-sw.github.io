@@ -90,7 +90,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/mon/10.2-mon-11/CMSSW_10_2_X_2019-05-20-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1886, 
+                            "num_passed": 2039, 
                             "known_failed": 3, 
                             "num_failed": 0
                         }
@@ -199,8 +199,8 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/sun/10.2-sun-23/CMSSW_10_2_X_2019-05-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 1383, 
-                            "known_failed": 0, 
+                            "num_passed": 1387, 
+                            "known_failed": 2, 
                             "num_failed": 0
                         }
                     }
@@ -17673,6 +17673,15 @@
                             "author_login": "vkuznet"
                         }, 
                         {
+                            "hash": "121b1090893d34b1738e4b5fe3f6da2a52b2406b", 
+                            "title": "[EgammaAnalysis-ElectronTools] Push the 2018 S+S files", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4969", 
+                            "number": "4969", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
                             "hash": "ea38daed5fbdced55f09390b73e9285fd22f5dcc", 
                             "title": "[ROOT 6.14] Updated root to tip of branch v6-14-00-patches", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/4986", 
@@ -17919,6 +17928,15 @@
                             "is_merge_commit": false, 
                             "from_merge_commit": false, 
                             "author_login": "vkuznet"
+                        }, 
+                        {
+                            "hash": "121b1090893d34b1738e4b5fe3f6da2a52b2406b", 
+                            "title": "[EgammaAnalysis-ElectronTools] Push the 2018 S+S files", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4969", 
+                            "number": "4969", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
                         }, 
                         {
                             "hash": "ea38daed5fbdced55f09390b73e9285fd22f5dcc", 
@@ -19066,12 +19084,30 @@
                 "cmsdist_merged_prs": {
                     "slc7_amd64_gcc700": [
                         {
+                            "hash": "5eacd12b3030ff0690b47413d3cea24adffc07f5", 
+                            "title": "New dasgoclient version", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4985", 
+                            "number": "4985", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "vkuznet"
+                        }, 
+                        {
                             "hash": "d973fa444264c10b20da4b1154aa877059720e8d", 
                             "title": "[Configuration-Generator] Fix auxiliary decay files for long lived chargino", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/4963", 
                             "number": "4963", 
                             "is_merge_commit": false, 
                             "from_merge_commit": true, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
+                            "hash": "3d389d1f41d94d45eafbd87bdca21e6457fa0f24", 
+                            "title": "[ROOT][CXXMODULE] update to tip of root master + cxmodule changes", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4992", 
+                            "number": "4992", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
                             "author_login": "cms-sw"
                         }, 
                         {
@@ -19082,15 +19118,6 @@
                             "is_merge_commit": false, 
                             "from_merge_commit": true, 
                             "author_login": "cms-sw"
-                        }, 
-                        {
-                            "hash": "5eacd12b3030ff0690b47413d3cea24adffc07f5", 
-                            "title": "New dasgoclient version", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/4985", 
-                            "number": "4985", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": true, 
-                            "author_login": "vkuznet"
                         }
                     ]
                 }, 
@@ -20028,9 +20055,9 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/sun/11.0.DEVEL-sun-23/CMSSW_11_0_DEVEL_X_2019-05-19-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 257, 
+                            "num_passed": 273, 
                             "known_failed": 0, 
-                            "num_failed": 24
+                            "num_failed": 32
                         }
                     }
                 ], 
@@ -21393,13 +21420,31 @@
                 "cmsdist_merged_prs": {
                     "slc7_amd64_gcc700": [
                         {
-                            "hash": "d973fa444264c10b20da4b1154aa877059720e8d", 
-                            "title": "[Configuration-Generator] Fix auxiliary decay files for long lived chargino", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/4963", 
-                            "number": "4963", 
+                            "hash": "5eacd12b3030ff0690b47413d3cea24adffc07f5", 
+                            "title": "New dasgoclient version", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4985", 
+                            "number": "4985", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "vkuznet"
+                        }, 
+                        {
+                            "hash": "121b1090893d34b1738e4b5fe3f6da2a52b2406b", 
+                            "title": "[EgammaAnalysis-ElectronTools] Push the 2018 S+S files", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4969", 
+                            "number": "4969", 
                             "is_merge_commit": false, 
                             "from_merge_commit": true, 
                             "author_login": "cms-sw"
+                        }, 
+                        {
+                            "hash": "ea38daed5fbdced55f09390b73e9285fd22f5dcc", 
+                            "title": "[ROOT 6.14] Updated root to tip of branch v6-14-00-patches", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4986", 
+                            "number": "4986", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "smuzaffar"
                         }, 
                         {
                             "hash": "eb99d316d8a07f82f6d4012d18d4a4d14da7df16", 
@@ -21411,13 +21456,13 @@
                             "author_login": "cms-sw"
                         }, 
                         {
-                            "hash": "5eacd12b3030ff0690b47413d3cea24adffc07f5", 
-                            "title": "New dasgoclient version", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/4985", 
-                            "number": "4985", 
+                            "hash": "d973fa444264c10b20da4b1154aa877059720e8d", 
+                            "title": "[Configuration-Generator] Fix auxiliary decay files for long lived chargino", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4963", 
+                            "number": "4963", 
                             "is_merge_commit": false, 
                             "from_merge_commit": true, 
-                            "author_login": "vkuznet"
+                            "author_login": "cms-sw"
                         }, 
                         {
                             "hash": "bcf8c358ff7e9c21ffc3b2f067e5838a0f7f8439", 
@@ -21427,15 +21472,6 @@
                             "is_merge_commit": false, 
                             "from_merge_commit": false, 
                             "author_login": "cms-sw"
-                        }, 
-                        {
-                            "hash": "ea38daed5fbdced55f09390b73e9285fd22f5dcc", 
-                            "title": "[ROOT 6.14] Updated root to tip of branch v6-14-00-patches", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/4986", 
-                            "number": "4986", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": true, 
-                            "author_login": "smuzaffar"
                         }
                     ]
                 }, 
@@ -22225,6 +22261,15 @@
                             "is_merge_commit": false, 
                             "from_merge_commit": true, 
                             "author_login": "vkuznet"
+                        }, 
+                        {
+                            "hash": "121b1090893d34b1738e4b5fe3f6da2a52b2406b", 
+                            "title": "[EgammaAnalysis-ElectronTools] Push the 2018 S+S files", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4969", 
+                            "number": "4969", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": true, 
+                            "author_login": "cms-sw"
                         }, 
                         {
                             "hash": "ea38daed5fbdced55f09390b73e9285fd22f5dcc", 
@@ -24064,6 +24109,15 @@
                             "author_login": "vkuznet"
                         }, 
                         {
+                            "hash": "121b1090893d34b1738e4b5fe3f6da2a52b2406b", 
+                            "title": "[EgammaAnalysis-ElectronTools] Push the 2018 S+S files", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4969", 
+                            "number": "4969", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
                             "hash": "ea38daed5fbdced55f09390b73e9285fd22f5dcc", 
                             "title": "[ROOT 6.14] Updated root to tip of branch v6-14-00-patches", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/4986", 
@@ -24328,6 +24382,15 @@
                             "author_login": "vkuznet"
                         }, 
                         {
+                            "hash": "121b1090893d34b1738e4b5fe3f6da2a52b2406b", 
+                            "title": "[EgammaAnalysis-ElectronTools] Push the 2018 S+S files", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4969", 
+                            "number": "4969", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
                             "hash": "ea38daed5fbdced55f09390b73e9285fd22f5dcc", 
                             "title": "[ROOT 6.14] Updated root to tip of branch v6-14-00-patches", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/4986", 
@@ -24587,6 +24650,15 @@
                             "author_login": "vkuznet"
                         }, 
                         {
+                            "hash": "121b1090893d34b1738e4b5fe3f6da2a52b2406b", 
+                            "title": "[EgammaAnalysis-ElectronTools] Push the 2018 S+S files", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4969", 
+                            "number": "4969", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
                             "hash": "ea38daed5fbdced55f09390b73e9285fd22f5dcc", 
                             "title": "[ROOT 6.14] Updated root to tip of branch v6-14-00-patches", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/4986", 
@@ -24645,6 +24717,15 @@
                             "author_login": "vkuznet"
                         }, 
                         {
+                            "hash": "121b1090893d34b1738e4b5fe3f6da2a52b2406b", 
+                            "title": "[EgammaAnalysis-ElectronTools] Push the 2018 S+S files", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4969", 
+                            "number": "4969", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
                             "hash": "ea38daed5fbdced55f09390b73e9285fd22f5dcc", 
                             "title": "[ROOT 6.14] Updated root to tip of branch v6-14-00-patches", 
                             "url": "https://github.com/cms-sw/cmsdist/pull/4986", 
@@ -24672,6 +24753,15 @@
                             "is_merge_commit": false, 
                             "from_merge_commit": false, 
                             "author_login": "vkuznet"
+                        }, 
+                        {
+                            "hash": "121b1090893d34b1738e4b5fe3f6da2a52b2406b", 
+                            "title": "[EgammaAnalysis-ElectronTools] Push the 2018 S+S files", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4969", 
+                            "number": "4969", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
                         }, 
                         {
                             "hash": "ea38daed5fbdced55f09390b73e9285fd22f5dcc", 
@@ -24791,7 +24881,7 @@
                         "passed": false, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/11.0-mon-11/CMSSW_11_0_X_2019-05-20-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2546, 
+                            "num_passed": 2814, 
                             "known_failed": 0, 
                             "num_failed": 1
                         }
