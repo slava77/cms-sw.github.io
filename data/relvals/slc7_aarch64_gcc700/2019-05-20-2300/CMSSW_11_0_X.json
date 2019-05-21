@@ -5648,6 +5648,29 @@
     },
     {
         "exitcode": 31744,
+        "id": "136.8391",
+        "known_error": 0,
+        "name": "RunExpressPhy2017F+RunExpressPhy2017F+HLTDR2_2017+RECODR2_2017reHLTSiPixelCalZeroBias_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 127
+            },
+            {
+                "errors": 177,
+                "status": "FAILED",
+                "warnings": 1104
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
         "id": "136.842",
         "known_error": 0,
         "name": "RunDisplacedJet2017E+RunDisplacedJet2017E+HLTDR2_2017+RECODR2_2017reHLT_skimDisplacedJet_Prompt+HARVEST2017",
