@@ -17659,6 +17659,34 @@
     },
     {
         "exitcode": 0,
+        "id": "25208.0",
+        "known_error": 0,
+        "name": "SMS-T1tttt_mGl-1500_mLSP-100_13+SMS-T1tttt_mGl-1500_mLSP-100_13INPUT+DIGIUP15_PU25+RECOUP15_PU25+HARVESTUP15_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 67
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 460
+            },
+            {
+                "errors": 39,
+                "status": "PASSED",
+                "warnings": 2
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "25209.0",
         "known_error": 0,
         "name": "QCD_FlatPt_15_3000HS_13+QCD_FlatPt_15_3000HS_13INPUT+DIGIUP15_PU25+RECOUP15_PU25+HARVESTUP15_PU25",
@@ -18087,6 +18115,29 @@
     },
     {
         "exitcode": 0,
+        "id": "25402.17",
+        "known_error": 0,
+        "name": "TTbar_13+FS_TTbar_13_UP17_PU50+HARVESTUP17FS+MINIAODMCUP17FS",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 166
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 178
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "25402.18",
         "known_error": 0,
         "name": "TTbar_13+FS_TTbar_13_UP18_PU50+HARVESTUP18FS+MINIAODMCUP18FS",
@@ -18220,6 +18271,29 @@
                 "errors": 16,
                 "status": "PASSED",
                 "warnings": 466
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "25405.18",
+        "known_error": 0,
+        "name": "ZTT_13+FS_ZTT_13_UP18_PU50+HARVESTUP18FS+MINIAODMCUP18FS",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 224
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 328
             }
         ]
     },
@@ -18409,6 +18483,29 @@
     },
     {
         "exitcode": 0,
+        "id": "25408.18",
+        "known_error": 0,
+        "name": "SMS-T1tttt_mGl-1500_mLSP-100_13+FS_SMS-T1tttt_mGl-1500_mLSP-100_13_UP18_PU50+HARVESTUP18FS+MINIAODMCUP18FS",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 146
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 95
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "25409.0",
         "known_error": 0,
         "name": "QCD_FlatPt_15_3000HS_13+FS_QCD_FlatPt_15_3000HS_13_UP15_PU25+HARVESTUP15FS+MINIAODMCUP15FS",
@@ -18427,6 +18524,52 @@
                 "errors": 16,
                 "status": "PASSED",
                 "warnings": 147
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "25409.17",
+        "known_error": 0,
+        "name": "QCD_FlatPt_15_3000HS_13+FS_QCD_FlatPt_15_3000HS_13_UP17_PU50+HARVESTUP17FS+MINIAODMCUP17FS",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 343
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 66
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "25409.18",
+        "known_error": 0,
+        "name": "QCD_FlatPt_15_3000HS_13+FS_QCD_FlatPt_15_3000HS_13_UP18_PU50+HARVESTUP18FS+MINIAODMCUP18FS",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 493
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 264
             }
         ]
     },
