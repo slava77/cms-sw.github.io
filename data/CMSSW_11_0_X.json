@@ -117,9 +117,20 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/tue/11.0-tue-11/CMSSW_11_0_X_2019-05-21-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 300, 
+                        "num_passed": 414, 
                         "known_failed": 0, 
                         "num_failed": 0
+                    }
+                }, 
+                {
+                    "done": false, 
+                    "arch": "slc7_aarch64_gcc700", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/tue/11.0-tue-11/CMSSW_11_0_X_2019-05-21-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                    "details": {
+                        "num_passed": 239, 
+                        "known_failed": 0, 
+                        "num_failed": 294
                     }
                 }
             ], 
@@ -264,6 +275,12 @@
                     "arch": "slc7_amd64_gcc700", 
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/tue/11.0-tue-11/CMSSW_11_0_X_2019-05-21-1100/addOnTests.log", 
+                    "details": {}
+                }, 
+                {
+                    "arch": "slc7_aarch64_gcc700", 
+                    "passed": false, 
+                    "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/tue/11.0-tue-11/CMSSW_11_0_X_2019-05-21-1100/addOnTests.log", 
                     "details": {}
                 }
             ], 
@@ -540,9 +557,9 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-05-20-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1663, 
+                        "num_passed": 1665, 
                         "known_failed": 48, 
-                        "num_failed": 353
+                        "num_failed": 354
                     }
                 }, 
                 {
