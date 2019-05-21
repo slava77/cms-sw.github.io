@@ -107,7 +107,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/tue/11.0-tue-11/CMSSW_11_0_X_2019-05-21-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 27, 
+                        "num_passed": 72, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -115,7 +115,7 @@
             ], 
             "release_queue": "CMSSW_11_0_X", 
             "release_name": "CMSSW_11_0_X_2019-05-21-1100", 
-            "comp_baseline": "inprogress", 
+            "comp_baseline": "https://cmssdt.cern.ch/SDT/jenkins-artifacts/ib-baseline-tests/CMSSW_11_0_X_2019-05-21-1100/slc7_amd64_gcc700/-GenuineIntel/matrix-results", 
             "gpu_utests": [
                 {
                     "arch": "slc7_amd64_gcc700", 
@@ -500,7 +500,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-05-20-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2685, 
+                        "num_passed": 2733, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -522,9 +522,9 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-05-20-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1435, 
+                        "num_passed": 1493, 
                         "known_failed": 48, 
-                        "num_failed": 339
+                        "num_failed": 341
                     }
                 }, 
                 {
@@ -638,7 +638,7 @@
             "isIB": true, 
             "inProgress": false, 
             "igprof": "found", 
-            "hlt_tests": "inprogress"
+            "hlt_tests": "found"
         }, 
         {
             "comp_baseline_state": "ok", 
