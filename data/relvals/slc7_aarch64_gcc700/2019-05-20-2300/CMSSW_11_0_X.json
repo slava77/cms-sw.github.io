@@ -5533,6 +5533,29 @@
     },
     {
         "exitcode": 31744,
+        "id": "136.829",
+        "known_error": 0,
+        "name": "RunDoubleEG2017F+RunDoubleEG2017F+HLTDR2_2017+RECODR2_2017reHLT_skimDoubleEG_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 58
+            },
+            {
+                "errors": 137,
+                "status": "FAILED",
+                "warnings": 939
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
         "id": "136.83",
         "known_error": 0,
         "name": "RunDoubleMuon2017F+RunDoubleMuon2017F+HLTDR2_2017+RECODR2_2017reHLT_Prompt+HARVEST2017",
@@ -5855,6 +5878,29 @@
     },
     {
         "exitcode": 31744,
+        "id": "136.863",
+        "known_error": 0,
+        "name": "RunDoubleMuon2018B+RunDoubleMuon2018B+HLTDR2_2018+RECODR2_2018reHLT_Offline+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 6,
+                "status": "PASSED",
+                "warnings": 245
+            },
+            {
+                "errors": 9,
+                "status": "FAILED",
+                "warnings": 635
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
         "id": "136.864",
         "known_error": 0,
         "name": "RunJetHT2018B+RunJetHT2018B+HLTDR2_2018+RECODR2_2018reHLT_skimJetHT_Offline+HARVEST2018",
@@ -6149,6 +6195,52 @@
                 "errors": 9,
                 "status": "FAILED",
                 "warnings": 1096
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "136.89",
+        "known_error": 0,
+        "name": "RunMuonEG2018D+RunMuonEG2018D+HLTDR2_2018+RECODR2_2018reHLT_skimMuonEG_Prompt+HARVEST2018_Prompt",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 9,
+                "status": "PASSED",
+                "warnings": 294
+            },
+            {
+                "errors": 9,
+                "status": "FAILED",
+                "warnings": 675
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "136.893",
+        "known_error": 0,
+        "name": "RunMuOnia2018D+RunMuOnia2018D+HLTDR2_2018+RECODR2_2018reHLT_skimMuOnia_Prompt+HARVEST2018_Prompt",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 6,
+                "status": "PASSED",
+                "warnings": 426
+            },
+            {
+                "errors": 9,
+                "status": "FAILED",
+                "warnings": 751
             }
         ]
     },
