@@ -926,6 +926,29 @@
     },
     {
         "exitcode": 31744,
+        "id": "10008.0",
+        "known_error": 0,
+        "name": "SingleMuPt100+SingleMuPt100_pythia8_2017_GenSimFullINPUT+DigiFull_2017+RecoFull_2017+HARVESTFull_2017+ALCAFull_2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 27
+            },
+            {
+                "errors": 9,
+                "status": "FAILED",
+                "warnings": 88
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
         "id": "10025.0",
         "known_error": 0,
         "name": "ZEE_13+ZEE_13TeV_TuneCUETP8M1_2017_GenSimFullINPUT+DigiFull_2017+RecoFull_2017+HARVESTFull_2017+ALCAFull_2017",
