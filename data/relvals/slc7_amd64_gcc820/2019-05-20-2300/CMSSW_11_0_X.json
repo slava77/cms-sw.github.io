@@ -7766,6 +7766,34 @@
     },
     {
         "exitcode": 0,
+        "id": "136.853",
+        "known_error": 0,
+        "name": "RunMET2018A+RunMET2018A+HLTDR2_2018+RECODR2_2018reHLT_skimMET_Offline+HARVEST2018",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 760
+            },
+            {
+                "errors": 19,
+                "status": "PASSED",
+                "warnings": 1428
+            },
+            {
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "136.854",
         "known_error": 0,
         "name": "RunMuonEG2018A+RunMuonEG2018A+HLTDR2_2018+RECODR2_2018reHLT_skimMuonEG_Offline+HARVEST2018",
@@ -8219,16 +8247,24 @@
         "name": "RunHLTPhy2018C+RunHLTPhy2018C+HLTDR2_2018+RECODR2_2018reHLT_Offline+HARVEST2018",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 642
             },
             {
-                "status": "PASSED"
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 845
             },
             {
-                "status": "PASSED"
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -8351,16 +8387,24 @@
         "name": "RunZeroBias2018C+RunZeroBias2018C+HLTDR2_2018+RECODR2_2018reHLT_Offline+HARVEST2018",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 4,
+                "status": "PASSED",
+                "warnings": 367
             },
             {
-                "status": "PASSED"
+                "errors": 46,
+                "status": "PASSED",
+                "warnings": 887
             },
             {
-                "status": "PASSED"
+                "errors": 26,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
@@ -16043,13 +16087,19 @@
         "name": "NuGun_UP18+FS_NuGun_UP18_PRMXUP18_PU50+HARVESTUP18FS+MINIAODMCUP18FS",
         "steps": [
             {
-                "status": "PASSED"
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 56
             },
             {
-                "status": "PASSED"
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
             },
             {
-                "status": "PASSED"
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 86
             }
         ]
     },
