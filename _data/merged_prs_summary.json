@@ -13556,10 +13556,10 @@
                 "next_ib": true, 
                 "RVExceptions": null, 
                 "fwlite": [], 
-                "compared_tags": "CMSSW_10_6_X_2019-05-20-2300-->CMSSW_10_6_X", 
+                "compared_tags": "CMSSW_10_6_X_2019-05-21-1100-->CMSSW_10_6_X", 
                 "dqm_tests": "inprogress", 
                 "utests": [], 
-                "ib_date": "2019-05-20-2300-0001", 
+                "ib_date": "2019-05-21-1100-0001", 
                 "relvals": [], 
                 "release_queue": "CMSSW_10_6_X", 
                 "release_name": "CMSSW_10_6_X", 
@@ -13579,6 +13579,67 @@
                 "lizard": "inprogress", 
                 "static_checks": "inprogress", 
                 "isIB": false, 
+                "inProgress": false, 
+                "igprof": "inprogress", 
+                "hlt_tests": "inprogress"
+            }, 
+            {
+                "comp_baseline_state": "ok", 
+                "python3_tests": [], 
+                "tests_archs": [
+                    "slc7_amd64_gcc700"
+                ], 
+                "cmsdist_merged_prs": {
+                    "slc7_amd64_gcc700": []
+                }, 
+                "cmsdist_compared_tags": [
+                    "IB/CMSSW_10_6_X_2019-05-19-0000/slc7_amd64_gcc700..IB/CMSSW_10_6_X_2019-05-19-0000/slc7_amd64_gcc700"
+                ], 
+                "static_checks_failures": "not-found", 
+                "cmsdistTags": {
+                    "slc7_amd64_gcc700": "IB/CMSSW_10_6_X_2019-05-19-0000/slc7_amd64_gcc700"
+                }, 
+                "flawfinder": "inprogress", 
+                "next_ib": false, 
+                "RVExceptions": null, 
+                "fwlite": [], 
+                "compared_tags": "CMSSW_10_6_X_2019-05-20-2300-->CMSSW_10_6_X_2019-05-21-1100", 
+                "dqm_tests": "inprogress", 
+                "utests": [
+                    {
+                        "arch": "slc7_amd64_gcc700", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_amd64_gcc700/www/tue/10.6-tue-11/CMSSW_10_6_X_2019-05-21-1100/new/logAnalysis.pkl']", 
+                        "details": {}
+                    }
+                ], 
+                "ib_date": "2019-05-21-1100-0000", 
+                "relvals": [], 
+                "release_queue": "CMSSW_10_6_X", 
+                "release_name": "CMSSW_10_6_X_2019-05-21-1100", 
+                "comp_baseline": "inprogress", 
+                "gpu_utests": [], 
+                "material_budget_comparison": "not-found", 
+                "merged_prs": [], 
+                "base_branch": "CMSSW_10_6_X", 
+                "invalid_includes": [], 
+                "builds": [
+                    {
+                        "arch": "slc7_amd64_gcc700", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/tue/10.6-tue-11/CMSSW_10_6_X_2019-05-21-1100/new/logAnalysis.pkl", 
+                        "details": {}
+                    }
+                ], 
+                "material_budget_v2": "not-found", 
+                "addons": [], 
+                "check-headers": "inprogress", 
+                "static_checks_v2": "inprogress", 
+                "valgrind": "inprogress", 
+                "material_budget": "not-found", 
+                "lizard": "inprogress", 
+                "static_checks": "inprogress", 
+                "isIB": true, 
                 "inProgress": false, 
                 "igprof": "inprogress", 
                 "hlt_tests": "inprogress"
@@ -22030,7 +22091,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/11.0.ROOT616-mon-23/CMSSW_11_0_ROOT616_X_2019-05-20-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2801, 
+                            "num_passed": 2920, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -22885,7 +22946,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/11.0.ROOT6-mon-23/CMSSW_11_0_ROOT6_X_2019-05-20-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2871, 
+                            "num_passed": 2888, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -24770,49 +24831,12 @@
                     "slc7_amd64_gcc700": [], 
                     "slc7_amd64_gcc820": [], 
                     "slc7_ppc64le_gcc700": [], 
-                    "slc7_aarch64_gcc700": [
-                        {
-                            "hash": "d973fa444264c10b20da4b1154aa877059720e8d", 
-                            "title": "[Configuration-Generator] Fix auxiliary decay files for long lived chargino", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/4963", 
-                            "number": "4963", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": false, 
-                            "author_login": "cms-sw"
-                        }, 
-                        {
-                            "hash": "5eacd12b3030ff0690b47413d3cea24adffc07f5", 
-                            "title": "New dasgoclient version", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/4985", 
-                            "number": "4985", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": false, 
-                            "author_login": "vkuznet"
-                        }, 
-                        {
-                            "hash": "121b1090893d34b1738e4b5fe3f6da2a52b2406b", 
-                            "title": "[EgammaAnalysis-ElectronTools] Push the 2018 S+S files", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/4969", 
-                            "number": "4969", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": false, 
-                            "author_login": "cms-sw"
-                        }, 
-                        {
-                            "hash": "ea38daed5fbdced55f09390b73e9285fd22f5dcc", 
-                            "title": "[ROOT 6.14] Updated root to tip of branch v6-14-00-patches", 
-                            "url": "https://github.com/cms-sw/cmsdist/pull/4986", 
-                            "number": "4986", 
-                            "is_merge_commit": false, 
-                            "from_merge_commit": false, 
-                            "author_login": "smuzaffar"
-                        }
-                    ]
+                    "slc7_aarch64_gcc700": []
                 }, 
                 "cmsdist_compared_tags": [
                     "IB/CMSSW_11_0_X_2019-05-20-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_X/gcc700", 
                     "IB/CMSSW_11_0_X_2019-05-20-2300/slc7_amd64_gcc820..IB/CMSSW_11_0_X/gcc820", 
-                    "IB/CMSSW_11_0_X_2019-05-19-2300/slc7_aarch64_gcc700..IB/CMSSW_11_0_X/gcc700", 
+                    "IB/CMSSW_11_0_X_2019-05-20-2300/slc7_aarch64_gcc700..IB/CMSSW_11_0_X/gcc700", 
                     "ERR/CMSSW_11_0_X_2019-05-20-2300/slc7_ppc64le_gcc700..IB/CMSSW_11_0_X/gcc700"
                 ], 
                 "static_checks_failures": "not-found", 
@@ -24954,7 +24978,8 @@
                 "tests_archs": [
                     "slc7_amd64_gcc700", 
                     "slc7_amd64_gcc820", 
-                    "slc7_ppc64le_gcc700"
+                    "slc7_ppc64le_gcc700", 
+                    "slc7_aarch64_gcc700"
                 ], 
                 "cmsdist_merged_prs": {
                     "slc7_amd64_gcc700": [
@@ -25070,18 +25095,58 @@
                             "from_merge_commit": false, 
                             "author_login": "smuzaffar"
                         }
+                    ], 
+                    "slc7_aarch64_gcc700": [
+                        {
+                            "hash": "d973fa444264c10b20da4b1154aa877059720e8d", 
+                            "title": "[Configuration-Generator] Fix auxiliary decay files for long lived chargino", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4963", 
+                            "number": "4963", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
+                            "hash": "5eacd12b3030ff0690b47413d3cea24adffc07f5", 
+                            "title": "New dasgoclient version", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4985", 
+                            "number": "4985", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "vkuznet"
+                        }, 
+                        {
+                            "hash": "121b1090893d34b1738e4b5fe3f6da2a52b2406b", 
+                            "title": "[EgammaAnalysis-ElectronTools] Push the 2018 S+S files", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4969", 
+                            "number": "4969", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "cms-sw"
+                        }, 
+                        {
+                            "hash": "ea38daed5fbdced55f09390b73e9285fd22f5dcc", 
+                            "title": "[ROOT 6.14] Updated root to tip of branch v6-14-00-patches", 
+                            "url": "https://github.com/cms-sw/cmsdist/pull/4986", 
+                            "number": "4986", 
+                            "is_merge_commit": false, 
+                            "from_merge_commit": false, 
+                            "author_login": "smuzaffar"
+                        }
                     ]
                 }, 
                 "cmsdist_compared_tags": [
                     "IB/CMSSW_11_0_X_2019-05-19-2300/slc7_amd64_gcc700..IB/CMSSW_11_0_X_2019-05-20-2300/slc7_amd64_gcc700", 
                     "IB/CMSSW_11_0_X_2019-05-19-2300/slc7_amd64_gcc820..IB/CMSSW_11_0_X_2019-05-20-2300/slc7_amd64_gcc820", 
-                    "ERR/CMSSW_11_0_X_2019-05-19-2300/slc7_ppc64le_gcc700..ERR/CMSSW_11_0_X_2019-05-20-2300/slc7_ppc64le_gcc700"
+                    "ERR/CMSSW_11_0_X_2019-05-19-2300/slc7_ppc64le_gcc700..ERR/CMSSW_11_0_X_2019-05-20-2300/slc7_ppc64le_gcc700", 
+                    "IB/CMSSW_11_0_X_2019-05-19-2300/slc7_aarch64_gcc700..IB/CMSSW_11_0_X_2019-05-20-2300/slc7_aarch64_gcc700"
                 ], 
                 "static_checks_failures": "not-found", 
                 "cmsdistTags": {
                     "slc7_amd64_gcc700": "IB/CMSSW_11_0_X_2019-05-20-2300/slc7_amd64_gcc700", 
                     "slc7_amd64_gcc820": "IB/CMSSW_11_0_X_2019-05-20-2300/slc7_amd64_gcc820", 
-                    "slc7_ppc64le_gcc700": "ERR/CMSSW_11_0_X_2019-05-20-2300/slc7_ppc64le_gcc700"
+                    "slc7_ppc64le_gcc700": "ERR/CMSSW_11_0_X_2019-05-20-2300/slc7_ppc64le_gcc700", 
+                    "slc7_aarch64_gcc700": "IB/CMSSW_11_0_X_2019-05-20-2300/slc7_aarch64_gcc700"
                 }, 
                 "flawfinder": "found", 
                 "next_ib": false, 
@@ -25120,6 +25185,12 @@
                         "details": {
                             "num_fails": "10"
                         }
+                    }, 
+                    {
+                        "arch": "slc7_aarch64_gcc700", 
+                        "passed": "unknown", 
+                        "file": "['/data/sdt/buildlogs/slc7_aarch64_gcc700/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-05-20-2300/new/logAnalysis.pkl']", 
+                        "details": {}
                     }
                 ], 
                 "ib_date": "2019-05-20-2300-0000", 
@@ -25141,7 +25212,7 @@
                         "passed": true, 
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-05-20-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                         "details": {
-                            "num_passed": 2911, 
+                            "num_passed": 2939, 
                             "known_failed": 0, 
                             "num_failed": 0
                         }
@@ -25199,6 +25270,14 @@
                         "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-05-20-2300/new/logAnalysis.pkl", 
                         "details": {
                             "ignoreWarning": 220
+                        }
+                    }, 
+                    {
+                        "arch": "slc7_aarch64_gcc700", 
+                        "passed": "passed", 
+                        "file": "/data/sdt/buildlogs/slc7_aarch64_gcc700/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-05-20-2300/new/logAnalysis.pkl", 
+                        "details": {
+                            "ignoreWarning": 221
                         }
                     }, 
                     {
