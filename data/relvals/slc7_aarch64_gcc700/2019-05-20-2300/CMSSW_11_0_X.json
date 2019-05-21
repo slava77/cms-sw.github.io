@@ -6085,6 +6085,29 @@
     },
     {
         "exitcode": 31744,
+        "id": "136.888",
+        "known_error": 0,
+        "name": "RunJetHT2018D+RunJetHT2018D+HLTDR2_2018+RECODR2_2018reHLT_skimJetHT_Prompt+HARVEST2018_Prompt",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 245
+            },
+            {
+                "errors": 9,
+                "status": "FAILED",
+                "warnings": 1096
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
         "id": "136.895",
         "known_error": 0,
         "name": "RunDisplacedJet2018D+RunDisplacedJet2018D+HLTDR2_2018+RECODR2_2018reHLT_skimDisplacedJet_Prompt+HARVEST2018_Prompt",
@@ -10817,6 +10840,34 @@
             },
             {
                 "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.845",
+        "known_error": 0,
+        "name": "RunCharmonium2017C+RunCharmonium2017C+HLTDR2_2017+RECODR2_2017reHLT_skimCharmonium_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 74
+            },
+            {
+                "errors": 208,
+                "status": "PASSED",
+                "warnings": 1516
+            },
+            {
+                "errors": 32,
                 "status": "PASSED",
                 "warnings": 0
             }
