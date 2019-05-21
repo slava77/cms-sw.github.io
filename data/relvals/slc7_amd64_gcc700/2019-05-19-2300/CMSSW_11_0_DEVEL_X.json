@@ -116,6 +116,29 @@
     },
     {
         "exitcode": 31744,
+        "id": "136.748",
+        "known_error": 0,
+        "name": "RunDoubleEG2016D+RunDoubleEG2016D+HLTDR2_2016+RECODR2_2016reHLT_skimDoubleEG_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 76,
+                "status": "PASSED",
+                "warnings": 128
+            },
+            {
+                "errors": 19,
+                "status": "FAILED",
+                "warnings": 248
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
         "id": "136.756",
         "known_error": 0,
         "name": "RunZeroBias2016D+RunZeroBias2016D+HLTDR2_2016+RECODR2_2016reHLT_HIPM+HARVESTDR2",
@@ -686,6 +709,29 @@
                 "errors": 14,
                 "status": "FAILED",
                 "warnings": 22
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "136.815",
+        "known_error": 0,
+        "name": "RunNoBPTX2017D+RunNoBPTX2017D+HLTDR2_2017+RECODR2_2017reHLTAlCaTkCosmics_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 118
+            },
+            {
+                "errors": 29,
+                "status": "FAILED",
+                "warnings": 217
             }
         ]
     },
