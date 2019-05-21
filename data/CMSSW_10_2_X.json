@@ -29,7 +29,17 @@
             "comp_baseline": "inprogress", 
             "gpu_utests": [], 
             "material_budget_comparison": "not-found", 
-            "merged_prs": [], 
+            "merged_prs": [
+                {
+                    "hash": "4499f11aaa4f10a9464b8d0114c6b86264c337e6", 
+                    "title": "BTagCalibration: Added protection against -ve eta values for SFs calculated on abs(eta) [102X]", 
+                    "url": "https://github.com/cms-sw/cmssw/pull/26362", 
+                    "number": "26362", 
+                    "is_merge_commit": false, 
+                    "from_merge_commit": false, 
+                    "author_login": "mondalspandan"
+                }
+            ], 
             "base_branch": "CMSSW_10_2_X", 
             "invalid_includes": [], 
             "builds": [], 
@@ -89,8 +99,8 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc6_amd64_gcc700/www/tue/10.2-tue-11/CMSSW_10_2_X_2019-05-21-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1435, 
-                        "known_failed": 2, 
+                        "num_passed": 1453, 
+                        "known_failed": 3, 
                         "num_failed": 0
                     }
                 }
