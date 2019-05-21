@@ -30347,7 +30347,19 @@
                     }
                 ], 
                 "ib_date": "2019-05-21-1100-0000", 
-                "relvals": [], 
+                "relvals": [
+                    {
+                        "done": false, 
+                        "arch": "slc6_amd64_gcc481", 
+                        "passed": false, 
+                        "file": "/data/sdt/buildlogs/slc6_amd64_gcc481/www/tue/7.1-tue-11/CMSSW_7_1_X_2019-05-21-1100/pyRelValMatrixLogs/run/runall-report-step123-.log", 
+                        "details": {
+                            "num_passed": 0, 
+                            "known_failed": 0, 
+                            "num_failed": 5
+                        }
+                    }
+                ], 
                 "igprof": "not-found", 
                 "release_queue": "CMSSW_7_1_X", 
                 "release_name": "CMSSW_7_1_X_2019-05-21-1100", 
