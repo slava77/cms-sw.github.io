@@ -2576,6 +2576,29 @@
     },
     {
         "exitcode": 0,
+        "id": "135.12",
+        "known_error": 0,
+        "name": "QCD_Pt_80_120_13+QCD_Pt_80_120FS_13+HARVESTUP15FS+MINIAODMCUP15FS",
+        "steps": [
+            {
+                "errors": 8,
+                "status": "PASSED",
+                "warnings": 388
+            },
+            {
+                "errors": 3,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 16,
+                "status": "PASSED",
+                "warnings": 177
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "135.13",
         "known_error": 0,
         "name": "TTbar_13+TTbarFS_13_trackingOnlyValidation+HARVESTUP15FS_trackingOnly",
@@ -6643,6 +6666,29 @@
     },
     {
         "exitcode": 0,
+        "id": "1302.17",
+        "known_error": 0,
+        "name": "ProdTTbar_13UP17+ProdTTbar_13UP17+DIGIUP17PROD1+RECOPRODUP17",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 48
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 54
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 293
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "1302.18",
         "known_error": 0,
         "name": "ProdTTbar_13UP18+ProdTTbar_13UP18+DIGIUP18PROD1+RECOPRODUP18",
@@ -9308,6 +9354,19 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 63
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250399.18",
+        "known_error": 0,
+        "name": "FS_PREMIXUP18_PU50+FS_PREMIXUP18_PU50",
+        "steps": [
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 18
             }
         ]
     },
