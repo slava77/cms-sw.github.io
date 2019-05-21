@@ -502,6 +502,29 @@
     },
     {
         "exitcode": 0,
+        "id": "113.0",
+        "known_error": 0,
+        "name": "QCD_Pt_20_30+QCD_Pt_20_30+DIGI+RECO",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 29
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 15
+            },
+            {
+                "errors": 2,
+                "status": "PASSED",
+                "warnings": 268
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "115.0",
         "known_error": 0,
         "name": "QCD_Pt_50_80+QCD_Pt_50_80+DIGI+RECO",
@@ -1280,6 +1303,34 @@
                 "errors": 212,
                 "status": "PASSED",
                 "warnings": 2959
+            },
+            {
+                "errors": 32,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "136.842",
+        "known_error": 0,
+        "name": "RunDisplacedJet2017E+RunDisplacedJet2017E+HLTDR2_2017+RECODR2_2017reHLT_skimDisplacedJet_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 226
+            },
+            {
+                "errors": 210,
+                "status": "PASSED",
+                "warnings": 2768
             },
             {
                 "errors": 32,
@@ -2377,6 +2428,29 @@
     },
     {
         "exitcode": 0,
+        "id": "1302.0",
+        "known_error": 0,
+        "name": "ProdTTbar_13+ProdTTbar_13+DIGIUP15PROD1+RECOPRODUP15",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 31
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 23
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 10
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "1304.18",
         "known_error": 0,
         "name": "ProdZEE_13UP18+ProdZEE_13UP18+DIGIUP18PROD1+RECOPRODUP18+MINIAODMCUP18",
@@ -3047,6 +3121,39 @@
     },
     {
         "exitcode": 0,
+        "id": "10042.0",
+        "known_error": 0,
+        "name": "ZMM_13+ZMM_13TeV_TuneCUETP8M1_2017_GenSimFullINPUT+DigiFull_2017+RecoFull_2017+HARVESTFull_2017+ALCAFull_2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 31
+            },
+            {
+                "errors": 20,
+                "status": "PASSED",
+                "warnings": 653
+            },
+            {
+                "errors": 36,
+                "status": "PASSED",
+                "warnings": 2
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 37
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "10059.0",
         "known_error": 0,
         "name": "QCD_Pt_3000_3500_13+QCD_Pt_3000_3500_13TeV_TuneCUETP8M1_2017_GenSimFullINPUT+DigiFull_2017+RecoFull_2017+HARVESTFull_2017+ALCAFull_2017",
@@ -3141,6 +3248,34 @@
     },
     {
         "exitcode": 0,
+        "id": "11224.0",
+        "known_error": 0,
+        "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2018Design_GenSimFullINPUT+DigiFull_2018Design+RecoFull_2018Design+HARVESTFull_2018Design",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 183
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 877
+            },
+            {
+                "errors": 27,
+                "status": "PASSED",
+                "warnings": 0
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
         "id": "11224.6",
         "known_error": 0,
         "name": "TTbar_13+TTbar_13TeV_TuneCUETP8M1_2018Design_GenSimFull_heCollapseINPUT+DigiFull_heCollapse_2018Design+RecoFull_heCollapse_2018Design+HARVESTFull_heCollapse_2018Design",
@@ -3210,6 +3345,34 @@
                 "errors": 0,
                 "status": "PASSED",
                 "warnings": 27
+            }
+        ]
+    },
+    {
+        "exitcode": 0,
+        "id": "250207.18",
+        "known_error": 0,
+        "name": "NuGun_UP18+NuGun_UP18INPUT+DIGIPRMXUP18_PU25+RECOPRMXUP18_PU25+HARVESTUP18_PU25",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 931
+            },
+            {
+                "errors": 1,
+                "status": "PASSED",
+                "warnings": 740
+            },
+            {
+                "errors": 27,
+                "status": "PASSED",
+                "warnings": 0
             }
         ]
     },
