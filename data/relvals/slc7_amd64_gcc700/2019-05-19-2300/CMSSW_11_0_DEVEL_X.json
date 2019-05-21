@@ -93,6 +93,29 @@
     },
     {
         "exitcode": 31744,
+        "id": "136.747",
+        "known_error": 0,
+        "name": "RunHLTPhy2016D+RunHLTPhy2016D+HLTDR2_2016+RECODR2_2016reHLT_HIPM+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 132,
+                "status": "PASSED",
+                "warnings": 136
+            },
+            {
+                "errors": 20,
+                "status": "FAILED",
+                "warnings": 176
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
         "id": "136.756",
         "known_error": 0,
         "name": "RunZeroBias2016D+RunZeroBias2016D+HLTDR2_2016+RECODR2_2016reHLT_HIPM+HARVESTDR2",
@@ -203,6 +226,75 @@
                 "errors": 14,
                 "status": "FAILED",
                 "warnings": 41
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "136.771",
+        "known_error": 0,
+        "name": "RunDoubleMuon2016H+RunDoubleMuon2016H+HLTDR2_2016+RECODR2_2016reHLT_Prompt+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 207,
+                "status": "PASSED",
+                "warnings": 134
+            },
+            {
+                "errors": 15,
+                "status": "FAILED",
+                "warnings": 47
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "136.773",
+        "known_error": 0,
+        "name": "RunMET2016H+RunMET2016H+HLTDR2_2016+RECODR2_2016reHLT_skimMET_Prompt+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 120,
+                "status": "PASSED",
+                "warnings": 179
+            },
+            {
+                "errors": 16,
+                "status": "FAILED",
+                "warnings": 38
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "136.774",
+        "known_error": 0,
+        "name": "RunMuonEG2016H+RunMuonEG2016H+HLTDR2_2016+RECODR2_2016reHLT_skimMuonEG_Prompt+HARVESTDR2",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 156,
+                "status": "PASSED",
+                "warnings": 164
+            },
+            {
+                "errors": 14,
+                "status": "FAILED",
+                "warnings": 45
             }
         ]
     },
@@ -415,6 +507,29 @@
     },
     {
         "exitcode": 31744,
+        "id": "136.788",
+        "known_error": 0,
+        "name": "RunSinglePh2017B+RunSinglePh2017B+HLTDR2_2017+RECODR2_2017reHLT_skimSinglePh_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 133
+            },
+            {
+                "errors": 14,
+                "status": "FAILED",
+                "warnings": 38
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
         "id": "136.789",
         "known_error": 0,
         "name": "RunZeroBias2017B+RunZeroBias2017B+HLTDR2_2017+RECODR2_2017reHLT_Prompt+HARVEST2017",
@@ -456,6 +571,29 @@
                 "errors": 16,
                 "status": "FAILED",
                 "warnings": 29
+            }
+        ]
+    },
+    {
+        "exitcode": 31744,
+        "id": "136.794",
+        "known_error": 0,
+        "name": "RunDoubleMuon2017C+RunDoubleMuon2017C+HLTDR2_2017+RECODR2_2017reHLT_Prompt+HARVEST2017",
+        "steps": [
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 0
+            },
+            {
+                "errors": 0,
+                "status": "PASSED",
+                "warnings": 80
+            },
+            {
+                "errors": 14,
+                "status": "FAILED",
+                "warnings": 31
             }
         ]
     },
