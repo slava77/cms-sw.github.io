@@ -90,7 +90,16 @@
         }, 
         {
             "comp_baseline_state": "ok", 
-            "python3_tests": [], 
+            "python3_tests": [
+                {
+                    "arch": "slc7_amd64_gcc700", 
+                    "passed": "passed", 
+                    "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-05-20-2300/python3.html", 
+                    "details": {
+                        "num_fails": "0"
+                    }
+                }
+            ], 
             "tests_archs": [
                 "slc7_amd64_gcc700", 
                 "slc7_amd64_gcc820", 
@@ -268,7 +277,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc700/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-05-20-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 3, 
+                        "num_passed": 15, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -279,7 +288,7 @@
                     "passed": true, 
                     "file": "/data/sdt/buildlogs/slc7_amd64_gcc820/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-05-20-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 2287, 
+                        "num_passed": 2298, 
                         "known_failed": 0, 
                         "num_failed": 0
                     }
@@ -290,9 +299,9 @@
                     "passed": false, 
                     "file": "/data/sdt/buildlogs/slc7_ppc64le_gcc700/www/mon/11.0-mon-23/CMSSW_11_0_X_2019-05-20-2300/pyRelValMatrixLogs/run/runall-report-step123-.log", 
                     "details": {
-                        "num_passed": 1544, 
+                        "num_passed": 1602, 
                         "known_failed": 0, 
-                        "num_failed": 42
+                        "num_failed": 45
                     }
                 }
             ], 
@@ -372,7 +381,7 @@
                     "details": {}
                 }
             ], 
-            "check-headers": "inprogress", 
+            "check-headers": "found", 
             "static_checks_v2": "inprogress", 
             "valgrind": "inprogress", 
             "material_budget": "not-found", 
